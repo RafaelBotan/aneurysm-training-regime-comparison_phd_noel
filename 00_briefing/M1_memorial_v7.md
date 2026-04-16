@@ -17,15 +17,14 @@ e: **evidencia convergente consistente com spectrum bias, ancorada em colapso de
 calibracao confirmado e interacao estavel mas formalmente nao significativa.**
 
 ## TITULO OPERACIONAL v7
-**"Catastrophic Calibration Failure Consistent with Positive-Class Spectrum Bias:
-A Factorial Comparison of Training Regimes for Morphology-Based Rupture Prediction
-Across Harmonized and Out-of-Domain Cohorts"**
-
-Alternativa mais curta:
 **"Internal Optimism and External Calibration Collapse in Morphology-Based Aneurysm
 Rupture Models: Evidence Consistent with Positive-Class Spectrum Bias"**
 
-(Calibracao agora aparece no titulo. "Consistent with" mantido.)
+Alternativa mais longa (backup):
+**"Training Regime Composition and External Calibration in Morphology-Based
+Rupture Prediction: A Factorial Comparison Across Harmonized and Out-of-Domain Cohorts"**
+
+(Calibracao no titulo. "Consistent with" mantido. Tom neutro — discutir com GPT na proxima rodada.)
 
 ## TESE CENTRAL v7 (pos-GPT r5)
 > "Training on a cohort with a small, morphologically extreme positive class inflated
