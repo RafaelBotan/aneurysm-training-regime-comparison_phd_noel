@@ -1,0 +1,70 @@
+{% extends "base.html" %}
+
+{% block container %}
+<div class="container-narrow">
+  <div class="hero">
+    <h1>Revisão radiológica — Via A2</h1>
+    <p>
+      Bem-vindo, Dr. Noel. Nesta aplicação, você vai revisar uma por uma
+      as 77 tomografias do estudo CMHA e decidir, para cada caso, se a
+      imagem foi feita <strong>antes</strong> ou <strong>depois</strong>
+      do sangramento. É uma tarefa que só você pode fazer — e é
+      o que destrava a interpretação final do estudo.
+    </p>
+
+    <div class="button-row">
+      {% if next_id %}
+        <a href="/review/{{ next_id }}" class="btn btn-primary btn-lg">
+          {% if progress.done == 0 %}Começar revisão →{% else %}Continuar revisão →{% endif %}
+        </a>
+      {% else %}
+        <a href="/done" class="btn btn-primary btn-lg">Revisão concluída — ver resumo</a>
+      {% endif %}
+      <a href="/tutorial" class="btn btn-secondary btn-lg">Como classificar</a>
+    </div>
+  </div>
+
+  <div class="stats-grid">
+    <div class="stat">
+      <div class="num">{{ progress.total }}</div>
+      <div class="lab">Total de casos</div>
+    </div>
+    <div class="stat">
+      <div class="num">{{ progress.done }}</div>
+      <div class="lab">Revisados</div>
+    </div>
+    <div class="stat pre">
+      <div class="num">{{ progress.pre }}</div>
+      <div class="lab">Antes</div>
+    </div>
+    <div class="stat post">
+      <div class="num">{{ progress.post }}</div>
+      <div class="lab">Depois</div>
+    </div>
+    <div class="stat ind">
+      <div class="num">{{ progress.indet }}</div>
+      <div class="lab">Indeterminado</div>
+    </div>
+  </div>
+
+  <div class="card">
+    <h2>Como funciona</h2>
+    <ol>
+      <li>Clique em <strong>Começar revisão</strong>.</li>
+      <li>Para cada caso, veja a imagem à esquerda e escolha um dos três veredictos à direita.</li>
+      <li>Opcionalmente, marque quais sinais radiológicos você viu (ajuda a registrar o raciocínio).</li>
+      <li>Clique em <strong>Próximo</strong>. O sistema salva automaticamente e avança.</li>
+      <li>Pode parar a qualquer momento. Tudo fica salvo. Da próxima vez, a aplicação continua de onde você parou.</li>
+      <li>Ao final, clique em <strong>Baixar CSV</strong> — é o arquivo que a equipe usa.</li>
+    </ol>
+  </div>
+
+  <div class="card">
+    <h2>Primeira vez?</h2>
+    <p>
+      Leia primeiro a página <a href="/tutorial">Como classificar</a>.
+      Ela explica, sem jargão, quais sinais procurar na imagem.
+    </p>
+  </div>
+</div>
+{% endblock %}

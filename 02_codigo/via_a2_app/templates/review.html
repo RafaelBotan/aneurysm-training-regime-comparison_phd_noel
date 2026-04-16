@@ -1,0 +1,255 @@
+{% extends "base.html" %}
+
+{% block title %}Caso {{ case.patient_id }} — Via A2{% endblock %}
+
+{% block container %}
+<div class="container">
+  <div style="display:flex; justify-content:space-between; align-items:baseline; flex-wrap:wrap; gap:.8rem;">
+    <h1 style="margin-bottom:.2rem">Caso {{ pos }} de {{ total }}
+      <span style="color:var(--text-soft); font-weight:500; font-size:1rem;">
+        — paciente {{ case.patient_id }}
+      </span>
+    </h1>
+    <a href="/" class="btn btn-ghost">← Início</a>
+  </div>
+
+  <div class="meta-row">
+    {% if case.gender %}<span class="pill"><strong>Sexo</strong>{{ case.gender }}</span>{% endif %}
+    {% if case.age %}<span class="pill"><strong>Idade</strong>{{ case.age|int }} anos</span>{% endif %}
+    {% if case.location %}<span class="pill"><strong>Localização</strong>{{ case.location }}</span>{% endif %}
+    <span class="pill"><strong>Já classificado</strong>
+      {% if case.verdict %}{{ verdict_labels[case.verdict] }}{% else %}não{% endif %}
+    </span>
+  </div>
+
+  <form method="post" action="/review/{{ case.id }}" id="review-form">
+    <div class="review-grid">
+      <div class="image-panel">
+        <img id="ct-thumb" src="/img/{{ case.image_file }}" alt="Tomografia {{ case.patient_id }}" />
+        <button type="button" class="image-expand-btn" id="open-lightbox" title="Abrir em tela cheia (F)">
+          <svg width="18" height="18" viewBox="0 0 24 24" fill="none" stroke="currentColor" stroke-width="2.2" stroke-linecap="round" stroke-linejoin="round"><polyline points="15 3 21 3 21 9"></polyline><polyline points="9 21 3 21 3 15"></polyline><line x1="21" y1="3" x2="14" y2="10"></line><line x1="3" y1="21" x2="10" y2="14"></line></svg>
+          Abrir grande
+        </button>
+      </div>
+
+      <div>
+        <div class="card" style="margin-top:0;">
+          <h3 style="margin-top:0;">Veredicto</h3>
+          <div class="verdict-group">
+            <label class="verdict-card pre">
+              <input type="radio" name="verdict" value="LIKELY_PRE"
+                     {% if case.verdict == 'LIKELY_PRE' %}checked{% endif %} required />
+              <span class="dot"></span>
+              <span class="text">
+                <div class="title">Antes do sangramento</div>
+                <div class="hint">Imagem limpa, sem qualquer sinal de SAH ou tratamento</div>
+              </span>
+            </label>
+            <label class="verdict-card post">
+              <input type="radio" name="verdict" value="LIKELY_POST"
+                     {% if case.verdict == 'LIKELY_POST' %}checked{% endif %} />
+              <span class="dot"></span>
+              <span class="text">
+                <div class="title">Depois do sangramento</div>
+                <div class="hint">Qualquer sinal: sangue, clipe, coil, dreno, hidrocefalia etc.</div>
+              </span>
+            </label>
+            <label class="verdict-card indet">
+              <input type="radio" name="verdict" value="INDETERMINATE"
+                     {% if case.verdict == 'INDETERMINATE' %}checked{% endif %} />
+              <span class="dot"></span>
+              <span class="text">
+                <div class="title">Indeterminado</div>
+                <div class="hint">Dúvida real: sinais ambíguos ou corte incompleto</div>
+              </span>
+            </label>
+          </div>
+
+          <h3>Sinais que você identificou <span style="color:var(--text-soft); font-weight:400; font-size:.88rem;">(opcional)</span></h3>
+          <div class="proxy-list">
+            {% for key, label in proxies %}
+            <label class="proxy-item">
+              <input type="checkbox" name="{{ key }}" value="1"
+                     {% if case[key] %}checked{% endif %} />
+              <span>{{ label }}</span>
+            </label>
+            {% endfor %}
+          </div>
+
+          <h3>Observações <span style="color:var(--text-soft); font-weight:400; font-size:.88rem;">(opcional)</span></h3>
+          <textarea name="notes" rows="3" placeholder="Ex: SAH parece já parcialmente absorvido...">{{ case.notes or "" }}</textarea>
+        </div>
+
+        <div class="button-row">
+          {% if prev_id %}
+            <button class="btn btn-ghost" name="action" value="prev">← Anterior</button>
+          {% endif %}
+          <button class="btn btn-secondary" name="action" value="stay">Salvar</button>
+          <button class="btn btn-primary" name="action" value="next">Salvar e próximo →</button>
+        </div>
+      </div>
+    </div>
+  </form>
+</div>
+
+<!-- Lightbox / fullscreen image viewer -->
+<div class="lightbox" id="lightbox" aria-hidden="true">
+  <div class="lightbox-toolbar">
+    <span class="lightbox-info">Paciente {{ case.patient_id }}</span>
+    <span class="lightbox-zoom-info" id="zoom-info">100%</span>
+    <button type="button" class="lightbox-tool-btn" id="zoom-out" title="Diminuir (-)">−</button>
+    <button type="button" class="lightbox-tool-btn" id="zoom-reset" title="Ajustar à tela (0)">Ajustar</button>
+    <button type="button" class="lightbox-tool-btn" id="zoom-in" title="Aumentar (+)">+</button>
+    <button type="button" class="lightbox-close" id="close-lightbox" title="Fechar (Esc)">✕ Fechar</button>
+  </div>
+  <div class="lightbox-stage" id="lightbox-stage">
+    <img id="lightbox-img" src="" alt="" draggable="false" />
+  </div>
+  <div class="lightbox-hint">Roda do mouse: zoom · Arraste: mover · Duplo clique: 100% · Esc: fechar</div>
+</div>
+
+<script>
+  // Ao clicar num proxy, se o veredicto ainda nao foi marcado,
+  // sugerir automaticamente "depois do sangramento".
+  const proxyBoxes = document.querySelectorAll('.proxy-item input[type=checkbox]');
+  const verdictRadios = document.querySelectorAll('input[name=verdict]');
+  proxyBoxes.forEach(cb => {
+    cb.addEventListener('change', () => {
+      if (cb.checked) {
+        const checked = document.querySelector('input[name=verdict]:checked');
+        if (!checked) {
+          document.querySelector('input[name=verdict][value=LIKELY_POST]').checked = true;
+        }
+      }
+    });
+  });
+
+  // ---------- Lightbox / fullscreen viewer ----------
+  const lightbox    = document.getElementById('lightbox');
+  const lightboxImg = document.getElementById('lightbox-img');
+  const stage       = document.getElementById('lightbox-stage');
+  const zoomInfo    = document.getElementById('zoom-info');
+  const thumb       = document.getElementById('ct-thumb');
+
+  let scale = 1, tx = 0, ty = 0;
+  let dragging = false, dragStartX = 0, dragStartY = 0, dragOrigX = 0, dragOrigY = 0;
+
+  const MIN_SCALE = 0.2, MAX_SCALE = 10;
+
+  function applyTransform() {
+    lightboxImg.style.transform = `translate(${tx}px, ${ty}px) scale(${scale})`;
+    zoomInfo.textContent = Math.round(scale * 100) + '%';
+  }
+
+  function fitToScreen() {
+    const sw = stage.clientWidth;
+    const sh = stage.clientHeight;
+    const iw = lightboxImg.naturalWidth || 1;
+    const ih = lightboxImg.naturalHeight || 1;
+    scale = Math.min(sw / iw, sh / ih) * 0.98;
+    if (!isFinite(scale) || scale <= 0) scale = 1;
+    tx = (sw - iw * scale) / 2;
+    ty = (sh - ih * scale) / 2;
+    applyTransform();
+  }
+
+  function openLightbox() {
+    lightboxImg.src = thumb.src;
+    lightbox.classList.add('open');
+    lightbox.setAttribute('aria-hidden', 'false');
+    document.body.style.overflow = 'hidden';
+    if (lightboxImg.complete) fitToScreen();
+    else lightboxImg.onload = fitToScreen;
+  }
+
+  function closeLightbox() {
+    lightbox.classList.remove('open');
+    lightbox.setAttribute('aria-hidden', 'true');
+    document.body.style.overflow = '';
+  }
+
+  function zoomAt(factor, cx, cy) {
+    const rect = stage.getBoundingClientRect();
+    const px = (cx === undefined) ? rect.width / 2  : cx - rect.left;
+    const py = (cy === undefined) ? rect.height / 2 : cy - rect.top;
+    const newScale = Math.min(MAX_SCALE, Math.max(MIN_SCALE, scale * factor));
+    const ratio = newScale / scale;
+    // ajusta translate para zoom no ponto do cursor
+    tx = px - ratio * (px - tx);
+    ty = py - ratio * (py - ty);
+    scale = newScale;
+    applyTransform();
+  }
+
+  document.getElementById('open-lightbox').addEventListener('click', openLightbox);
+  thumb.addEventListener('dblclick', openLightbox);
+  document.getElementById('close-lightbox').addEventListener('click', closeLightbox);
+  document.getElementById('zoom-in').addEventListener('click',  () => zoomAt(1.25));
+  document.getElementById('zoom-out').addEventListener('click', () => zoomAt(1/1.25));
+  document.getElementById('zoom-reset').addEventListener('click', fitToScreen);
+
+  stage.addEventListener('wheel', (e) => {
+    if (!lightbox.classList.contains('open')) return;
+    e.preventDefault();
+    const factor = e.deltaY < 0 ? 1.15 : 1/1.15;
+    zoomAt(factor, e.clientX, e.clientY);
+  }, { passive: false });
+
+  lightboxImg.addEventListener('dblclick', (e) => {
+    e.stopPropagation();
+    const iw = lightboxImg.naturalWidth || 1;
+    const ih = lightboxImg.naturalHeight || 1;
+    scale = 1;
+    tx = (stage.clientWidth - iw) / 2;
+    ty = (stage.clientHeight - ih) / 2;
+    applyTransform();
+  });
+
+  // Pan com mouse
+  stage.addEventListener('mousedown', (e) => {
+    if (e.target === stage) { closeLightbox(); return; } // clique no fundo fecha
+    dragging = true;
+    dragStartX = e.clientX; dragStartY = e.clientY;
+    dragOrigX = tx; dragOrigY = ty;
+    stage.classList.add('grabbing');
+  });
+  window.addEventListener('mousemove', (e) => {
+    if (!dragging) return;
+    tx = dragOrigX + (e.clientX - dragStartX);
+    ty = dragOrigY + (e.clientY - dragStartY);
+    applyTransform();
+  });
+  window.addEventListener('mouseup', () => {
+    dragging = false;
+    stage.classList.remove('grabbing');
+  });
+
+  window.addEventListener('resize', () => {
+    if (lightbox.classList.contains('open')) fitToScreen();
+  });
+
+  // Atalhos de teclado: 1 = pre, 2 = post, 3 = indet, Ctrl+Enter = salvar e proximo
+  // F = abrir grande, Esc = fechar, +/- zoom, 0 = ajustar
+  document.addEventListener('keydown', (e) => {
+    const inField = e.target.tagName === 'TEXTAREA' || e.target.tagName === 'INPUT';
+    const lbOpen = lightbox.classList.contains('open');
+
+    if (lbOpen) {
+      if (e.key === 'Escape') { closeLightbox(); return; }
+      if (e.key === '+' || e.key === '=') { zoomAt(1.25); return; }
+      if (e.key === '-' || e.key === '_') { zoomAt(1/1.25); return; }
+      if (e.key === '0') { fitToScreen(); return; }
+      return; // demais teclas ignoradas com lightbox aberto
+    }
+
+    if (inField) return;
+    if (e.key === '1') document.querySelector('input[name=verdict][value=LIKELY_PRE]').checked = true;
+    if (e.key === '2') document.querySelector('input[name=verdict][value=LIKELY_POST]').checked = true;
+    if (e.key === '3') document.querySelector('input[name=verdict][value=INDETERMINATE]').checked = true;
+    if (e.key === 'f' || e.key === 'F') openLightbox();
+    if (e.key === 'Enter' && (e.ctrlKey || e.metaKey)) {
+      document.getElementById('review-form').submit();
+    }
+  });
+</script>
+{% endblock %}

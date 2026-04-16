@@ -1,0 +1,260 @@
+---
+title: "O Desenho do Estudo"
+subtitle: "Um guia simples e honesto do projeto, escrito para o Dr. Noel"
+author: "Para o Dr. Noel — autor principal"
+date: "2026-04-15"
+---
+
+## Antes de tudo
+
+Este guia é para você. Não é um protocolo técnico, não é um manuscrito, não é uma apresentação para banca. É uma conversa — o que a gente está fazendo, por quê, e qual é exatamente o seu papel dentro disso.
+
+A linguagem é simples de propósito. O projeto tem partes complexas, mas a ideia central cabe em uma frase. E você precisa dominar essa frase antes de qualquer outra coisa.
+
+---
+
+## O que é o seu trabalho?
+
+Esta é a seção mais importante do guia. Quando alguém — um colega, um examinador, um revisor de revista, um paciente — perguntar "Noel, o que é o seu trabalho?", você precisa responder com clareza e firmeza. Não com modéstia falsa, não com jargão. Com a verdade do que está sendo feito.
+
+### Por que fazemos
+
+Hoje, vários grupos no mundo tentam prever quais aneurismas cerebrais vão romper usando só a forma do aneurisma — o tamanho, a relação pescoço-corpo, a proporção entre altura e largura. Esses modelos vêm sendo publicados como se funcionassem em qualquer lugar. Mas existe uma suspeita honesta, que quase ninguém testa de frente: quando você leva esses modelos para um cenário clinicamente diferente do cenário em que foram treinados, eles continuam funcionando? Ou a aparência de solidez é uma ilusão produzida pelo fato de que os testes "externos" feitos até hoje são curados, selecionados, parecidos demais entre si?
+
+Fazemos esse estudo porque essa pergunta ainda está em aberto. E responder com honestidade — seja o resultado bom ou ruim — é clinicamente útil. Se um modelo só funciona no tipo de paciente em que foi treinado, o médico precisa saber disso antes de usar.
+
+### O que fazemos
+
+Pegamos modelos que preveem ruptura de aneurisma a partir da forma tridimensional. Treinamos esses modelos em uma coorte europeia bem comportada (suíça, majoritariamente aneurismas não rotos, seleção cuidadosa). Testamos em duas situações diferentes:
+
+1. Em outra coorte europeia parecida — o tipo de validação que todo mundo faz hoje.
+2. Em uma coorte chinesa completamente diferente — aneurismas de uma artéria específica (a cerebral média), quase todos já rompidos, tomografia feita em outro hospital, outro equipamento, outra época, outro perfil de paciente.
+
+Comparamos o que o modelo faz nas três situações. Vemos onde ele quebra, quanto quebra, e por quê.
+
+### Como fazemos
+
+- Usamos dois bancos de dados públicos de aneurismas. Um europeu (AneuX, 750 aneurismas) e um chinês (CMHA, 105 aneurismas).
+- Dentro do banco europeu, separamos um grupo para treinar o modelo e outro grupo para o primeiro teste.
+- Para o segundo teste, usamos o banco chinês inteiro.
+- Reconstruímos nos dois bancos as mesmas medidas de forma — um conjunto pequeno e seguro (cerca de doze medidas) que conseguimos reproduzir de maneira idêntica nos dois lados. Isso é importante: se as medidas fossem diferentes, a gente não saberia se o modelo está errando por causa do paciente ou por causa da régua.
+- Treinamos dois tipos de modelo: um clássico, com as doze medidas, que a gente entende linha por linha; e um modelo moderno de rede neural, que olha direto para a superfície do aneurisma em 3D.
+- Medimos o quanto cada modelo acerta em cada coorte. Não só "acerta ou não" — medimos também se as probabilidades que ele dá estão calibradas, ou seja, se quando ele diz "70% de chance" a chance real é perto disso.
+
+### Para que fazemos
+
+Para dar ao médico — neurocirurgião, neurorradiologista, endovascular — uma informação honesta: **em quais contextos esse tipo de modelo é confiável, e em quais ele provavelmente vai falhar**. Não um número mágico. Um mapa.
+
+Se o modelo funciona bem no cenário parecido mas desmorona no cenário diferente, isso não é uma má notícia — é a notícia correta. Significa que o médico não pode pegar um modelo treinado em Genebra e usar em um paciente de Pequim sem cuidado extra. E significa que a literatura precisa parar de aceitar validação externa curada como se fosse prova de generalização.
+
+### O que esperamos que o projeto entregue
+
+- Um artigo em revista forte descrevendo o estudo, os números e as conclusões.
+- Um conjunto claro de situações em que o modelo deve ser usado com cautela ou não deve ser usado.
+- Código e medidas reprodutíveis, para que outros grupos possam repetir e estender.
+- Para você, como doutorando: a autoria principal de um trabalho que ensina algo novo, com uma pergunta clínica real por trás.
+
+### Por que isso é importante para a literatura
+
+A literatura de inteligência artificial em aneurisma está cheia de artigos que mostram "validação externa bem-sucedida" e sugerem que o modelo está pronto para uso. O que quase nenhum desses artigos faz é submeter o modelo a uma troca real de contexto — outro país, outra artéria, outra fase da doença (antes ou depois do sangramento), outro equipamento, outra forma de coletar a tomografia. Quando alguém faz esse tipo de teste, o modelo frequentemente cai. Mas esse tipo de teste não é publicado.
+
+Nosso estudo coloca esse tipo de teste no centro. Não é um benchmark a mais. É um estudo que muda a vara de medir: mostra que validação externa curada não é prova de robustez, e oferece um exemplo concreto de quanto a performance cai quando o contexto muda de verdade. Isso tem valor metodológico além do aneurisma — o mesmo raciocínio vale para qualquer modelo clínico baseado em imagem.
+
+---
+
+## Uma frase, se te pedirem
+
+> "Estudo se modelos que preveem ruptura de aneurisma a partir da forma 3D continuam funcionando quando a gente troca de verdade o contexto clínico — não só troca o hospital parecido, mas troca o país, a artéria, a fase da doença. O objetivo é dizer ao médico em quais situações esses modelos são confiáveis, e em quais eles provavelmente vão falhar."
+
+Decore. Quando alguém perguntar o que é seu trabalho, é isso.
+
+---
+
+## Parte 1 — A pergunta clínica de partida
+
+Aneurisma cerebral é um problema difícil porque a maior parte é descoberta por acaso, e a decisão de tratar ou observar depende de prever se ele vai romper. A ruptura é catastrófica — o paciente tem alta probabilidade de morrer ou ficar com sequela grave. O tratamento preventivo, por outro lado, tem risco próprio. O médico precisa de uma forma de estimar o risco de ruptura melhor do que o olhômetro.
+
+A forma do aneurisma — tamanho, proporções, curvatura, quão irregular é a superfície — parece carregar informação sobre risco. Várias fórmulas já foram publicadas. Modelos de inteligência artificial também. Todos com desempenho "bom o suficiente" em estudos iniciais.
+
+A pergunta que ninguém respondeu direito é: **se eu pego esse modelo e aplico em um paciente diferente dos que foram usados para treiná-lo, ele ainda funciona?**
+
+Essa é a nossa pergunta.
+
+---
+
+## Parte 2 — Por que não é mais uma competição de modelos
+
+É tentador imaginar que o projeto é "construir o melhor modelo possível". Não é. Já existem modelos razoáveis. O que falta é rigor sobre os limites deles.
+
+Se a gente entrasse na briga de fazer o modelo campeão, estaríamos no mesmo jogo que todos os outros grupos estão jogando. Ganharíamos décimos de desempenho e perderíamos a pergunta que importa.
+
+A nossa vara de medir é diferente. A pergunta é: **onde esses modelos quebram?** E isso é, sim, um artigo publicável em revista boa — não porque construímos algo novo, mas porque estressamos com honestidade algo que os outros vinham aceitando sem testar.
+
+---
+
+## Parte 3 — Os cinco lados em que as coortes diferem
+
+Quando a gente diz "contexto clínico diferente", precisa ser específico. Entre a coorte europeia e a chinesa existem cinco diferenças reais, que se acumulam:
+
+1. **Proporção de aneurismas já rotos.** Na europeia, cerca de um a cada quatro é roto. Na chinesa, três a cada quatro. Isso muda tudo — um modelo treinado vendo poucos rotos tende a ficar "conservador", e quando vai para um ambiente com maioria rota ele pode ficar completamente descalibrado.
+2. **Artéria do aneurisma.** Na europeia, aneurismas em várias artérias. Na chinesa, todos na artéria cerebral média. Aneurismas de artérias diferentes têm formatos e comportamentos diferentes.
+3. **Idade dos pacientes.** Os pacientes chineses são em média cinco a sete anos mais velhos.
+4. **Continente e perfil populacional.** Europa versus Ásia — anatomia, fatores de risco, prevalência de hipertensão, tudo um pouco diferente.
+5. **Momento da tomografia.** Na europeia, a maioria dos exames é feita antes de qualquer sangramento. Na chinesa, há forte suspeita de que a tomografia tenha sido feita depois do sangramento, quando o aneurisma já mudou — pode ter mais edema ao redor, pode ter clipe cirúrgico, pode ter espiral metálica, pode haver dilatação ventricular.
+
+É essa pilha de diferenças simultâneas que a gente chama de "mudança composta de contexto". Não é uma coisa só — são cinco coisas ao mesmo tempo. O mundo real é assim.
+
+---
+
+## Parte 4 — As coortes, em termos concretos
+
+### Coorte europeia (AneuX)
+
+Banco de dados público suíço com 750 aneurismas de cerca de 509 pacientes. Foi construído ao longo de anos, com dois hospitais principais e dois centros adicionais. Aneurismas em várias artérias, a maioria não rotos. Cerca de um quarto dos casos são rotos. É a base em que a gente treina o modelo e faz o primeiro teste.
+
+### Coorte chinesa (CMHA)
+
+Banco de dados público chinês com 105 aneurismas de 99 pacientes. Todos na artéria cerebral média. Aproximadamente três a cada quatro são rotos. O banco inclui não só medidas, mas também tomografias em formato de imagem e reconstruções 3D do aneurisma. É o cenário de teste mais duro — o que mais se parece com um paciente que você veria no pronto-socorro depois de uma hemorragia.
+
+---
+
+## Parte 5 — Quatro conceitos que você precisa dominar
+
+Sem esses quatro, nenhuma reunião sobre o projeto faz sentido. Com eles, você consegue acompanhar qualquer discussão.
+
+### 5.1 Transportabilidade
+
+Um modelo tem boa transportabilidade quando continua acertando em pacientes diferentes dos que foram usados no treino. É o teste da vida real: o modelo saiu da sala em que nasceu?
+
+Se ele só funciona nos pacientes da sala em que aprendeu, ele não transporta. E nesse caso, publicar números de desempenho do treino como se fossem o desempenho real é enganoso.
+
+### 5.2 Mudança composta de contexto
+
+É o nome do fenômeno em que várias diferenças mudam ao mesmo tempo. Não é só a proporção de rotos que muda — também muda a artéria, a idade, o país, o momento da tomografia. Todas essas diferenças juntas. O que a gente quer medir é quanto o modelo aguenta dessa pilha.
+
+### 5.3 Calibração, explicada com o cardiologista
+
+Pense num cardiologista que estima "esse paciente tem 20% de chance de infartar em dez anos". Se, ao longo da carreira dele, de cada cem pacientes classificados como "20%", vinte infartaram, ele está calibrado. Se só cinco infartaram, ele exagera o risco. Se quarenta infartaram, ele subestima.
+
+Modelos de inteligência artificial também precisam estar calibrados. Não basta acertar quem rompe e quem não rompe — a probabilidade que o modelo diz precisa refletir o que acontece de verdade.
+
+Quando um modelo é transportado para outro contexto, a calibração pode falhar de dois jeitos:
+
+- **Erro de nível médio.** O modelo aprendeu em um lugar com poucos rotos e dá probabilidades baixas, mas foi levado para um lugar com muitos rotos. Esse erro é fácil de corrigir depois — é quase um ajuste de zero.
+- **Erro de separação.** O modelo não sabe mais distinguir quem é alto risco de quem é baixo risco. Esse erro não sai com ajuste simples. É a marca de que o modelo, no fundo, perdeu a capacidade de enxergar o problema.
+
+Nosso estudo separa esses dois erros. Se o primeiro some com ajuste banal mas o segundo persiste, a mensagem é clara: o modelo não é robusto, e nenhum truque cosmético resolve.
+
+### 5.4 Equivalência de medidas
+
+Se a gente mede o aneurisma com uma régua na Europa e outra na China, qualquer diferença no modelo pode ser culpa da régua, não do paciente. Por isso a gente rederiva nos dois bancos o mesmo conjunto pequeno de medidas clássicas, da mesma forma. Com a mesma régua. Assim, se o modelo cai, a gente sabe que a queda é do modelo, não do instrumento.
+
+---
+
+## Parte 6 — Dois tipos de modelo
+
+A gente vai usar dois modelos, cada um com um papel diferente.
+
+### Modelo 1 — Regressão clássica
+
+É o modelo de referência. Ele pega doze medidas numéricas do aneurisma (tamanho, altura, largura do pescoço, proporções, quão esférico, quão irregular) e calcula uma probabilidade de ruptura. É um modelo simples, que cabe numa planilha, que a gente entende linha por linha. Faz o papel da baseline honesta.
+
+### Modelo 2 — Rede neural que olha a forma 3D
+
+É um modelo moderno que recebe a nuvem de pontos da superfície do aneurisma e aprende sozinho que aspectos da forma importam. É mais poderoso, mas também mais caixa-preta. Ele serve para responder a uma segunda pergunta: depois de aplicar o modelo clássico, ainda sobra sinal útil na forma 3D, ou não?
+
+Importante: não estamos tentando vencer uma competição com esse segundo modelo. Ele é um termômetro. Se ele melhora muito em cima do clássico, a forma 3D carrega informação extra. Se não melhora, a mensagem também é clara.
+
+---
+
+## Parte 7 — O gradiente que conta a história
+
+Quando a gente olhar a taxa de ruptura em cada coorte, o desenho fica evidente:
+
+- Coorte de treino (europeia, todos os tipos): cerca de 25% rotos.
+- Coorte europeia para primeiro teste, restrita à artéria cerebral média: cerca de 43% rotos.
+- Coorte chinesa, só cerebral média: cerca de 73% rotos.
+
+Esse gradiente não é prova de nada sozinho. É o pano de fundo da história. Ele mostra que à medida que a gente se afasta do contexto original, a realidade muda.
+
+O que prova a tese é o que acontece com o erro de separação **depois** de a gente corrigir o erro de nível médio. Se o modelo, mesmo depois do ajuste trivial, continua errando a separação, a mensagem é: o problema não é só ambiente — é o modelo.
+
+---
+
+## Parte 8 — Critérios de parada
+
+A gente acordou antes de começar em que condições o estudo segue e em que condições ele para. Isso se chama critérios de parada. Servem para evitar a armadilha de ir ajustando o desenho depois de ver o resultado.
+
+- Se a gente não conseguir reconstruir as medidas no banco chinês da mesma forma que no banco europeu, o estudo não anda. Nossa auditoria mostra que conseguimos doze medidas compatíveis. Suficiente.
+- Se o modelo moderno não atingir um mínimo de desempenho no treino, a gente cai para o modelo clássico apenas. Não desistimos — ajustamos o escopo.
+- Se a gente não conseguir dizer com razoável segurança se a tomografia do paciente chinês foi feita antes ou depois do sangramento, o achado final vira uma ressalva — a gente admite a limitação no texto, não esconde.
+
+Cada critério tem um número por trás. Não foi inventado na hora. Está no memorial do estudo.
+
+---
+
+## Parte 9 — A sua contribuição única
+
+Aqui é a parte em que você — e só você — pode entrar. Ninguém do grupo consegue fazer isso no seu lugar.
+
+**O que é:** ler, uma por uma, as tomografias dos pacientes da coorte chinesa e classificar cada caso como feito **antes** do sangramento ou **depois** do sangramento.
+
+**Como se decide:** olhando a imagem. Você procura sinais que indicam que o sangramento já aconteceu — presença de sangue nas cisternas, dilatação dos ventrículos, clipe cirúrgico, espiral metálica dentro do aneurisma, dreno ventricular externo. Se encontrar qualquer um desses, a tomografia é **depois**. Se a imagem estiver limpa, com o aneurisma íntegro e sem nenhum desses sinais, é **antes**. Se houver dúvida real, você marca como indeterminado — e isso também é uma resposta válida.
+
+**Por que só você pode fazer:** porque é leitura radiológica neurocirúrgica. Não é uma conferência de metadado, não é uma checagem automática, não é algo que um algoritmo resolve. É um médico olhando a imagem e decidindo. O banco de dados não traz essa informação de forma direta, e os autores originais não responderam. Essa lacuna é a peça que falta para a gente poder dizer com firmeza no artigo: "a maioria das tomografias chinesas foi feita depois do sangramento — portanto, o modelo está sendo testado num contexto em que a anatomia já sofreu mudança". Sem você, esse pedaço fica como suspeita. Com você, fica como evidência.
+
+**Material pronto:** já existem 77 imagens montadas, uma para cada aneurisma roto, com vistas padronizadas e um roteiro simples de classificação. Você abre, vê, marca em uma planilha.
+
+---
+
+## Parte 10 — O que este estudo não é
+
+- **Não é um modelo pronto para ser usado na sala cirúrgica.** É um estudo sobre os limites dos modelos existentes.
+- **Não é um benchmark.** A gente não está dizendo "nosso modelo é o melhor". Está dizendo "os modelos desse tipo caem nessas condições".
+- **Não é um estudo prospectivo.** Todos os dados já existem. A gente não coleta novos pacientes. Isso simplifica a aprovação ética.
+- **Não é sobre tratar ou não tratar.** O estudo não recomenda conduta. Recomenda cautela no uso de modelos morfológicos fora do contexto em que foram treinados.
+
+---
+
+## Parte 11 — Estratégia de publicação
+
+A gente vai submeter primeiro à melhor revista de radiologia com inteligência artificial (Radiology: Artificial Intelligence). É a revista que mais se alinha com o tipo de pergunta que estamos fazendo. Se houver recusa sem revisão, a segunda escolha é European Radiology, que também tem tradição em tomografia cerebrovascular. Em paralelo, a gente deposita o projeto no Open Science Framework antes de começar as análises principais, para deixar registrado que o desenho não foi ajustado depois de ver o resultado.
+
+A chance de aceitação na primeira revista é moderada — algo entre 35% e 45% em cenário realista. Se houver uma execução limpa e a contribuição sua da leitura radiológica sustentar o timing antes/depois do sangramento, sobe para 45-55%. Isso é suficiente para valer a pena tentar.
+
+---
+
+## Parte 12 — Perguntas que vão te fazer, respondidas com simplicidade
+
+**"Mas e se o modelo já foi validado em estudos externos? Não é redundante?"**
+Os estudos externos publicados até hoje usaram coortes muito parecidas entre si. A gente está testando em um cenário genuinamente diferente. A diferença é o ponto.
+
+**"Por que só aneurismas da artéria cerebral média?"**
+Porque é o que a coorte chinesa tem. E porque, ao restringir, a gente garante que modelo e comparação estão falando da mesma coisa. Mais controle, menos ruído.
+
+**"Vocês não querem um modelo melhor?"**
+Não. Um modelo melhor sem teste de robustez seria só mais um. Um estudo de robustez com modelo mediano é mais útil para o campo agora.
+
+**"Se o modelo cair, não é fracasso?"**
+Não. É a resposta correta. Saber que o modelo cai num contexto específico é útil. Vender um modelo que cai como se não caísse é que seria problema.
+
+**"Por que a leitura das imagens é tão importante?"**
+Porque sem ela, a gente não consegue dizer com firmeza que o modelo está sendo testado em pacientes depois do sangramento. Sem isso, metade da interpretação fica em suspenso.
+
+**"Qual o risco de a gente achar algo trivial?"**
+Existe. Se todos os efeitos forem explicados pela simples diferença na proporção de rotos, o achado seria menos forte. Por isso a gente desenhou a análise separando os dois tipos de erro de calibração — para poder mostrar o que sobra depois do ajuste trivial.
+
+**"Isso serve para outras áreas da medicina?"**
+Sim. Qualquer modelo de inteligência artificial baseado em imagem tem esse tipo de problema. Nosso estudo é um exemplo bem-feito do tipo de teste que outros deveriam fazer também.
+
+---
+
+## Parte 13 — Por que vale a pena
+
+Esse estudo não é glamour. Não é inventar a roda. É fazer uma pergunta honesta sobre o que já está na literatura e responder com rigor. Em ciência, esse tipo de trabalho é o que faz o campo andar — mais do que mais um modelo otimizado em décimos de desempenho.
+
+Você sai com um artigo em revista boa, com a autoria principal, com uma contribuição clínica sua registrada no coração do método (a leitura radiológica), e com uma tese que você consegue defender em banca explicando em linguagem simples. Não é pouco.
+
+E, no fim, a pergunta é a sua: "esses modelos que dizem prever ruptura funcionam de verdade fora do contexto em que foram criados?". Responder isso, de um jeito ou de outro, é útil para os pacientes que vão chegar depois.
+
+É disso que se trata.

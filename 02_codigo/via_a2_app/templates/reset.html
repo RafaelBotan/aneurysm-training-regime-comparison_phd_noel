@@ -1,0 +1,21 @@
+{% extends "base.html" %}
+
+{% block container %}
+<div class="container-narrow">
+  <h1>Resetar revisão</h1>
+  <div class="callout callout-warn">
+    <h3>Atenção</h3>
+    <p>
+      Esta ação apaga <strong>todos</strong> os veredictos já salvos
+      ({{ progress.done }} de {{ progress.total }}). A lista de pacientes
+      e as imagens não são afetadas, mas os veredictos somem.
+    </p>
+  </div>
+  <form method="post" action="/reset">
+    <div class="button-row">
+      <button class="btn btn-danger" type="submit">Sim, apagar tudo</button>
+      <a href="/" class="btn btn-ghost">Cancelar</a>
+    </div>
+  </form>
+</div>
+{% endblock %}

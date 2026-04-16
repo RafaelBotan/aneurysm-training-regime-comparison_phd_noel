@@ -1,0 +1,54 @@
+# ── Raw datasets (178 GB, potentially restricted) ──
+01_datasets/
+
+# ── Patient-level data ──
+03_analises/*.csv
+03_analises/caracterizacao_ideas/
+03_analises/M3_*.png
+03_analises/M3_summary.md
+03_analises/M4_fig_cascade_roc.png
+
+# ── Manuscript (pre-publication) ──
+04_manuscrito/
+
+# ── Briefing: internal/historical/sensitive ──
+00_briefing/via_A2_screenshots/
+00_briefing/cmha_via_A2_template.csv
+00_briefing/gpt_conversa_completa.md
+00_briefing/gpt_conversa_raw.txt
+00_briefing/analise_doublecheck_gpt.md
+00_briefing/analise_gpt_nova_direcao.md
+00_briefing/alternativas_ao_estudo_aneurisma.md
+00_briefing/alternativas_certeza_a1.md
+00_briefing/qualis_2020_2024_fonte.md
+00_briefing/qualis_revistas.md
+00_briefing/guia_custom.css
+00_briefing/via_A2_radiologia_visual_K1.md
+
+# ── Quarto build artifacts ──
+00_briefing/01_Guia_Completo_Desenho_do_Estudo_files/
+00_briefing/01_Guia_Completo_Desenho_do_Estudo.html
+00_briefing/01_Guia_Completo_Desenho_do_Estudo.pdf
+
+# ── Via A2 app: patient data + runtime ──
+02_codigo/via_a2_app/via_a2.db
+02_codigo/via_a2_app/server.log
+02_codigo/via_a2_app/__pycache__/
+
+# ── Playwright MCP artifacts ──
+.playwright-mcp/
+
+# ── Python caches ──
+__pycache__/
+*.pyc
+*.pyo
+
+# ── IDE / OS ──
+.vscode/
+.idea/
+*.swp
+Thumbs.db
+.DS_Store
+
+# ── Logs ──
+*.log

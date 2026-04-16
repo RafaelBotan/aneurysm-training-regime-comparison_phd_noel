@@ -1,0 +1,49 @@
+<!doctype html>
+<html lang="pt-BR">
+<head>
+  <meta charset="utf-8" />
+  <title>{% block title %}Via A2 — Revisão radiológica{% endblock %}</title>
+  <meta name="viewport" content="width=device-width, initial-scale=1" />
+  <link rel="stylesheet" href="/static/style.css" />
+</head>
+<body>
+  <header class="topbar">
+    <div class="brand">
+      Via A2 — Revisão radiológica
+      <small>Estudo CMHA · Dr. Noel</small>
+    </div>
+    <nav>
+      <a href="/">Início</a>
+      <a href="/tutorial">Como classificar</a>
+      <a href="/review">Revisar</a>
+      <a href="/export">Baixar CSV</a>
+    </nav>
+  </header>
+
+  {% if progress %}
+  <div class="progress-wrap">
+    <div class="label">
+      <span>Progresso: {{ progress.done }} de {{ progress.total }}</span>
+      <span>{{ progress.pct }}%</span>
+    </div>
+    <div class="progress-bar"><div class="fill" style="width: {{ progress.pct }}%"></div></div>
+    <div class="progress-summary">
+      <span class="chip pre">Antes: {{ progress.pre }}</span>
+      <span class="chip post">Depois: {{ progress.post }}</span>
+      <span class="chip ind">Indeterminado: {{ progress.indet }}</span>
+      <span class="chip">Restam: {{ progress.remaining }}</span>
+    </div>
+  </div>
+  {% endif %}
+
+  {% block container %}
+  <div class="container">
+    {% block content %}{% endblock %}
+  </div>
+  {% endblock %}
+
+  <div class="footer">
+    Doutorado Dr. Noel · Via A2 · CMHA K1 · 2026
+  </div>
+</body>
+</html>

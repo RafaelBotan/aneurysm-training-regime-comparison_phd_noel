@@ -1,0 +1,101 @@
+{% extends "base.html" %}
+
+{% block container %}
+<div class="container-narrow">
+  <h1>Como classificar cada caso</h1>
+  <p class="subtitle">
+    Leitura rápida. Leva uns 5 minutos. Depois disso você vai conseguir
+    classificar cada caso em menos de um minuto na maioria das vezes.
+  </p>
+
+  <div class="callout callout-info">
+    <h3>A pergunta é simples</h3>
+    <p>
+      Para cada tomografia, você precisa responder:
+      <strong>essa imagem foi feita antes ou depois do sangramento?</strong>
+      Se não der pra saber com segurança, você pode marcar
+      <strong>indeterminado</strong>. É uma resposta válida.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>O que indica que foi DEPOIS do sangramento</h2>
+    <p>
+      Qualquer um dos sinais abaixo, sozinho, já decide o caso como
+      <em>depois</em>. Você não precisa encontrar todos — um basta.
+    </p>
+    <ul class="signal-list">
+      <li><strong>Sangue nas cisternas basais ou na fissura de Sylvius</strong> — hiperdensidade aguda (aquele branco característico, em torno de 60–80 HU).</li>
+      <li><strong>Sangue nos ventrículos</strong> — hemorragia intraventricular, geralmente em ventrículos laterais, terceiro ou quarto.</li>
+      <li><strong>Hematoma intraparenquimatoso</strong> — especialmente se estiver adjacente ao aneurisma.</li>
+      <li><strong>Hidrocefalia aguda</strong> — dilatação ventricular que não parece compensada, apagamento de sulcos.</li>
+      <li><strong>Clipe metálico</strong> — artefato típico de clipagem cirúrgica prévia.</li>
+      <li><strong>Coil (espiral endovascular)</strong> — artefato metálico dentro do saco aneurismático.</li>
+      <li><strong>Dreno ventricular externo</strong> — cateter atravessando a calota até o ventrículo.</li>
+      <li><strong>Craniotomia ou craniectomia</strong> — defeito ósseo cirúrgico.</li>
+      <li><strong>Edema cerebral difuso</strong> — apagamento generalizado dos sulcos, perda de diferenciação cinzento-branco.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>O que indica que foi ANTES do sangramento</h2>
+    <p>
+      Para classificar como <em>antes</em>, a imagem precisa estar limpa
+      em <strong>todos</strong> os aspectos abaixo. Basta um sinal pós para
+      descartar esta opção.
+    </p>
+    <ul class="signal-list signal-pre">
+      <li><strong>Cisternas limpas</strong> — sem hiperdensidade nas cisternas basais ou fissuras.</li>
+      <li><strong>Ventrículos normais</strong> — sem hidrocefalia, sem sangue intraventricular.</li>
+      <li><strong>Parênquima íntegro</strong> — sem hematoma, sem edema focal ou difuso.</li>
+      <li><strong>Sem material metálico</strong> — sem clipe, sem coil, sem dreno externo.</li>
+      <li><strong>Calota intacta</strong> — sem defeito cirúrgico.</li>
+    </ul>
+  </div>
+
+  <div class="callout callout-warn">
+    <h3>Quando usar “indeterminado”</h3>
+    <p>
+      Use esta opção se você tiver dúvida real. Exemplos típicos:
+      cisternas parecem limpas mas o corte não cobre a base;
+      suspeita de sangue antigo já absorvido; artefato que você não
+      consegue caracterizar com confiança. É preferível marcar
+      indeterminado a “chutar” um veredicto.
+    </p>
+  </div>
+
+  <div class="card">
+    <h2>O que aparece na tela</h2>
+    <ul>
+      <li><strong>À esquerda:</strong> uma imagem composta com várias vistas da tomografia do paciente (cortes axiais e projeções). Já foi montada para você — não precisa abrir nenhum software.</li>
+      <li><strong>À direita:</strong> os dados do paciente (idade, sexo, localização do aneurisma), os três botões de veredicto e a lista de sinais radiológicos que você pode marcar.</li>
+      <li><strong>No topo:</strong> a barra de progresso. Sempre que você avança, ela sobe.</li>
+    </ul>
+  </div>
+
+  <div class="card">
+    <h2>Ritmo sugerido</h2>
+    <p>
+      Casos com clipe, coil ou sangue evidente levam menos de um minuto.
+      Casos duvidosos podem levar dois ou três. Você pode parar a qualquer
+      momento — o sistema guarda tudo. Na próxima vez, basta clicar em
+      <em>Continuar revisão</em> e você cai no próximo caso pendente.
+    </p>
+  </div>
+
+  <div class="callout callout-ok">
+    <h3>Dica: preencha os sinais que viu</h3>
+    <p>
+      Além de escolher o veredicto, você pode marcar <strong>quais</strong>
+      sinais específicos decidiu o caso (ex.: clipe + IVH). Isso não é
+      obrigatório, mas ajuda muito quando formos escrever a tabela do
+      artigo — cada sinal marcado vira evidência concreta.
+    </p>
+  </div>
+
+  <div class="button-row">
+    <a href="/review" class="btn btn-primary btn-lg">Começar revisão →</a>
+    <a href="/" class="btn btn-ghost">Voltar ao início</a>
+  </div>
+</div>
+{% endblock %}

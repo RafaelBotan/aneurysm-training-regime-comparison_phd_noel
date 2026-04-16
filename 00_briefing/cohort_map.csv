@@ -1,0 +1,856 @@
+dataset,patient_id,aneurysm_id,source,hospital_city,cohort,split_role,location,mca_flag,status,ruptured,sex,age,side,exclusion_flag
+AneuX,MeVHfNK72KZI1gwdNDl2nUVFV+7vHlUY7Yk48qss3J9LzasbbfnWioeIMIddtheR,p043_HAARCREcDAAQDQcbHgANDRQM,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,64.2,left,False
+AneuX,3vIQTqIuo+m5HdcN4hNFWrmiQX+zElJ6krbm52oE0WHY4VboI9n03iTwyMczcR/H,p044_BBMdFxESDBMcEwcVBhMBExQC,hug2016,Geneva,HUG1,dev_primary,VA V4,False,unruptured,0.0,female,72.7,left,False
+AneuX,o1upROi2V3A17915o3xoqzIWpdwUIJKDyGRJbAMHJtxpKc1B8NKm6z8ajr1GQEHr,p046_FwQADBEGGwQBGwMdHwAADBAK_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,50.9,right,False
+AneuX,7fTJsZCrNg0BvFQoTT0sECjBSycKPt5BRmscBsZgSbm80qyMXcVqpVF1YLsigakG,p091_ABMXCAMBFT4eAAgABwUQFxAR_LICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,47.3,left,False
+AneuX,7fTJsZCrNg0BvFQoTT0sECjBSycKPt5BRmscBsZgSbm80qyMXcVqpVF1YLsigakG,p092_ABMXCAMBFT4eAAgABwUQFxAR_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,47.3,right,False
+AneuX,STRHvYH6PCoJjbIWhVXdkaFW2LMnt2Bwq5OAvHhGXVovHEvwGENb4ESG723mrH3X,p094_ERUeAB4WBg0SCwcbHgAABAEU,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,56.0,right,True
+AneuX,R5bloRYzw5SQXeNtUeMHxd2yKefza94Bds8HIx4271d/0hd5/yBSn0y6sdSJvOpB,p095_EhMHDx4NAB8BEAgBFxMMFwAW_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,44.5,left,False
+AneuX,rjUWw8eowfQ13Ho/SMBb1DYW0CL4H2OwxTzwaegWS1hGDxSVRX3TljlXH98rZ1my,p097_Eg4HEwEdGw8NChMdAxQHCxcX,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,29.6,right,False
+AneuX,nbe9abubkED/qe7ihIlDcoP2BvtoqLY7am2uVu8IowdLZJoVuz3h/7oXSWu/Zir1,p099_FxMbBAMBHAYWFxgdGwQdDBsf,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,70.4,right,False
+AneuX,Iw08lm3zEdHA8gkhWFrtCRAycZwgbwwXIpKDRUjENXR4yNc7FMaXm/xMMI8oG3JT,p101_EwAeDgoWEw0cHwUOHg4UBhQU,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,55.7,left,True
+AneuX,,p103_BAgfDgUbAQAKABgGHw4bFgYZ,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,49.7,left,False
+AneuX,AXib0qSu6388L/EP8pjKEDZTL2OzhrXynjTWCKWasLORduVxvveJKtZWbNVcyLBT,p104_FhMbBBQNHB8BDAMLFw8IFxwd,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,79.9,midline,False
+AneuX,cARwwkWa22q+nLh3b0u+KpteTAse9I+rHElc9uH7QyNckKoX0z4lXG4B53tefsfk,p109_ARQbDwQJHAANEA8BBgAABAQN,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,41.8,right,False
+AneuX,,p114_FxQVDRUaDBQUCQMdFRQJCRAK,hug2016,Geneva,HUG1,dev_primary,ACA A1,False,unruptured,0.0,female,75.4,right,False
+AneuX,quP+TDKKuYvssY9276Smo2VQvjchSSzM3hN4yifFJWnwo/RwH/P5Pco5NTDUlrOC,p115_EgAeDBUaDAAfCAMdEAACCBAK,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,61.1,right,False
+AneuX,,p117_BA4fAAMBDA4eBBUGBg4DBAYR,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,50.9,left,False
+AneuX,O3thfDpHF2iCy1CL9Y2+3Bgu9qhaBZHJ2EvA/AGOW/12LGbw84Isq5zxVnLfwhHc,p119_AgACCAMJAAUaGwcfGxIPFxER,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,66.2,midline,False
+AneuX,A4Vazr1FVG7xU+L7xXHyndEr4f5JvzBRVWmHoismIm13Kz9vncNJMjl+wRg+XINv,p120_HA4ABB4SHR8cFwMBCA4CCgcd_RICA,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,37.6,right,False
+AneuX,76sZJaZR9c+5YOygXci8e3IwaGcMVN/FrJmfajfr4D5spJd/pZDNCadoMS4g76se,p121_FwgDFBUEDAgCEAMDFQgfEBAU,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,62.4,left,False
+AneuX,EXtA/NTlZvElVNlSaKzbKZEVaHPYgNCMUSfas3hJSc3bfqGNoQy6TdX+NdKEr8lm,p122_BAQWBAMLHR8WAQMcEQ4aABEd,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,51.6,left,False
+AneuX,,p124_FAQeFBMJDAQfEAUOFgQCEBYZ_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,54.8,right,False
+AneuX,,p126_FAQBCQUbAQQAGwMcGhQdFhAL,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,48.4,left,False
+AneuX,,p126_FAQBCQUbAQQAGwMcGhQdFhAL,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,48.4,left,False
+AneuX,,p127_AwIaFhEaCAwSCwgREQkZBAcC,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,67.7,left,False
+AneuX,I2Q+dtEGe/9V6lYxfso4EL4GCwIoV0uenQZVAlX+KCY5qS3cDqmo9KcMcVXFJNn6,p128_EggcChUaBj4=LCUuDAgADhAK_Acom,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,74.4,midline,False
+AneuX,I2Q+dtEGe/9V6lYxfso4EL4GCwIoV0uenQZVAlX+KCY5qS3cDqmo9KcMcVXFJNn6,p128_EggcChUaBh8aCw0KABUMDBsT_LICA,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,74.4,left,False
+AneuX,STRHvYH6PCoJjbIWhVXdkaFW2LMnt2Bwq5OAvHhGXVovHEvwGENb4ESG723mrH3X,p129_ERUeAB4WBg0SCwcbHgAABAEU_LICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,56.0,left,True
+AneuX,7hjXhMXRaSt3hA8BJD/OV/rEeZu2RvPsEECbL4/BA5uAd5D+9m/qUqfYm+iObqvu,p131_EwgfABQHAD4RChIHLRcLFwEG,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,76.8,midline,False
+AneuX,,p133_AxUADhgAFwoWFxgbAA4GDRAT,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,69.7,left,True
+AneuX,,p134_EwkTExwNAT4DEA8IDAkPFxkd,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,52.6,left,False
+AneuX,,p135_FAQtEh8dAQANADkcHRQdBBEd,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,60.2,left,False
+AneuX,,p136_Fw4fBAoWHQwWHwEAHwQUAhoV,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,58.9,right,False
+AneuX,,p137_Bg4eDRUaGw8NCgoDFxMHCwMX,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,69.3,left,False
+AneuX,,p140_GA4LHx8RGg4KDQkWGg4XDRoB,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,71.4,midline,False
+AneuX,fN+KXlC4qWfOTZ1LX6Y/eraxkJvZeg5S1HiGerGTQyY9mAh/ngrsGSiVDAIs85qi,p141_FAQfCBUaAAQNAAsGFxMcABEd,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,28.4,left,False
+AneuX,,p142_AwwXAAQAFxMNCAMOBgkLFwYV,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,51.4,midline,False
+AneuX,,p144_GgAREAUBFxMNBAUeBwgLFx8Z,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,male,88.6,right,False
+AneuX,1mwAQ3yIEieVTDrLo8NiUf44IuRxTl5dVRpWU4FHD84GclDAUuO5JzfrRfrybID0,p145_HQAAFRkWExMHDAsOABUHCBQK_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,70.1,right,False
+AneuX,,p146_Ag4HCBwEFxMNChMGHg0LFwcX,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,42.1,right,False
+AneuX,bC+5MIqDhrqqcC5HnK+ChsAf8ixd3srzdf5JWoEe+aGVV7u/Rzsqc9iPtjf5/cAt,p147_Eg4cDxUeGwQNCggBFxcHABcX,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,66.9,left,True
+AneuX,c9GUPwGCmwVya++xefpJYxdxLLeLcxg2jBdroq6VeHVH5c3fjcYeZ3FI4ju+JXqO,p149_HQQGFQIJBxkNABIbAAAbHRgd,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,male,79.9,left,False
+AneuX,,p150_Bg4cPhcdHBUWCxgAHD4JEBsM,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,50.3,right,False
+AneuX,4FtfLLRPHSuwJGqFcAxmBvDRaeq5fPjKQG1i7MLb2/jYFrDmwQMWuI8FUEV18w7Z,p151_FAAtDQUSDAAsCRMVFgAxCQAC,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,43.9,right,False
+AneuX,le2UyILlYrUl7AXqGQno28n82BJOscIiAXCE2j03Gm7IzKLaAPJIE1cavKWY7dTV,p152_AAQABAoWFxMWHxYKAAQUFRAK,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,46.7,left,False
+AneuX,fq4CZMnPbaW+HkqwUo0zeFSRQgjENKAWZ0v0NvJVXbqqDrcsfg5mBdJlPMHbjFyA,p153_AwAeAA4JHgAABAoOAQACBAYZ_LICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,54.7,left,False
+AneuX,,p154_HRQeDRUaDBQfCQMdHxQCCRAK,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,55.2,right,False
+AneuX,,p154_HRQeDRUaDBQfCQMdHxQCCRAK,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,55.2,right,False
+AneuX,79EMt4kIVVluy2+1/WxvA/sbdanKRb35O8wWM04NN1BzwIN6uzOyNAbZGRkmwdmG,p157_EgAYExEFGx8SDxQOHwgMBB8K,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,55.0,right,False
+AneuX,Ext34gnb4LIqM7nESTwkIk5247bgnsMLs0KDsc/jEY0uXN3G7XZoDKSNHceZtv0/,p158_Fg4bEgMJER8cDBUcEwIIChwL,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,61.9,right,False
+AneuX,,p159_FRIGExEMEx8AERQOFgALFgEK,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,20.2,left,False
+AneuX,,p160_GhQGGxUcDBQHHwMbGBQaHxAM,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,39.5,left,True
+AneuX,,p161_FBMdGw4aHRsXFwkVFhMBHxEK,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,76.7,midline,False
+AneuX,yAPDczXAE3rtQq7lLvkXgFSH9EdXbsp3Giy44IoA0XyeKZi9j1eBwp1zLIMtuKs7,p162_AwkTAxEGGx8bBAQOHAgdDRQa,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,57.4,left,True
+AneuX,9418rk2UBlPqfRR3i+xSBSsbxfwTMlWxDL67eRO89iBGs6PsFBWOBYtheG1MtU8f,p163_EwkdAxESDAkcBwcVEQkBBxQC,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,79.2,right,True
+AneuX,9418rk2UBlPqfRR3i+xSBSsbxfwTMlWxDL67eRO89iBGs6PsFBWOBYtheG1MtU8f,p163_EwkdAxESDAkcBwcVEQkBBxQC,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,79.2,right,False
+AneuX,,p165_Gw4aDwQHAhENCg4BBg4eFR4X,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,33.3,right,False
+AneuX,,p166_AwAcBgUBHAQHEQ8REw8JEBwW,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,75.2,left,False
+AneuX,m5ylNclUq/8k9T3ByIw0z3CW0IlEBS6yuBkcmUK0SOhi+Ah0V9lI/V4drZU19xk5,p167_FxMTDxQCFwAdGxQOHAUEABQW,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,40.1,left,False
+AneuX,RPFXMlDTHmSfV5KvM3a4TyOIXx87/c/A5PeKoX/Wi9mPuCz6SGS+wGHuJVSIuIz9,p168_EgQVCAMAHQ0fDBgKFQgdDRoU,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,46.2,left,True
+AneuX,POVCE1/dhKvk7zjJvsCLtRQQh3ZR9mJ/TIQRvu4lRNYp3awCpY9Re325KEdZTGb3,p169_FgAeAhkGFw0fDBgOHgIHCxAU,hug2016,Geneva,HUG1,dev_primary,PeriA,False,ruptured,1.0,female,67.4,left,False
+AneuX,,p170_EgQABhUaDAQBAgMdEAQcAhAK,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,46.2,left,True
+AneuX,,p170_EgQABhUaDAQBAgMdEAQcAhAK,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,46.2,left,False
+AneuX,FCwgFOLVTbosmWekrItYwkP0BQJiQS54OMT9BV6vlN/ipoqJpiSKuqoIMOnlrQY4,p171_EgAWBAIcAQIbABQREwULFwEL,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,86.8,left,True
+AneuX,FCwgFOLVTbosmWekrItYwkP0BQJiQS54OMT9BV6vlN/ipoqJpiSKuqoIMOnlrQY4,p171_EgAWBAIcAQIbABQREwULFwEL,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,86.8,left,False
+AneuX,,p172_AAAeAAoSHQ8aGwcDExsUChsR,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,39.4,left,False
+AneuX,,p174_FAQtDhwBBAQaFwcRFz4BCRwO,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,28.8,left,False
+AneuX,wxHsruUyeopiuD+ICF51UgH9djU6/tlkbKxiUOBsiLI0/FVKadLsKxrN16BI7VrF,p304_HQQLDREGDAQKCQcBHwQXCRQW_LICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,male,42.3,left,False
+AneuX,wxHsruUyeopiuD+ICF51UgH9djU6/tlkbKxiUOBsiLI0/FVKadLsKxrN16BI7VrF,p304_HQQLDREGDAQKCQcBHwQXCRQW_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,42.3,left,False
+AneuX,wxHsruUyeopiuD+ICF51UgH9djU6/tlkbKxiUOBsiLI0/FVKadLsKxrN16BI7VrF,p305_HQQLDREGDAQKCQcBHwQXCRQW_RICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,male,42.3,right,False
+AneuX,wxHsruUyeopiuD+ICF51UgH9djU6/tlkbKxiUOBsiLI0/FVKadLsKxrN16BI7VrF,p305_HQQLDREGDAQKCQcBHwQXCRQW_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,42.3,right,False
+AneuX,wxHsruUyeopiuD+ICF51UgH9djU6/tlkbKxiUOBsiLI0/FVKadLsKxrN16BI7VrF,p305_HQQLDREGDAQKCQcBHwQXCRQW_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,male,42.3,right,False
+AneuX,nUligehKlKDfdGFQaIaW4QIVIsrXQUJ5p2RltZ6Em7tTRo7pwBdeCv2rwkvMmEam,p306_HQIbDwQHAQkNBg8BBg4dDRgb,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,43.6,left,False
+AneuX,UqSJEgL/l0XQiLRT6/kR5wntdkdum9nHRCznt8T2FOKWtCA4yqhDg+zytHwyl5D3,p307_GxQdDxUGDBQcCwMBGRQBCxAW,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,79.3,left,False
+AneuX,,p308_GA4BFRUcBg0WFxgAARULEQEU,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,65.2,left,False
+AneuX,t6iRqyZz2q5xHPZ98Z7XmjahOiYuXUetPKUdhuaLH5AATNAP1hRGfOAuJ8a/fgWG,p309_BggTAhMHCB8aBAUMHRsYDBQb,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,69.2,midline,False
+AneuX,,p310_FA4fDh4WHQwcCwIAHw4AARoV,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,73.5,,False
+AneuX,UklLYOH+yQh6bSlB+ZlTdyl+gGC9qsVMWjmCChJweBvOrV0z1LVUvwEAklYv0iRF,p311_GwgcBQUWGw8XEA0GHAUbDhwW,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,64.0,midline,False
+AneuX,,p312_BggcEh8GDAgdFgkBBAgAFhoW,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,62.9,midline,False
+AneuX,ZhXFiksZ/xAVELuI5KmDn219pUQIx620gFSXyMBCgcOTLCNRaFHXl08UDXo7I2bU,p313_EwAfEREGEx8SCBYOHAANBBgI,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,50.5,midline,False
+AneuX,7YsXFDXZs7Yhjwg0xUj5gzbdwgTNqoBa1g8NP//F6M80QTyu7mmdRNHWQhzxDSwW,p314_Fw0TEgMNCx8fBBUcFxgJCRQL,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,34.3,midline,False
+AneuX,ILzXb6b+dj9w/rAUaluYFOrFn5FpTBaGTUhlb7ksG9ftPurFmygOPmDwTb6NM0c/,p315_FREbDxURDBEaCwMWFxEHCxAB,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,76.7,midline,False
+AneuX,,p316_Ag4WExkPBwQJGwkLAAgJEBAC,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,56.9,midline,False
+AneuX,p+jVbTpm3pXt8gUfwxVv6uzC/jQMOLYZHBqzoGdj4OmgWHh+Mh+Dyz1AcKst+l4Y,p317_HRQeDRUaDBQfCQMdHxQCCRAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,69.5,midline,False
+AneuX,yh4k5URQSydh4K9I22Af21ZHfuBHan_pm0S8Ny0bTgTzR0swICS_OQbDqoyajCLZ,p319_EQ8WGxEFEx8dARwOHwAPCxEC,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,54.1,midline,False
+AneuX,tRnr6ninGKmrTUpf2FstEyYntXwqM/4IqVr1jR4PMa86BqRaaWP9qapvqq46yTdU,p320_FAQRAAIMFxcSBhgKEQAcARAO,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,81.2,,False
+AneuX,PT9bBNZAAS6ECWML1HY2WhURFae1jHDbW73Ti0vgm1XobR4JWwGhsoCWVNu56Lzt,p321_BA4ACBEGGx8cFw8OHAgaCgcR_BA,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,66.7,midline,False
+AneuX,PT9bBNZAAS6ECWML1HY2WhURFae1jHDbW73Ti0vgm1XobR4JWwGhsoCWVNu56Lzt,p322_BA4ACBEGGz4jLCUuDA4cDBQW,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,66.7,left,False
+AneuX,xPW5rFFMxgIV5SHLv8TBqMafbrWQIi9hVI8Tog3w7LU44dJUdYG5SBUGV3SHAIVC,p323_HggVBhUEGx8aAgEKHggADBIf,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,74.8,midline,False
+AneuX,vnTrsxR6t/c3RV/iscyMIeMoBXmx+Q4rv5TIJgMIXXjmMgWodVaWVGaqRyOZYP7N,p324_GgARAhEaFh8SBgUOAAUEBBYb,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,50.2,left,False
+AneuX,,p325_GwAcBA4JHAQYBAgKGQAAAB4Z,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,51.7,midline,False
+AneuX,,p326_HA4HDR8dDA4GCQkaHg4bCRoN,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,52.3,midline,False
+AneuX,,p327_BggeDREGBwQFBBgGHg0PCwAd,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,50.0,right,False
+AneuX,YvJdsADUFYg0bJEr1i14EEhjEbe1fYuCSncrjL+Un8e1Vf7xlrxW8S3ewtZ1bTMt,p329_HQ4ADBkEHgQNChQCGw0CABgX,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,66.9,right,False
+AneuX,,p330_FAQDFBkMBh8WFBMGFhUKAAQN,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,49.2,midline,False
+AneuX,,p331_Ag4BBAINHBINChUKAAQAFgcX,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,ruptured,1.0,female,69.6,left,False
+AneuX,yKuxrHIA8SdYUWbYHvTuoM9r72n/mwpn8HnTvBxLaQHF1DQwjs7uc/c9uAxofxUt,p333_AhQdDQMWBw4fFhQaHQ0dFwAX,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,64.5,left,False
+AneuX,KDRjdagwqxMhVMZMV9nStrFfEOjvFhIppHn4iZz54bOFmqR2Z/cb/0LZCIt+ezcj,p334_FwAHBRkGDAAGAQ8BFQAbARwW,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,66.5,right,False
+AneuX,1JKOlVUKXsL/zkyN02eTbdMMA0bKdf2iCPiWPqyVwqwEzuYgikEdOgjGwdKrs3jt,p336_EwkTDxUSDAkSCwMVEQkPCxAC,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,74.7,midline,False
+AneuX,ogV3IwRe5YmRsgggBzbFkVW9UZeNnmEB7FCArNXfwiJt/nRU0kaMTgjzbuA3hDsg,p337_FwQdExcNAR8WChQIFxIJABoK_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,female,53.7,left,False
+AneuX,ogV3IwRe5YmRsgggBzbFkVW9UZeNnmEB7FCArNXfwiJt/nRU0kaMTgjzbuA3hDsg,p338_FwQdExcNAR8WChQIFxIJABoK_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,53.7,right,False
+AneuX,p6DE349FICYxYN9OpAyYf168hax2aUoJ67/2CtimoQtU9zF3yoP6pCQ5yCLpjXcA,p339_Ag4fAB4WHQwSCxQAHwAAFxoV,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,81.7,midline,False
+AneuX,,p340_HRQUFRkLDBQVEQ8MHxQIERwb,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,58.9,midline,False
+AneuX,JUKp5yxIxtjH+noPUb8AhVxX81+lPtGM6Ic3yrkBfKtlvmdxNvIyLRXlZD2moBuL,p341_HRQcEhMADBQdFgUHHxQAFhYQ,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,44.8,right,False
+AneuX,,p342_AAgcCR83HgQaEQMRGw8GCioU,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,55.3,midline,False
+AneuX,WJXlJ2/L1xqsDaLhrhLuRQFTM/S5FSgfM5NVHKV01jXmzGsYq9Yb67XqnIQaWcvx,p343_AgARBB4NBh8SBgMBFxUcBBYd,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,70.6,right,False
+AneuX,GA6i/+RqNqf2pKmTJumBV5oI02cY3uwGmDp5LydkKxcxXUhkzTVik0HNnOJSbV1A,p344_AA4UBxUcDA4VAwMbAg4IAxAM,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,56.9,left,False
+AneuX,Wbo6c6oKaOuXWcb4pYdzDD6XD4l04fmeIidTxpHVAXoDUHjpnN2TCCbgr1ij2urZ,p345_HRQeDRUaDBQfCQMdHxQCCRAK,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,23.7,right,False
+AneuX,TTo2AmVMMnryN3epsOlIzsdXchjnilZApTdE/9vhJFS8/R/4D73TUlkiY1/MWnQY,p346_EwkTAhgJHg4NDQcMGgACChYQ,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,35.9,left,False
+AneuX,,p347_FAQEBBwJCx8WEwMDExgKAAMd,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,65.1,midline,False
+AneuX,xhOydKJfOGDMhW6I7zMeLGO/Esn8F85LTJxWIKahRNeMgzXRFo9XJrnOsQDjaQx8,p348_Eg4VDwUMEx8cAggaFgAMChIW,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,53.3,left,False
+AneuX,,p349_GwgeCBMWGw0aBg0GHggNDhwU,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,30.5,midline,False
+AneuX,,p349_GwgeCBMWGw0aBg0GHggNDhwU,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,30.5,midline,False
+AneuX,,p351_HQQaCA4NGggeAA4GHwQGDBgd,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,48.5,right,False
+AneuX,,p352_FggEAAoWGxcSHwAGBAAUAxwO,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,27.1,midline,False
+AneuX,I2Q+dtEGe/9V6lYxfso4EL4GCwIoV0uenQZVAlX+KCY5qS3cDqmo9KcMcVXFJNn6,p353_EggcChUaBh8aCw0KABUMDBsT_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,74.4,right,False
+AneuX,X17e6uXmNB/7ip84ud00k00zpsXoNwuZNcxR8jfQbkZRFNmLa6p93ymmhPIDFvP9,p354_ERMIAA4aCAASFxwOExMUBBQK,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,ruptured,1.0,female,43.3,left,False
+AneuX,,p355_EhMXFQ4aFxURFwMbEBMLERcK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,60.3,midline,False
+AneuX,XSs8QJJ36TsO3xTubYlJjR/0z2wbJz7L9WdR+/10Xmzdw147cOuCaiAV33pgH8yd,p356_EwAcCAYNCB8SCw8ZFxsNBBsR,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,64.0,left,False
+AneuX,MDnQzZF9oI+BVmvWPAQNw30rsoK6AXS8FfakIsUR5O2WOQ3np9XhB5ghZ/aAwQ3g,p357_EhMTDxQHHB8BBAgLHQ8MFxQW,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,71.3,midline,False
+AneuX,WFugylTzvqBS5UMbNx/4mXmmwwk5sGB/MHS4pnXX2+zUZgI2IJiQTCOc50gv/ex+,p358_HAQaDxgNABMNAA4BGgQcFxkd,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,82.9,midline,False
+AneuX,q7RK5RC+VSzSsC6a45inb1zKkico4fQLUTq6ED0oCBmzEtwbTSOIpYDqOCOVqNjA,p359_ExMXGA4aFxgQFwMWERMLHBYK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,76.3,midline,False
+AneuX,,p360_AA4RCR8GDA4QDQkBAg4NDRoW,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,63.8,midline,False
+AneuX,/f9vMMAsB46GxLnMmOKn8OUlAlzUHSO3+WJWwU0j6wEo9WvO+H29GJslzEUoyCIN,p361_HgABERkGAQoaGwccAggAFh4R_RMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,69.8,right,False
+AneuX,/f9vMMAsB46GxLnMmOKn8OUlAlzUHSO3+WJWwU0j6wEo9WvO+H29GJslzEUoyCIN,p362_HgABERkGAQoaGwccAggAFh4R_LMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,69.8,left,False
+AneuX,,p363_BhQRCh8eGwINEAUEHRcHBgMN,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,59.2,midline,False
+AneuX,i1UE6BnWhj1MBdtAcMEl4CPHJg8GT20QSJ4y2X/gypBbNJILbfJX72GdiJ2eaBQO,p364_FQYVEg4PFRIWAgEcFwYJFhAf,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,70.8,midline,False
+AneuX,,p365_FxQGHwUcFRQHAhMbFRQaAgAM,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,69.0,midline,False
+AneuX,t8GS5RGq3v0rgkFFzG9243+KoqeHkEdIqSw0BYsZuG8KkYQb7bFa4SEGsPxro/U9,p366_EQ8RAAkWHAISHAcBEQAXBBsb,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,male,68.8,left,False
+AneuX,,p367_Eg0TDxMHDA0SCwUAEA0PCxYX,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,35.8,left,False
+AneuX,xnTXcX1FCREErCv+gqAGZAnw8NltU3hxIvJaMRph3rrwuqGJ6D7n73uCPnOMg7dv,p368_HA4CBAMWHREWFgoAAgQdCRoI,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,58.9,midline,False
+AneuX,xnTXcX1FCREErCv+gqAGZAnw8NltU3hxIvJaMRph3rrwuqGJ6D7n73uCPnOMg7dv,p368_HA4CBAMWHREWFgoAAgQdCRoI,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,58.9,left,False
+AneuX,P8aJjw70OyA6xQhfoG061jykGImrGgq6stxuyUN2c+uymJQ5fvek8Jj33FzFkgOF,p369_GAAHEgMEFxMNBBMcAQ0LFx0Z,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,45.5,left,False
+AneuX,VHt8X7wJC9MXikifaiGp6iR72ttCktg2max//85ebkv6MAodExaxLKSq4scCrhF6,p370_HxcXEx4NCx8FABQBFxgBExAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,55.8,midline,False
+AneuX,wTbavcAP+G40Dyh8ros9g/WgBPaPHXS5uUH0dv/simkNVT6tFgz3seumX6iWEaAr,p371_HQAICBwEFx8SHw8DHgQDBA8R,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,49.5,midline,False
+AneuX,Fy6i9wMjyTLpCJ3u4yzcmgOi9wIgsrjXHs82aocgNrP2bDAVIDF619FV5/cKOUqD,p372_EwkXExkQDAkWFw8XEQkLFxwA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,52.6,right,False
+AneuX,8NcIEV/MxKYWmDVsn+nSGdXJwd7/JYYAxwlxHiSPx1RN5EG0T22Dcw4g0jzeoaHH,p373_EwAWAB4WEwUSCwUOFgAABhQc,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,male,47.9,left,False
+AneuX,D5dmR1PV+XcjOnh1GlvcliKpnmoZMxdU6fEZw1HQhT25ZXF2EjHZZ0D5+YsyecLn,p374_EwkXDxEeGwQBGw4KHAAYDBAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,75.3,midline,False
+AneuX,3XqtrHSBaj9ECe/WjE6aAqc9rGWoIzihml1ufotIS4mjV0Z6GcOI2CvdbvTAr/07,p375_AwIaBB4DFw0NBg4KHAoLCQYb,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,49.9,left,False
+AneuX,3XqtrHSBaj9ECe/WjE6aAqc9rGWoIzihml1ufotIS4mjV0Z6GcOI2CvdbvTAr/07,p375_AwIaBB4DFw0NBg4KHAoLCQYb,hug2016,Geneva,HUG1,dev_primary,ACA A1,False,unruptured,0.0,male,49.9,left,False
+AneuX,m/Fh7TK6l0ORr3EpBeuXGNSl+cWVtU8aeFsQNHIXAjSZ4OieF2sCdzk+sLDsjxQs,p376_AA0TDwQBBAQSEBgDEw8aDAMd_RMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,female,45.1,right,False
+AneuX,m/Fh7TK6l0ORr3EpBeuXGNSl+cWVtU8aeFsQNHIXAjSZ4OieF2sCdzk+sLDsjxQs,p376_AA0TDwQBBAQSEBgDEw8aDAMd_RMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,45.1,right,False
+AneuX,m/Fh7TK6l0ORr3EpBeuXGNSl+cWVtU8aeFsQNHIXAjSZ4OieF2sCdzk+sLDsjxQs,p376_AA0TDwQBBAQSEBgDEw8aDAMd_RMCA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,45.1,right,False
+AneuX,m/Fh7TK6l0ORr3EpBeuXGNSl+cWVtU8aeFsQNHIXAjSZ4OieF2sCdzk+sLDsjxQs,p377_AA0TDwQBBAQSEBgDEw8aDAMd_LMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,45.1,left,False
+AneuX,A4Vazr1FVG7xU+L7xXHyndEr4f5JvzBRVWmHoismIm13Kz9vncNJMjl+wRg+XINv,p378_HA4ABB4SHR8cFwMBCA4CCgcd_LICA,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,37.6,left,False
+AneuX,ZhXFiksZ/xAVELuI5KmDn219pUQIx620gFSXyMBCgcOTLCNRaFHXl08UDXo7I2bU,p379_EwAfEREGEx8SCBYOHAANBBgI_LICA,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,50.5,left,False
+AneuX,ZhXFiksZ/xAVELuI5KmDn219pUQIx620gFSXyMBCgcOTLCNRaFHXl08UDXo7I2bU,p379_EwAfEREGEx8SCBYOHAANBBgI_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,50.5,left,False
+AneuX,ZhXFiksZ/xAVELuI5KmDn219pUQIx620gFSXyMBCgcOTLCNRaFHXl08UDXo7I2bU,p379_EwAfEREGEx8SCBYOHAANBBgI_LICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,50.5,left,False
+AneuX,qzqbwQZr97+7oVnOymOjAAR2FzDorbNsx0WRJ9kILFKLrMLyy406iA2HG0s8ERP7,p380_FwgeDRkHCB8aCQoGHRsJDBkU_RICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,56.4,right,False
+AneuX,k+lVd82W1YdR8E5vaqocMK34F/esBrzMFam8d0DFuzEdqQ5vtvr7HYhhHSHCT+4r,p381_EQ0eBBcaHR8fCQMIAA4PCRkd,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,51.6,midline,False
+AneuX,YmPZ0y4KYKIjc4jmB8C_irszc0Mo4Ndna4Aq_jp0uWcBECXCefFo42Nx-pavQFWY,p382_GAALDgoWExgcHw4OCw4UDRQB,hug2016,Geneva,HUG1,dev_primary,PICA,False,ruptured,1.0,male,44.1,left,False
+AneuX,,p383_HQ4ABB4HDA4BAAgAHw4cABsX,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,55.5,midline,False
+AneuX,,p383_HQ4ABB4HDA4BAAgAHw4cABsX,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,male,55.5,right,False
+AneuX,,p383_HQ4ABB4HDA4BAAgAHw4cABsX,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,55.5,right,False
+AneuX,,p383_HQ4ABB4HDA4BAAgAHw4cABsX,hug2016,Geneva,HUG1,dev_primary,MCA M2,False,unruptured,0.0,male,55.5,right,False
+AneuX,K8Rt1eaDb2yDuqanXJNVPk6EcSlQjQRu9JgI9nnJq6+gWW2xbk1gA7JPmGg/b5XS,p384_FAQeBAQaExsNAAoKBhMPHxEd,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,51.5,left,False
+AneuX,,p385_FAQeFBMJDAQfEAUOFgQCEBYZ,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,54.8,midline,False
+AneuX,,p386_BAQLEgMBFxMNAB8cAQgLFwEd,hug2016,Geneva,HUG1,dev_primary,ICA hypo,False,unruptured,0.0,female,35.4,left,False
+AneuX,,p387_AxQWAB4WBwUSCxUaFgAAFgAc,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,91.7,midline,False
+AneuX,e7F3ev5CcwF3G7fGWrfg+XQWW0oYHt0jzYBjaIrqXO05PyAF9JBir0+4owmwSm2q,p388_Ag4BEhUcDA4AFgMbAA4dFhAM,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,64.6,left,False
+AneuX,1mwAQ3yIEieVTDrLo8NiUf44IuRxTl5dVRpWU4FHD84GclDAUuO5JzfrRfrybID0,p389_HQAAFRkWExMHDAsOABUHCBQK,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,70.1,left,False
+AneuX,1mwAQ3yIEieVTDrLo8NiUf44IuRxTl5dVRpWU4FHD84GclDAUuO5JzfrRfrybID0,p389_HQAAFRkWExMHDAsOABUHCBQK,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,70.1,midline,False
+AneuX,IzooiGinlBV0w9/pc05hbbBM+uxp45EDQPTVjqIko8GJuuM7u5+5ceKNmKR8wDV8,p390_FQ0QEwkLGhUNCQQdCwIGERAU,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,34.6,midline,False
+AneuX,IzooiGinlBV0w9/pc05hbbBM+uxp45EDQPTVjqIko8GJuuM7u5+5ceKNmKR8wDV8,p390_FQ0QEwkLGhUNCQQdCwIGERAU,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,male,34.6,right,False
+AneuX,IzooiGinlBV0w9/pc05hbbBM+uxp45EDQPTVjqIko8GJuuM7u5+5ceKNmKR8wDV8,p390_FQ0QEwkLGhUNCQQdCwIGERAU,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,male,34.6,right,False
+AneuX,,p391_GgAcPhQdLQIbAAgKDAAAOhEN,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,50.9,midline,False
+AneuX,KZ+1W8Zh0CT3a3/2hoMoDmTwi0u2CS1Dbg28zDsyklKL0TXLXWMrDlakWCQU/MAg,p392_FBQGEwUNHh8GERQaFw0KEAEK,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,82.8,right,False
+AneuX,KZ+1W8Zh0CT3a3/2hoMoDmTwi0u2CS1Dbg28zDsyklKL0TXLXWMrDlakWCQU/MAg,p392_FBQGEwUNHh8GERQaFw0KEAEK,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,82.8,right,False
+AneuX,6ST1u71y3PCnyMxfsQlG2jSHpjwTuQwMtap/Ub90zKLPHEGPvWJqdFt9QaRyfJ8m,p393_HQgeDRUcDAgfCQMbHwgCCRAM,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,25.5,midline,False
+AneuX,/z4ROh4RKqXIWvS/zZuiKQeATKmmafWS5fhZ81gKvNJZDTeTWiikHp9d1B6r4Z0j,p394_Eg4EAAkWHRcSHAQABAAXBxoO,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,52.2,left,False
+AneuX,WYVH4ZLBTP1CL3m5MU7CjvFCY2kG9Y+JYfiMYxF8Dbkb+7je21saArrDqszskz2g,p395_BAkdDBEbAQQHGw4AHwAdFhAM,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,40.9,midline,False
+AneuX,WYVH4ZLBTP1CL3m5MU7CjvFCY2kG9Y+JYfiMYxF8Dbkb+7je21saArrDqszskz2g,p395_BAkdDBEbAQQHGw4AHwAdFhAM,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,male,40.9,left,False
+AneuX,jskzw/xb+dJzcLdkLT/DeVnkQkQl1lzkEZ5cGFl7cwuEDfU/+kqDvSOG/vcWzjAM,p396_EQIRDgIMGw8cGwUMHRMKDBsX,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,55.9,midline,False
+AneuX,+w2e3WGTZST3xoon+qk+cf71hgzkkcv4L4PqtsYiqZvf8bWVadb6m1vO37KXGxzG,p397_GBQVAAMWBwYSFg4aFQAdDQAf,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,42.6,right,False
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p398_AAgRAAIMLQYGDAEBHQ8QDBYZ_LICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,48.3,left,False
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p398_AAgRAAIMLQYGDAEBHQ8QDBYZ_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,48.3,left,False
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p399_AAgRAAIMLQYGDAEBHQ8QDBYZ_RICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,48.3,right,True
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p399_AAgRAAIMLQYGDAEBHQ8QDBYZ_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,48.3,right,False
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p399_AAgRAAIMLQYGDAEBHQ8QDBYZ_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,48.3,right,False
+AneuX,,p400_AgAWDgYJHA4FDAUREwUBExQW,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,67.2,right,False
+AneuX,Bx29hl2nGyflzXEFVOBGQ8k+VLNDrcKqcrV36RUWBu0bYDIpn0+kLpfaFcgTYUZ/,p401_GwAAAhgNAB8SFwUHFxMFBAcb,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,ruptured,1.0,female,26.5,left,False
+AneuX,,p402_GA4BFRUcBg0WFxgAARULEQEU_BA,hug2016,Geneva,HUG1,dev_primary,BA tip,False,ruptured,1.0,female,65.2,midline,False
+AneuX,,p403_BAkXCB4cCB8bAA8BBhsaDRAR,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,49.7,right,False
+AneuX,96E/S8mRt4JoVFv9Se/9HZ7R+CtgBVPQK8mfg2N0p+3EQGUTzwgIa58RN9yMvNcy,p404_EgAAAxUSExUNBBQNFxsPERcZ,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,male,61.1,right,False
+AneuX,96E/S8mRt4JoVFv9Se/9HZ7R+CtgBVPQK8mfg2N0p+3EQGUTzwgIa58RN9yMvNcy,p404_EgAAAxUSExUNBBQNFxsPERcZ,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,61.1,right,False
+AneuX,X9cOa0wRr1ej4nk1lJXZsZBYJvajX9gglWYgNF1X5aTlpbA3JBlzkFBWYOgLsamn,p405_HRQABRERDBQBAQcWHxQcARQB,hug2016,Geneva,HUG1,dev_primary,PCA P1-P2,False,unruptured,0.0,female,55.5,right,False
+AneuX,qzqbwQZr97+7oVnOymOjAAR2FzDorbNsx0WRJ9kILFKLrMLyy406iA2HG0s8ERP7,p406_FwgeDRkHCB8aCQoGHRsJDBkU_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,female,56.4,left,False
+AneuX,,p407_FxQbDRwNBh8GDAoDFxUJEBwU,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,female,69.3,left,False
+AneuX,AxDcM0f1WDwLFjyiqbzA4ZfCS2Of7FPR1rKB979iMvPFDb0pEiO31XkuxRUGn0NO,p408_FwABEhUaDAAAFgMdFQAdFhAK,hug2016,Geneva,HUG1,dev_primary,PICA,False,ruptured,1.0,male,45.4,left,False
+AneuX,X6XHJndsWkL6LdJltrTRgn1f4XgOwaowVTyA83n0MC3Os4WKVtg7oBwaGnmHI3KX,p409_AggGEhMAExMXGw8bAQIGBAcc,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,66.6,right,False
+AneuX,dRM8zZS8eYQhW8bU3IcpqDRAn2FgOIARq6d05ApeunuG8rz0KTPQIus7tNCMmj4F,p410_EwAAExkHDAABFw8AEQAcFxwX,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,37.5,right,False
+AneuX,DSSJpXivrwaFDOp4kOnZsdFqdWVuNVLNmxb/5PLxrpny9ttegl90UvDbl2KrSq5c,p411_HBQcAAIMGx8GCwcdFggCEBsZ_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,59.0,left,False
+AneuX,W7YJUEOe7D+b0pOTw0fAvQMlGJH7UNHTwN6ASVK5ctnsgAPf61KzYH5fpsIFanCP,p412_GAAeDREdFxMNBAoDExQLFx0Z,hug2016,Geneva,HUG1,dev_primary,SCA,False,unruptured,0.0,female,64.3,left,False
+AneuX,,p413_GgAREAUBFxMNBAUeBwgLFx8Z_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,69.0,right,False
+AneuX,,p414_GgAREAUBFxMNBAUeBwgLFx8Z_LICA,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,69.0,midline,False
+AneuX,ryMrlR/Y8wlQOL9i05vT8ZFCpObHo7oNEJLAZ3mlfH0H+c6rnkErnErHXtUiR6rd,p415_FhMTBh4BFxMWGxQOFQ8HAAcd_RICA,hug2016,Geneva,HUG1,dev_primary,PeriA,False,unruptured,0.0,male,72.4,right,False
+AneuX,ryMrlR/Y8wlQOL9i05vT8ZFCpObHo7oNEJLAZ3mlfH0H+c6rnkErnErHXtUiR6rd,p416_FhMTBh4BFxMWGxQOFQ8HAAcd_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,72.4,left,False
+AneuX,BrIh0aZNHViBO4FR+pdp7NFtKd/nsJ/ndHdsZ2CTjAlMZI6RIO2ge6wz5mzRx/Ho,p417_EgAeBRkGDAAfAQ8BEAACARwW,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,56.1,right,True
+AneuX,yBQ2r54mVNCFKjaSzCss0IlDbDErMAyQEZlaFwfPXQQTNzsnYf9Oa3d+TEMGE8v2,p418_HRQVBBwBDBQUAAoGHxQJABkR,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,75.7,midline,False
+AneuX,y37mWyNFchMpwK5A54LIkbZooLpRZZC/Ul1pke+/V1bRFbatXSdoDsnWx37R4PDL,p419_HAAcDxkWEw8dDAoOHA8HCRQW,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,50.3,right,False
+AneuX,,p420_Bg4cPhUaHgAQDRgAHD4LFxkZ,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,47.5,left,True
+AneuX,,p421_FwQADBEGGwQBGwMdHwAADBAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,47.4,midline,False
+AneuX,,p422_HQ4eDRUaDA4fCQMdHw4CCRAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,44.6,midline,False
+AneuX,pMXdv/GDXFZF1uHleZPiEJoFcyZsBvzQVP5XExfJEpGxV6bM8mwxpbW99kOlHS5s,p423_Eg4HExQBHB8cEBQLGw8MCgAK,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,50.4,right,False
+AneuX,cL93GVw+iiRNbCnzIeWqdyfeOitU6rwcqB1ZxMF8RiwL/icHPep4+zyVvCkoixDQ,p424_FBQUDgUaDBQVChMdFhQICgAK,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,42.1,left,False
+AneuX,HxOiHhgUnnIDEeFp2D47Rp1FpERZDOzgNlOPADERl4qmK61s0J40hTQTQCTTcada,p425_FwQbEhUaDAQaFgMdFQQHFhAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,43.8,midline,False
+AneuX,qPXq9Fnz33+DWjYclhdrn/1IjP43B9fxDP97hFHSSWhxJWPlkhGV1OCxUT3YpUG6,p426_Eg4EBAQWHRcWEQQABAQaBxoO,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,ruptured,1.0,female,64.4,right,False
+AneuX,,p427_FxMXFRUGFxMNFwMbFw8LFxIK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,80.1,right,False
+AneuX,9rsVfJjS5HDp8nU4j7CuOExyv98aaakV8g+8qiNlGZT5sh2ISS7y6fsDxrC20w1q,p429_HBQIGxkWBxsJDAoaCBsHCQAC,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,male,60.8,right,False
+AneuX,,p430_AwAeCA4JHggABAoGAQACDAYZ,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,54.6,midline,False
+AneuX,,p431_BBIbFR8bDBIaEQkcBhIHERoL,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,71.9,left,False
+AneuX,,p431_BBIbFR8bDBIaEQkcBhIHERoL,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,71.9,left,False
+AneuX,IIWo3BGwAF51PczmJ0mvsOaeUM+mSzddb3qZRBzFUYkUDn9312+ybi8aeSgWSetV,p432_BgQcBAQSDAQdABIVBAQAAAEC,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,39.1,midline,False
+AneuX,dZNXNzulxVRjy4SHAcPuAN/qglTsCDohGZl6UNVeNYgTvKD4JaBqQIGW2Aud9253,p433_HQQAAhEMHR8WFwUOFg4DAAcb,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,female,39.2,right,False
+AneuX,mr7U+OyqqD0Xto226hgcdyxE8RBsb9slwjLBkygwhjsjWkwLHe8N42AKk0xpWVbY,p434_GgAREAUNHw4GARgOERAbABgX,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,47.4,midline,False
+AneuX,mr7U+OyqqD0Xto226hgcdyxE8RBsb9slwjLBkygwhjsjWkwLHe8N42AKk0xpWVbY,p434_GgAREAUNHw4GARgOERAbABgX,hug2016,Geneva,HUG1,dev_primary,PeriA,False,unruptured,0.0,female,47.4,right,False
+AneuX,,p435_FAQeCAQaHRsNAAoGBhMBHxEd,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,83.1,midline,False
+AneuX,6tz2rHDt/PufT3eaFjJknlgwCyHjHlaz471DBztyrjjksMmLHqeeBPkvy6T0OYwN,p436_FwQeBBIJABUNAAoKEAAcERId,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,69.1,right,False
+AneuX,,p437_FAQQDh4bDAQRCggcFgQMChsL,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,male,33.4,right,False
+AneuX,bGl8GukbGcX8vgBD8rXu/99bqgieZ/tXQ+gA1+oNAk633CeArrnNvY6RCg1GdXM+,p438_AggQAAUQDAgRBBMXAAgMBAAA,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,ruptured,1.0,female,48.3,right,False
+AneuX,bGl8GukbGcX8vgBD8rXu/99bqgieZ/tXQ+gA1+oNAk633CeArrnNvY6RCg1GdXM+,p438_AggQAAUQDAgRBBMXAAgMBAAA_2,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,48.3,right,True
+AneuX,FsAuEeUkRFQNproy1CvcYTCV+saP9F4ARullN4ejgCv7almkwuJ/1Qvkd/GM0zQA,p439_HwYbBAIWFQgWFwkIGwQcChIR_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,49.2,right,False
+AneuX,FsAuEeUkRFQNproy1CvcYTCV+saP9F4ARullN4ejgCv7almkwuJ/1Qvkd/GM0zQA,p439_HwYbBAIWFQgWFwkIGwQcChIR_RICA,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,49.2,right,False
+AneuX,FsAuEeUkRFQNproy1CvcYTCV+saP9F4ARullN4ejgCv7almkwuJ/1Qvkd/GM0zQA,p440_HwYbBAIWFQgWFwkIGwQcChIR_LICA,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,49.2,left,False
+AneuX,Fn3OnJprCOpLvcGat83zLRXjtamYgeyG4w8m9Q2FncrF5VaXg5Sl8AcdjqdN+0kl,p441_AgQHEhUWFxQAABQKBxILFxAN,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,37.5,midline,False
+AneuX,R5bloRYzw5SQXeNtUeMHxd2yKefza94Bds8HIx4271d/0hd5/yBSn0y6sdSJvOpB,p442_EhMHDx4NAB8BEAgBFxMMFwAW_RICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,44.5,right,False
+AneuX,idwmwIja2PrMjebkGi0UGDzi4esGc1FAlm6v7/rl8ObHXrxw3s7gww1iy3D3YR6P,p443_FQgRCRUGEAQBAgMdDAgNDRAW,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,28.4,left,False
+AneuX,JjGit+uTt2Pib+rG3bLcxT4lpzbzKego9IAyhFf2yvJ7lMY5pjHROR5Oot1ilXhH,p444_GBQVFBUGHRUHABgaFRQLCxoM,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,39.4,midline,False
+AneuX,JjGit+uTt2Pib+rG3bLcxT4lpzbzKego9IAyhFf2yvJ7lMY5pjHROR5Oot1ilXhH,p444_GBQVFBUGHRUHABgaFRQLCxoM,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,39.4,left,False
+AneuX,7//4kKVU3QtJTBaHHoyTFt4rO1+MLRT62p3x4qgLB11IankKVkgiHwyZlH5YVuFL,p446_Ag4WExkPBwQJGwkLAAgJEBAC_RICA,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,49.3,right,False
+AneuX,7//4kKVU3QtJTBaHHoyTFt4rO1+MLRT62p3x4qgLB11IankKVkgiHwyZlH5YVuFL,p446_Ag4WExkPBwQJGwkLAAgJEBAC_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,49.3,right,False
+AneuX,BI9q0RzsJHbzLVfxNU1VDJfCXS5xEtGP5w2mqE5sErYeBKTYzQehWHHsLRa0wL69,p447_GBQfAxUaBh8GCAQKABUGEBga,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,67.4,midline,False
+AneuX,BI9q0RzsJHbzLVfxNU1VDJfCXS5xEtGP5w2mqE5sErYeBKTYzQehWHHsLRa0wL69,p447_GBQfAxUaBh8GCAQKABUGEBga,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,67.4,right,True
+AneuX,BI9q0RzsJHbzLVfxNU1VDJfCXS5xEtGP5w2mqE5sErYeBKTYzQehWHHsLRa0wL69,p447_GBQfAxUaBh8GCAQKABUGEBga,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,67.4,right,False
+AneuX,,p448_Ew0TFBQNDA0SEAIKEQ0PEBEd,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,59.0,right,False
+AneuX,E1VKjgVp38e5Cw6QXsFS6o1F54JTHmFTxYim5koix0WPs/sgK5776zgY1RmsX705,p449_AxUHAhsRDBUGBg0WARUbBh4B,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,male,39.6,right,False
+AneuX,5oM7639lJ0OE+8L1awf8RvtyLGLdKOlhQhDKTj3afm+cd4kS8FzaZSg5sBbEYRXl,p450_FAQtDhwBBAQaFwcRFz4BCRwO,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,55.3,midline,False
+AneuX,o1upROi2V3A17915o3xoqzIWpdwUIJKDyGRJbAMHJtxpKc1B8NKm6z8ajr1GQEHr,p451_FwQADBEGGwQBGwMdHwAADBAK_LICA,hug2016,Geneva,HUG1,dev_primary,MCA M2,False,unruptured,0.0,male,50.9,left,False
+AneuX,o1upROi2V3A17915o3xoqzIWpdwUIJKDyGRJbAMHJtxpKc1B8NKm6z8ajr1GQEHr,p451_FwQADBEGGwQBGwMdHwAADBAK_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,50.9,left,False
+AneuX,ygnI4vEdNSvw3Ih1tnNx/VEWejDc9gyqORxIi7ZHq28cm8HalaQ/+npIvV22nN4r,p452_EQITDAAHAAANBgcCAg4cBBQb,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,54.3,midline,False
+AneuX,ygnI4vEdNSvw3Ih1tnNx/VEWejDc9gyqORxIi7ZHq28cm8HalaQ/+npIvV22nN4r,p452_EQITDAAHAAANBgcCAg4cBBQb,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,54.3,left,False
+AneuX,n/IIFEF44vA3hLh0fnB5z/uRJ2/B4JUFQDzA6N56nLvx8EgTDPnSeX5XNGrF1/bn,p453_FAQQDh4GFxcaCQoKDAQMChsW,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,male,26.7,left,False
+AneuX,,p454_BwQeDRkGFQQBGwMDHggAAhAK,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,82.8,midline,False
+AneuX,,p455_HQAACB8cBggNBBQGHRUaDBgZ,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,74.5,midline,False
+AneuX,wlX+u6yJi48nmecAFBTAC8ncIpunsHQwmn3NHQ8llRglYr9ZCFsza8dsSHhQn8PK,p456_BhQbDRwNDBQaCQoKBBQHCRkd,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,26.7,left,False
+AneuX,F6Jkz6pgKtagm9Ul8AsW1qBxtC1s/etOuswyb3h18UbTHwB41wo0/c6I9XBTncW8,p457_BA4ADxERDA4BCwcWBg4cCxQB,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,63.7,right,False
+AneuX,/GrOe2bMUV8lg5Dc2X6AJYO+ieXATmOvWdFDVFJXHFBP2JuL4YY330wqGdoq8OlC,p458_HQ4cDxUcDA4dCwMbHw4ACxAM,hug2016,Geneva,HUG1,dev_primary,BA tip,False,ruptured,1.0,female,40.6,midline,False
+AneuX,YrbxPJX5nedcF8gerRpWrdRT/Vo0Tv2Z2UVzbujFiSHE/b+AeEzWZ2VYjemP/Zm9,p459_FBQRExUcDBQQFwMbFhQNFxAM,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,71.1,right,False
+AneuX,,p460_CgQcBhUaDAQdAgMdCAQAAhAK,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,69.7,right,False
+AneuX,I9DmAro4Itu+EckDdruuf6RbULn7j1K/n20CRQrW71bJZoX7mLwd88X7uEMY00i1,p461_AgAECBUaDAAFDAMdAAAYDBAK,hug2016,Geneva,HUG1,dev_primary,PeriA,False,ruptured,1.0,female,70.2,right,False
+AneuX,WNjBajFSuPGeFHEtBpqBJA5fMfOxLm9hKtaze0lJACN7cLw6v9DqTU4fx/BPAsKe,p462_EwAADxURDAABCwMWEQAcCxAB,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,65.5,right,False
+AneuX,c9sEJLP/ZD1+/zSAHpmpgNnWP8w/mLgpCtwDU/RZaedIkgTR1nYtZGCgK4PRk3Pz,p463_AwAQCB8WEwMaChUOEAgBFhQa,hug2016,Geneva,HUG1,dev_primary,PeriA,False,unruptured,0.0,male,49.0,right,False
+AneuX,c9sEJLP/ZD1+/zSAHpmpgNnWP8w/mLgpCtwDU/RZaedIkgTR1nYtZGCgK4PRk3Pz,p463_AwAQCB8WEwMaChUOEAgBFhQa,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,49.0,midline,False
+AneuX,,p464_ARQABAMAGx8GFwMcGggfEAcd,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,52.8,midline,False
+AneuX,,p465_Ag4BBAINHBINChUKAAQAFgcX,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,45.5,midline,False
+AneuX,,p466_AAgeDRUcDAgfCQMbAggCCRAM,hug2016,Geneva,HUG1,dev_primary,PeriA,False,ruptured,1.0,male,52.0,left,False
+AneuX,,p467_Bg4HFRESDA4GEQcVBA4bERQC,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,ruptured,1.0,female,60.9,right,False
+AneuX,,p468_BgQAAAMcFwYGDBgKAAAdERAf,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,64.5,left,False
+AneuX,,p469_EQ8WExURDA8XFwMWEw8KFxAB,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,45.2,right,False
+AneuX,,p469_EQ8WExURDA8XFwMWEw8KFxAB,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,45.2,right,True
+AneuX,pgl/V1geMDLo4cS2g1ie7vDivSnwHxUBnQf3nElZ8df/zFMf4rSP6L2sfSNNJRjD,p470_Gw4EABMNBAgQGwkZEwILExwb,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,67.8,right,True
+AneuX,,p471_EhMXEhMBEx8BABUMGwAMFxAL,hug2016,Geneva,HUG1,dev_primary,PeriA,False,ruptured,1.0,female,55.0,right,False
+AneuX,/qR305Jqn3Fy1bkQQ0lu9hcqk7l9CBJ0Te+LHVLewyG3flFlLz/tbFX9YpEciISD,p472_HAAACAYBFxMWGwcdGxcHAAcd,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,46.8,left,False
+AneuX,h65mWak4w3pOzGC/W7uEHD01cSg9KPpm4wXkG0ST/ZFvE8FO1Zb4irBXtqEQJYEU,p473_AxQRCRUcDBQQDQMbARQNDRAM,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,50.2,midline,False
+AneuX,SsNilglP8++P7TCFsVrzdMpE9YTXPWUyWF+DnWM5Loqx9Jr+TqYNEeckqiYDVz/f,p474_FAgdFBYWGw4GAwIGHRQIARwX_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,36.8,right,False
+AneuX,SsNilglP8++P7TCFsVrzdMpE9YTXPWUyWF+DnWM5Loqx9Jr+TqYNEeckqiYDVz/f,p475_FAgdFBYWGw4GAwIGHRQIARwX_LICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,36.8,left,False
+AneuX,,p476_Ag4RCREcDA4QDQcbAA4NDRQM,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,59.3,midline,False
+AneuX,,p477_EgAIDgYNABMKGwcVHRcLFwcB,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,36.6,right,True
+AneuX,fF34JkQv2KMv5C7BCXTF6jadnMK3KueQ5yEpn9uS1aOr08TWbgwVxY5M13HdnvfY,p478_FhMdEgMJAAUNFwkcAQAcARMK,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,40.7,right,False
+AneuX,jwH0EKuRTsp/iWQ1cF8WzWftO3gh+vg4E2cJ5A0R7M5GCGcQnkxNgrNXf9OYF1DO,p479_FBMdGw4aHRsXFwkVFhMBHxEK,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,67.7,midline,False
+AneuX,,p480_GRIXDxkWAQQdDA8cFw8HDAYd_LICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,42.1,left,False
+AneuX,,p481_GRIXDxkWAQQdDA8cFw8HDAYd_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,42.1,right,False
+AneuX,fay+K4ILbB8aY7dDLkJrX7ucl5Y0XK/REiRCtBWNO1mLpqeb0yrITYJzf2GUCluI,p482_AwAaCAQBDAAbDBIGAQAGDAER,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,male,54.3,midline,False
+AneuX,g/uLQorK1y43VZPizSOtv4SaOSte9eJlo4p8PAZnpIdWDsHK0g/LyelNXci3vD1a,p483_CQABEhkGDAAAFg8BCwAdFhwW,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,47.8,right,False
+AneuX,g/uLQorK1y43VZPizSOtv4SaOSte9eJlo4p8PAZnpIdWDsHK0g/LyelNXci3vD1a,p483_CQABEhkGDAAAFg8BCwAdFhwW,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,47.8,right,True
+AneuX,,p484_FwgADhQWGxMcAQEGAA4KAhwK,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,67.0,midline,False
+AneuX,OPwMIsEW3ntVqILhqZUcM5IRJRbesOEcFNPB+f2x5ltd/m3t6HPdg/HyZI52jo15,p485_FwkXAwINHAQUEBURGgQMFxAW,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,ruptured,1.0,male,37.0,right,False
+AneuX,ayzXlwr+1OfszYaMCsT0uNNRMsmvORTvGExL3bxac0pivF4yVC2TZXMsN/xtj2Ix,p486_AwQAFxEBAR8WFxAOGxIdAAcO,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,51.4,left,False
+AneuX,Go0SylvcNc36MzSJr6fqwc6R/n4mmcoW2AD1Z7lPQMeMWZloJcOQTdgt28YsYlJD,p487_BwAVBB4WEwYWCxEOFQQAEhQf,hug2016,Geneva,HUG1,dev_primary,PeriA,False,ruptured,1.0,female,48.8,right,False
+AneuX,jF05LauiYoucpu9UYEjm6byPj+UvRQwyDH8dwW0uNUHVv9a75P8Jvv/T2ShEztmS,p488_BAkbBAIRDAkaABQWBgkHAAcB_LV,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,51.5,left,False
+AneuX,jF05LauiYoucpu9UYEjm6byPj+UvRQwyDH8dwW0uNUHVv9a75P8Jvv/T2ShEztmS,p489_BAkbBAIRDAkaABQWBgkHAAcB_LICA,hug2016,Geneva,HUG1,dev_primary,ICA chor,False,unruptured,0.0,female,51.5,left,False
+AneuX,jMdEj3oNxh70zvItct9ePBn9W3gsXSE544TkpkF0YrXPy+U+kCBkEf0vCrG5drnV,p490_EhMHDx4NAB8BEAgBFxMMFwAW,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,48.4,left,False
+AneuX,GTc1xprAu/mzKYdi37fOhbayxKclplJ36kHDVNxL87xE6zAUwcheem5YnsRY6keV,p491_EgQcFxUGBxUaGwMBBAQAEAER_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,71.0,right,False
+AneuX,GTc1xprAu/mzKYdi37fOhbayxKclplJ36kHDVNxL87xE6zAUwcheem5YnsRY6keV,p491_EgQcFxUGBxUaGwMBBAQAEAER_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,71.0,right,False
+AneuX,GTc1xprAu/mzKYdi37fOhbayxKclplJ36kHDVNxL87xE6zAUwcheem5YnsRY6keV,p492_EgQcFxUGBxUaGwMBBAQAEAER_LICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,71.0,left,True
+AneuX,JCBr6POQ7DiaRPx1zIQnvSQpG8uqj1Uf74bPkTVuZczYho2kGcHOTGmQl5SR9Kdt,p493_AgQbEi8aGwMWDBQADAQHFioK,hug2016,Geneva,HUG1,dev_primary,BA tip,False,unruptured,0.0,female,53.7,midline,False
+AneuX,,p494_FwARCR8dFh8SBg4ABwUJBBYQ,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,70.1,right,False
+AneuX,,p495_AAQAExkGDAQBFw8BAgQcFxwW,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,55.8,right,False
+AneuX,,p495_AAQAExkGDAQBFw8BAgQcFxwW,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,male,55.8,right,False
+AneuX,4gfBCuNuBMoJjPmG9wfnJannXCgQ2QThlFV7eAhqMbf1kkCpGu3tjmS6xuCORscg,p496_HQgeCRkcDAgfDQ8bHwgCDRwM,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,58.4,right,False
+AneuX,pp0rWCXaGWM7sJD41W0/qKk8hPgWdhYZMXvGDxoceH9wkHWufFk+7MKP4E0wbIFV,p497_AwIaCBUbAR8QDQ8KARIdBh0R,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,57.8,right,False
+AneuX,,p498_Fw4fBAoWHQwWHwEAHwQUAhoV_LICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,male,60.5,left,False
+AneuX,,p499_Fw4fBAoWHQwWHwEAHwQUAhoV_RICA,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,60.5,midline,False
+AneuX,,p499_Fw4fBAoWHQwWHwEAHwQUAhoV_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,male,60.5,right,False
+AneuX,KVCQqJt+EDRRZZHiMKZojfWjz5trNUpQITdsYX63MG084fgB2w8E2AUCc9CssAW9,p500_FAAtEhkEBAANBDkcGw0YBBEZ,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,47.9,left,False
+AneuX,Mmar9dx8VJDtY2ZoNgRi+fq2T0em1nTtW2w06mvjQdxTeJCBbfZZfZJGoH139Mcq,p501_GAQWCBcNAB8WAQ8IFxMGABER,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,48.6,right,False
+AneuX,,p502_Ag4LHx8RAA4KFwkWAA4XFxoB_RICA,hug2016,Geneva,HUG1,dev_primary,PeriA,False,unruptured,0.0,female,49.6,right,False
+AneuX,,p503_Ag4LHx8RAA4KFwkWAA4XFxoB_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,49.6,left,False
+AneuX,srOSx4aE3LjbfKLHYGmuOEN5GAj8WtnNIS/Qzs53PMcspicg9uvEZwMRtK0xO2Bv,p504_Gw4dHx8HGQ4cDgkAGQ4BDhoX,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,62.4,right,True
+AneuX,,p505_FwQAAxEdHhUNABQNExQCERId,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,male,65.1,right,False
+AneuX,W/x9LL1TsB9m6Y9KCVtoLLJFbLNgzOWN7slyQzPdyerSoXOiuzC57MeHXFsWCNiz,p506_BgAeAhUbEQkaCw8REw0NAAYb,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,43.4,midline,False
+AneuX,7dg+kepW8MOHSVWmngGH5tGgem3BN/TxLifl8BRt8djxmKQy+XJg+Vs/UCy8QHEw,p507_BAQfERUEDAQeFQMDBgQDFRAU_RICA,hug2016,Geneva,HUG1,dev_primary,PeriA,False,unruptured,0.0,female,68.5,right,False
+AneuX,7dg+kepW8MOHSVWmngGH5tGgem3BN/TxLifl8BRt8djxmKQy+XJg+Vs/UCy8QHEw,p508_BAQfERUEDAQeFQMDBgQDFRAU_LICA,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,68.5,midline,False
+AneuX,7dg+kepW8MOHSVWmngGH5tGgem3BN/TxLifl8BRt8djxmKQy+XJg+Vs/UCy8QHEw,p508_BAQfERUEDAQeFQMDBgQDFRAU_LICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,68.5,left,False
+AneuX,48TB4mtFDWnebiA5cWFC0UH68Sc8DYssuxiS6AwqLuqPbcyNFatUvLzlFEevDLFJ,p509_EhMdAhgBFxMNFwkMGggLFxcK_RICA,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,59.4,midline,False
+AneuX,48TB4mtFDWnebiA5cWFC0UH68Sc8DYssuxiS6AwqLuqPbcyNFatUvLzlFEevDLFJ,p510_EhMdAhgBFxMNFwkMGggLFxcK_RV,hug2016,Geneva,HUG1,dev_primary,PICA,False,unruptured,0.0,female,59.4,right,False
+AneuX,,p511_GAQAGw4NABsbABQVGgQcHx0d,hug2016,Geneva,HUG1,dev_primary,AComA,False,ruptured,1.0,female,46.6,midline,False
+AneuX,3i/jpZaw3RG49cQ/lPr6qzSGXl23sP9fa85DCvi4EdqUmFIR4tb9wr0cW9OBY0v6,p512_FQwfAB4dFw0fDBgCHwAAEBAU,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,68.2,midline,False
+AneuX,,p513_BA4MDgQHBg4HChIABg4aCgEX,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,ruptured,1.0,female,52.7,right,False
+AneuX,ZhXFiksZ/xAVELuI5KmDn219pUQIx620gFSXyMBCgcOTLCNRaFHXl08UDXo7I2bU,p514_EwAfEREGEx8SCBYOHAANBBgI_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,ruptured,1.0,female,50.5,right,False
+AneuX,,p515_Eg0TDxMHDA0SCwUAEA0PCxYX_RICA,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,35.8,right,False
+AneuX,,p516_FAQEBBwJCx8WEwMDExgKAAMd_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,65.1,left,False
+AneuX,,p517_BAgfDgUbAQAKABgGHw4bFgYZ_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,49.7,right,False
+AneuX,STRHvYH6PCoJjbIWhVXdkaFW2LMnt2Bwq5OAvHhGXVovHEvwGENb4ESG723mrH3X,p518_ERUeAB4WBg0SCwcbHgAABAEU_RICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,56.0,right,True
+AneuX,STRHvYH6PCoJjbIWhVXdkaFW2LMnt2Bwq5OAvHhGXVovHEvwGENb4ESG723mrH3X,p518_ERUeAB4WBg0SCwcbHgAABAEU_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,56.0,right,False
+AneuX,STRHvYH6PCoJjbIWhVXdkaFW2LMnt2Bwq5OAvHhGXVovHEvwGENb4ESG723mrH3X,p518_ERUeAB4WBg0SCwcbHgAABAEU_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,56.0,right,False
+AneuX,quP+TDKKuYvssY9276Smo2VQvjchSSzM3hN4yifFJWnwo/RwH/P5Pco5NTDUlrOC,p519_EgAeDBUaDAAfCAMdEAACCBAK_LICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,61.1,left,False
+AneuX,vnTrsxR6t/c3RV/iscyMIeMoBXmx+Q4rv5TIJgMIXXjmMgWodVaWVGaqRyOZYP7N,p523_GgARAhEaFh8SBgUOAAUEBBYb_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,female,50.2,right,False
+AneuX,,p525_Ag4BBAINHBINChUKAAQAFgcX_LMCA,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,69.6,left,False
+AneuX,,p525_Ag4BBAINHBINChUKAAQAFgcX_LMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,69.6,left,False
+AneuX,1JKOlVUKXsL/zkyN02eTbdMMA0bKdf2iCPiWPqyVwqwEzuYgikEdOgjGwdKrs3jt,p526_EwkTDxUSDAkSCwMVEQkPCxAC_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,74.7,left,False
+AneuX,d/PKrggewjWWfHyADZ8kF3CDSGL6thsNBQYuWKkdvMGU0oeTNYNr53RKcTwv9TbG,p527_Eg4ADxEGFh8cFwgOHAUMCgcW,hug2016,Geneva,HUG1,dev_primary,PCA P1-P2,False,ruptured,1.0,female,53.3,right,False
+AneuX,JZXDz6ClHNyLApOyjroi1+aMV+0o3k1HjxvFLxq14Spme8MFfrqdP8Ijn2x5BbzX,p528_BAAEAAINAR8SEwcdFxIaBAMZ,hug2016,Geneva,HUG1,dev_primary,BA tip,False,ruptured,1.0,female,47.5,midline,False
+AneuX,JUKp5yxIxtjH+noPUb8AhVxX81+lPtGM6Ic3yrkBfKtlvmdxNvIyLRXlZD2moBuL,p529_HRQcEhgWBw8ADQsaHBIGCAAW_LICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,44.8,left,False
+AneuX,,p530_AAgcCR83HgQaEQMRGw8GCioU_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,55.3,left,False
+AneuX,,p531_AAgcCR83HgQaEQMRGw8GCioU_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,55.3,right,False
+AneuX,XSs8QJJ36TsO3xTubYlJjR/0z2wbJz7L9WdR+/10Xmzdw147cOuCaiAV33pgH8yd,p532_EwAcCAYNCB8SCw8ZFxsNBBsR_RICA,hug2016,Geneva,HUG1,dev_primary,ICA pcom,False,unruptured,0.0,male,64.0,right,False
+AneuX,,p533_BhQRCh8eGwINEAUEHRcHBgMN_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,59.2,right,False
+AneuX,,p533_BhQRCh8eGwINEAUEHRcHBgMN_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,59.2,right,False
+AneuX,e7F3ev5CcwF3G7fGWrfg+XQWW0oYHt0jzYBjaIrqXO05PyAF9JBir0+4owmwSm2q,p534_Ag4BEhUcDA4AFgMbAA4dFhAM_RICA,hug2016,Geneva,HUG1,dev_primary,ICA bif,False,unruptured,0.0,female,64.6,right,False
+AneuX,IzooiGinlBV0w9/pc05hbbBM+uxp45EDQPTVjqIko8GJuuM7u5+5ceKNmKR8wDV8,p535_FQ0QEwkLGhUNCQQdCwIGERAU_LICA,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,male,34.6,left,False
+AneuX,+w2e3WGTZST3xoon+qk+cf71hgzkkcv4L4PqtsYiqZvf8bWVadb6m1vO37KXGxzG,p536_GBQVAAMWBwYSFg4aFQAdDQAf_LICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,42.6,left,False
+AneuX,+w2e3WGTZST3xoon+qk+cf71hgzkkcv4L4PqtsYiqZvf8bWVadb6m1vO37KXGxzG,p536_GBQVAAMWBwYSFg4aFQAdDQAf_LICA,hug2016,Geneva,HUG1,dev_primary,ICA para,False,unruptured,0.0,female,42.6,left,False
+AneuX,96E/S8mRt4JoVFv9Se/9HZ7R+CtgBVPQK8mfg2N0p+3EQGUTzwgIa58RN9yMvNcy,p538_EgAAAxUSExUNBBQNFxsPERcZ_LICA,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,male,61.1,midline,False
+AneuX,,p540_FxQbDRwNBh8GDAoDFxUJEBwU_RICA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,69.3,right,False
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p541_AAgRAAIMLQYGDAEBHQ8xNzw7MQ==_Acom,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,48.3,midline,False
+AneuX,Y3v6alEzFEUzNYeuyno6cPvYK+w9aq+LkFB3tuu4tu11aqSyvcmJlrZsInQXfWiU,p541_AAgRAAIMLQYGDAEBHQ8xNzw7MQ==_Acom,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,48.3,midline,False
+AneuX,DSSJpXivrwaFDOp4kOnZsdFqdWVuNVLNmxb/5PLxrpny9ttegl90UvDbl2KrSq5c,p543_HBQcAAIMGx8GCwcdFggCEBsZ_Rpericallous,hug2016,Geneva,HUG1,dev_primary,PeriA,False,unruptured,0.0,female,59.0,right,False
+AneuX,,p544_BBIbFR8bDBIaEQkcBhIHERoL_RICA,hug2016,Geneva,HUG1,dev_primary,AComA,False,unruptured,0.0,female,71.9,midline,False
+AneuX,bC+5MIqDhrqqcC5HnK+ChsAf8ixd3srzdf5JWoEe+aGVV7u/Rzsqc9iPtjf5/cAt,p547_Eg4cDxUeGwQNCggBFxcHABcX_RICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,66.9,right,True
+AneuX,4FtfLLRPHSuwJGqFcAxmBvDRaeq5fPjKQG1i7MLb2/jYFrDmwQMWuI8FUEV18w7Z,p548_FAAtDQUSDAAsCRMVFgAxCQAC_LICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,43.9,left,True
+AneuX,fq4CZMnPbaW+HkqwUo0zeFSRQgjENKAWZ0v0NvJVXbqqDrcsfg5mBdJlPMHbjFyA,p549_AwAeAA4JHgAABAoOAQACBAYZ_TB,hug2016,Geneva,HUG1,dev_primary,BA tip,False,ruptured,1.0,female,54.7,midline,False
+AneuX,,p550_Gw4aDwQHAhENCg4BBg4eFR4X_LICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,female,33.3,left,False
+AneuX,9418rk2UBlPqfRR3i+xSBSsbxfwTMlWxDL67eRO89iBGs6PsFBWOBYtheG1MtU8f,p551_EwkdAxESDAkcBwcVEQkBBxQC_RMCA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,79.2,right,True
+AneuX,9418rk2UBlPqfRR3i+xSBSsbxfwTMlWxDL67eRO89iBGs6PsFBWOBYtheG1MtU8f,p551_EwkdAxESDAkcBwcVEQkBBxQC_RMCA,hug2016,Geneva,HUG1,dev_primary,MCA bif,True,unruptured,0.0,female,79.2,right,False
+AneuX,yAPDczXAE3rtQq7lLvkXgFSH9EdXbsp3Giy44IoA0XyeKZi9j1eBwp1zLIMtuKs7,p552_AwkTAxEGGx8bBAQOHAgdDRQa_RICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,57.4,right,True
+AneuX,yAPDczXAE3rtQq7lLvkXgFSH9EdXbsp3Giy44IoA0XyeKZi9j1eBwp1zLIMtuKs7,p552_AwkTAxEGGx8bBAQOHAgdDRQa_RICA,hug2016,Geneva,HUG1,dev_primary,ICA cav,False,unruptured,0.0,female,57.4,right,True
+AneuX,m5ylNclUq/8k9T3ByIw0z3CW0IlEBS6yuBkcmUK0SOhi+Ah0V9lI/V4drZU19xk5,p553_FxMTDxQCFwAdGxQOHAUEABQW_RICA,hug2016,Geneva,HUG1,dev_primary,ACA A1,False,unruptured,0.0,male,40.1,right,False
+AneuX,m5ylNclUq/8k9T3ByIw0z3CW0IlEBS6yuBkcmUK0SOhi+Ah0V9lI/V4drZU19xk5,p553_FxMTDxQCFwAdGxQOHAUEABQW_RICA,hug2016,Geneva,HUG1,dev_primary,ICA oph,False,unruptured,0.0,male,40.1,right,False
+AneuX,ayzXlwr+1OfszYaMCsT0uNNRMsmvORTvGExL3bxac0pivF4yVC2TZXMsN/xtj2Ix,p554_AwQAFxEBAR8WFxAOGxIdAAcO_RICA,hug2016,Geneva,HUG1,dev_primary,MCA M1,True,unruptured,0.0,female,51.4,right,False
+AneuX,,p555_AAQAExkGDAQBFw8BAgQcFxwW_TB,hug2016,Geneva,HUG1,dev_primary,SCA,False,unruptured,0.0,male,55.8,left,False
+AneuX,RXoUj5b6IIY5ewVFnY1ML51sufV36wf3Ul8angRZHE5a6DE0B/4l4ImB3WEq/AAd,SNF00000024,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,49.01,,False
+AneuX,mvZ04opNMEUYi3YwnsCG8xZtTna46wbsx/fXi6hx38lKwwIQqSxjUIPdtZaV0vsx,SNF00000026,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,ruptured,1.0,female,66.4,,False
+AneuX,R781LZFUCtKZjsv56BuMlg3iprYva0X8MRUxBgi7v0DDyU9n6MLJk6ps1BJ6IIij,SNF00000027,hug2016snf,Geneva,HUG2,dev_sensitivity,SCA,False,unruptured,0.0,female,,,False
+AneuX,z9TmziSilPktfAwjpAI6wm77aFh08wYwyMf+0A1acE7WfCVuicoUb7y7pzX890oO,SNF00000036_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,70.78,,False
+AneuX,z9TmziSilPktfAwjpAI6wm77aFh08wYwyMf+0A1acE7WfCVuicoUb7y7pzX890oO,SNF00000036_02,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,unruptured,0.0,female,70.78,,False
+AneuX,xu1fUgmpohPq22Bi+qSzA+orWGFAuhOiUfhCJd0Q41fDMIOyzHRUzw/tY+UTqEL7,SNF00000048,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,unruptured,0.0,female,78.48,,False
+AneuX,gCJQxPLMhVQrjnqtclZ8P+BKu7tD8kzgtkNiK5jeG198Cdx+fOwC1oLZfYE1n72J,SNF00000049_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,,,False
+AneuX,gCJQxPLMhVQrjnqtclZ8P+BKu7tD8kzgtkNiK5jeG198Cdx+fOwC1oLZfYE1n72J,SNF00000049_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,,,False
+AneuX,gCJQxPLMhVQrjnqtclZ8P+BKu7tD8kzgtkNiK5jeG198Cdx+fOwC1oLZfYE1n72J,SNF00000049_02,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA cav,False,unruptured,0.0,female,,,True
+AneuX,gCJQxPLMhVQrjnqtclZ8P+BKu7tD8kzgtkNiK5jeG198Cdx+fOwC1oLZfYE1n72J,SNF00000049_03,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA cav,False,unruptured,0.0,female,,,True
+AneuX,OlkmQb6T2jut/SYEtZ4U+3yzsNWfj7zENF7DrliH4cecJzRH4YhvGRkhZuVY1AHF,SNF00000054_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,male,57.31,,False
+AneuX,OlkmQb6T2jut/SYEtZ4U+3yzsNWfj7zENF7DrliH4cecJzRH4YhvGRkhZuVY1AHF,SNF00000054_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA cav,False,unruptured,0.0,male,57.31,,True
+AneuX,r8fs7QzVAUMVBoiUsNVx4vCKsEz+OpGEtZvvcC74ShntTqYV3pepHguvSmouxBh1,SNF00000055,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,61.38,,False
+AneuX,wH8uzPRwmCAo9TYsbdxiHreqWIGMcEwLQgYvNIt3rYjeAPurccTibBTKdhMRdPg5,SNF00000059,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,ruptured,1.0,female,,,False
+AneuX,z/UvLu40t5S+yGn6Zwflku1qxhR7EYhKOKpp7YVSL38WI2Chci5MRpb48zTiLspf,SNF00000063,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA bif,False,unruptured,0.0,male,39.69,,False
+AneuX,S6nkbOm9or5FDwznSprDrIuSFyJTpJM51ctCi8N2fVyFDPH5abJZRxxs6AGe3U9F,SNF00000070,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,54.13,,False
+AneuX,/QfHh9muRwng89FC1Mbc7a0fFYli4bdoIxogqUZp5QUrNaL0dgC1Eddd85w4m2Ee,SNF00000071,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA chor,False,nan,,male,47.34,,False
+AneuX,E4LGpeVNXHyy/B6gt6XtlxASONCZGNaTkBIoUdeigUMPKDa3BbWWSFOdGTkYYw+z,SNF00000074,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,52.95,,False
+AneuX,+ViPVIUWhsaPtkc8AmIjUljNtxwZk4KFirLB4IiQBylXgwaaWAa7PdTNvVAuPVAE,SNF00000077_01,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,female,54.22,,False
+AneuX,+ViPVIUWhsaPtkc8AmIjUljNtxwZk4KFirLB4IiQBylXgwaaWAa7PdTNvVAuPVAE,SNF00000077_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,unruptured,0.0,female,54.22,,False
+AneuX,wEA1JkGdW/oTjt7Zjzo2B2dJY7bTiAqqFLyEL81kZkzaLcoa5lc/jWK0oZKYWrQp,SNF00000082,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA bif,False,unruptured,0.0,female,,,False
+AneuX,Fd3hdBUUSUMSby43MBO6r12QEPazi3+rGEMaIgNvpdESfCo8WJ2XisXr/0NoZcpP,SNF00000090,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,62.87,,False
+AneuX,0cavRFWWd6ncTaScvfTVy6ZUiXnm9nHpLzc7faj1DXWrqHGssN64WlDMhHzq1mMC,SNF00000094_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA chor,False,ruptured,1.0,female,40.1,,False
+AneuX,0cavRFWWd6ncTaScvfTVy6ZUiXnm9nHpLzc7faj1DXWrqHGssN64WlDMhHzq1mMC,SNF00000094_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,40.1,,False
+AneuX,jN/BwLbDm+qnyXebllO1ooE6wBPkbJqjq96JDdtpoVhG+CEOGEIoXFEbbxS0JFqT,SNF00000095,hug2016snf,Geneva,HUG2,dev_sensitivity,PICA,False,ruptured,1.0,female,45.78,,False
+AneuX,eKivgCYyM4Zr7jdEEWjwF2TYgfeHfZITTVCarEK92ewJmw8B+95IUM121c7hEuln,SNF00000100,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,ruptured,1.0,female,46.71,,False
+AneuX,BLxcvqrq9NbbrNSrrHwhM9Tqgh4vchN7MRWjdLAYsnmiUfW8Ot8/4c6t5JZ9wq4i,SNF00000114,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA bif,False,unruptured,0.0,female,23.58,,False
+AneuX,IfOZlxJZexN9DPxYzzsQMqxtL86hBQE6OQtaoKwD2B2FaapnXFpXfoAyteFvywe4,SNF00000125,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,unruptured,0.0,female,26.31,,False
+AneuX,ivBSkA/VNbdDrDU+31YXBdwJ7flS6gf8kubeX5w3ZrVdK38pBnj9GYC4V9lobq7e,SNF00000126,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,unruptured,0.0,female,,,False
+AneuX,gsFrSUIK/turW8YT3YP9LylBKXbHPyKc+IWpM2vk3vd+XV4RJS6+lufJn+6CHW8b,SNF00000127,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,nan,,female,,,False
+AneuX,NUSYtk0Ir7j3F+cSDOw2d4O3843NpqMqvLTZnh0P6skWfl29QFILQwBUm5Ri8nC6,SNF00000128,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,40.89,,False
+AneuX,LXyyZUrV6H8N+bAz4OrZBc+Z4EMITIHkFlZKLvwsRfZtxMseXGQhjpUzcjMsJcKb,SNF00000130_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,,,False
+AneuX,6dRgu0ai7DAZfwD1d8eGgNbkGF+NfMRv++TUePAdpYNdKqRR6td2wVW8c3YAJYaf,SNF00000134,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,nan,,female,,,False
+AneuX,voqxK15vQypfHVkQ5RxdRnk/Xez3PzC76xnKkvWRfq2YF1MPBBZ9rSjG590zhFup,SNF00000135,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,44.69,,False
+AneuX,arC5LIO/r1/oBd7OTX+QCoCWe2LwCQ3DvVa7Totn9oo6iHP2AB/1NZfRgg/HfM1N,SNF00000137_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,nan,,female,33.44,,False
+AneuX,arC5LIO/r1/oBd7OTX+QCoCWe2LwCQ3DvVa7Totn9oo6iHP2AB/1NZfRgg/HfM1N,SNF00000137_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,nan,,female,33.44,,False
+AneuX,FTbkNx3EzrDYK51wbUI+apScO1WRtry+TxqvPpcoZpcZZNjhgIrD7YNjAWPQpUoX,SNF00000141,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,62.47,,False
+AneuX,xAMpM4JL7CQKMcuC4Y3btqlLESkbKZh0s/T6jz/NZk7vuWmVaw0fugsqMkPVAhGb,SNF00000142_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,60.11,,False
+AneuX,4AYZCAwgWeCzvV22RWiVK4WzezoIP/ep8eBKY4UuSh7eQyLwnd/bdBpernwtULZT,SNF00000143_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,42.8,,False
+AneuX,4AYZCAwgWeCzvV22RWiVK4WzezoIP/ep8eBKY4UuSh7eQyLwnd/bdBpernwtULZT,SNF00000143_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,42.8,,False
+AneuX,5+3/sNi1y4EfjNSmWP57+9KJXVx1l9dYYGIuB1kKL8cXNdEHkKTQS4AROCz4CjAv,SNF00000144,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,77.89,,False
+AneuX,RRF8BZdctw3sjMkINFvzxl7CBJy2OjRQbnrEJu+cRTb0A5SeG/kv3/qQRMZEe5Mn,SNF00000146,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,unruptured,0.0,female,40.49,,False
+AneuX,sQuvmvcNIbUVkG1vquv0kLMa3zwNk3t8Os5ozoH4nBNwSoLygsxhRsTvE/P+wVDB,SNF00000148,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,ruptured,1.0,male,47.41,,False
+AneuX,E+qPv/0QCYT6tAoinbo47BQo6jfqbTrPRiCIwFFX5DuVi1qMyMiQIIUzjQ99NZZX,SNF00000152,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,male,,,False
+AneuX,oNV997zqOpxQP8itWMAjNdoOumaS70Wxs6J8MR9BxfE54LxbMlCd955RwV2pxnNT,SNF00000154,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,,,False
+AneuX,kC3RpnbvjkpUNvFS33lCGhxLiEJwgw4de1SioDR7O5v2aM+5TPy9zhKJR6Va4STs,SNF00000155,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,nan,,female,,,False
+AneuX,v1JqSP00nB2+xq2ypwwViUVg4M25WGp0x+uhfV1Ptuf7x+afsY1kErTgVYbZ0Tzb,SNF00000173,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,unruptured,0.0,male,55.43,,False
+AneuX,jlLKZilYI/r9kIijNbVua4XpwLQkxzt7I9JkTL8NlDbOWkZXb5tLmcSRHKlKLyhn,SNF00000175,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,male,63.58,,False
+AneuX,+utwPEkbS+zhOswtelqnqTvwSIeSWfGxvwgCDKt1AsvHMk5u2U72gSarvqG3F/EJ,SNF00000185,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,unruptured,0.0,female,62.92,,False
+AneuX,4TLtxvBr7BwkdaFWiX4bUBpNDJT3Q8MSktj2xhYEwcmObhXjyo2mIuoQd50V84IA,SNF00000186,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,,,False
+AneuX,q6sLd3H4pGWFMFn2t+hwQCcCRipMbDf0nQuF+ER97TLPZYVmx1ro4f5kt+cuKalo,SNF00000189,hug2016snf,Geneva,HUG2,dev_sensitivity,BA,False,unruptured,0.0,female,44.92,,False
+AneuX,Bp1fMMN7YjqJXHXElxBzZ0Vt9P7JRqX0ZQw8RN0haX3d0BpMybvWZwTbB/ZrZE5v,SNF00000208_01,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,unruptured,0.0,female,66.14,,False
+AneuX,Bp1fMMN7YjqJXHXElxBzZ0Vt9P7JRqX0ZQw8RN0haX3d0BpMybvWZwTbB/ZrZE5v,SNF00000208_01,hug2016snf,Geneva,HUG2,dev_sensitivity,PICA,False,unruptured,0.0,female,66.14,,False
+AneuX,iiYlzmQsZuWHZSvCq0ElvcBEjEf7Z2j1yn2BZomEYM6mOIdIs7J5FpanhgRM2Jj0,SNF00000215,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,60.73,,False
+AneuX,9qtzNQ3BOhaVccoHGuUlbqA8j4DGD82V6u3aHTeKKK09/UwQ7g9WH9ZZrpM23wGA,SNF00000227,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA bif,False,nan,,female,45.1,,False
+AneuX,r8+L/hUtwHOeBPVJ2APv/SF4hvCOi124FK7tPSy3NO/PB7CWmbrCm4g7XimzZq2T,SNF00000228_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,,,False
+AneuX,r8+L/hUtwHOeBPVJ2APv/SF4hvCOi124FK7tPSy3NO/PB7CWmbrCm4g7XimzZq2T,SNF00000228_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,,,False
+AneuX,XFwYq6vXULwmz10fJv7PrjXAYd1WFFFo90XOOoULirfLnHWdr5ZLa5YA/HTnznqf,SNF00000244,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,nan,,female,,,False
+AneuX,acOdy09ucQqB70UqZxo9BKIwT3bZa2vBufyIh4R3SntN/gbzIMsAYE1NCeePPfbh,SNF00000252,hug2016snf,Geneva,HUG2,dev_sensitivity,BA,False,ruptured,1.0,male,39.26,,False
+AneuX,K8CDR45/dnQ0rut+XZTp2u33dv/rKhVuZua+uwPBRsA+9vqAZ4MRSuxcgpeuiHA/,SNF00000259_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,ruptured,1.0,male,,,False
+AneuX,K8CDR45/dnQ0rut+XZTp2u33dv/rKhVuZua+uwPBRsA+9vqAZ4MRSuxcgpeuiHA/,SNF00000259_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,male,,,False
+AneuX,y78HgrDV5+SU44oiIYLGWISXH77M4iGpXxc+Yz3RcVsQbYGBteEhhrjMhrjxZHTc,SNF00000261,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,female,55.32,,False
+AneuX,pBiqBqUVD2k2XIXR9L2YEi3R7v1LbINW3q1xZHPARblxJqU6XUf94Oggxe4cCkzi,SNF00000267,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,female,72.63,,False
+AneuX,joiiWILVi6JyLVDiD2FhkTbpu2Pbcz9cZQdwYuAeKkt3bMce+FNbGErTfTdSStUQ,SNF00000270,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,44.17,,False
+AneuX,mk63eAk/T3Ml8nNYoceNEa634V0OdiCECQS+f3wJXFO150+PEkYazOVJ6ylAjnmQ,SNF00000273,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,67.41,,False
+AneuX,N7eZSZ88+935KQkG/SSriMciQPNtJZUiE7ubZq2tg9HIwQFXBNBGsxuUCvks1z9P,SNF00000284,hug2016snf,Geneva,HUG2,dev_sensitivity,BA,False,ruptured,1.0,female,74.53,,False
+AneuX,nvO6pkwzOv3qhn2wpqHxy7Dmgl4f5s8Fpmq+hlzoLWynAjEum2hm9WYqV11zCaqD,SNF00000285,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,ruptured,1.0,female,,,False
+AneuX,KQ4MWAPvXq0sh63A5iLG9/G3OXIIqdm4ld+79jUYLEMDxoAbzdCg4u9fITG/kA0S,SNF00000286,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,female,72.45,,False
+AneuX,qWslGiO1KHKy55J6hGSq0njc2ouGUejA86yPhOpVKC+FrvSuxIB0SEI4s8rirfJ+,SNF00000294_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,male,57.3,,False
+AneuX,qWslGiO1KHKy55J6hGSq0njc2ouGUejA86yPhOpVKC+FrvSuxIB0SEI4s8rirfJ+,SNF00000294_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA chor,False,unruptured,0.0,male,57.3,,False
+AneuX,+yjbtjV09TE/yhEg6orGR2DWXj56r3Myz+0my9xQM0Cuoq0/H6fHiIDwGzJcrT90,SNF00000303,hug2016snf,Geneva,HUG2,dev_sensitivity,PCA P1-P2,False,ruptured,1.0,female,52.27,,False
+AneuX,rGTKNRh7ZmNyIcRRaaywuLog/nibijitJILb0VXljuiUOswiXFqWjKSQGdKxN37l,SNF00000309,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,34.78,,False
+AneuX,eaUK9yTKfBePTsDBKS8idguoc31PHjWw1gODCdXcMfl5j0ralNm+TlrPyy6nE3p9,SNF00000316,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,nan,,female,58.12,,False
+AneuX,5eLr7Lpa9ukytFXAd7/UChDK0Tlt7dVLDG6Ik9B+JVh6Eq1i+TUs6zGm/qVtG7Cy,SNF00000332,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,male,48.82,,False
+AneuX,c6uKot232K2OKC1i0OG0hpO3vdPOWxHCYkJNtgFU0+lxKTt+AnbGbGTh4bFTar/2,SNF00000335,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,male,54.74,,False
+AneuX,DUELDAphHL8oFwQrqE/xWYJfyirCCqG6DZQPUbreMNye47wqGs8TizNBNYTGThjK,SNF00000338,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA chor,False,unruptured,0.0,female,35.84,,False
+AneuX,9uaXr4c2IBrCtecAytQspOzyjGSe5bY5DNgzFi5tYsQGeAgCRJABGZbyP/aRtghV,SNF00000344,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,66.09,,False
+AneuX,pXEzGXPTkBExrzbhsKPs2DHVj8QYVzYXcWRpV5wULuydZ1vIuPReC/HluvLVKNQk,SNF00000350,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,unruptured,0.0,female,,,False
+AneuX,sQvjJdkEGzIo4Rv0Y2df3bZmupdgA7DplORiNPHCoxXNIRZqWZKuRqIi2zRX/JOm,SNF00000357,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,71.66,,False
+AneuX,oeY6y4xO0jRnVCwfY5whHD4qvqhYVaDVnSULWeD8ojxL2sHcUHmZT1eW4gSmVoqS,SNF00000360_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,nan,,male,42.06,,False
+AneuX,oeY6y4xO0jRnVCwfY5whHD4qvqhYVaDVnSULWeD8ojxL2sHcUHmZT1eW4gSmVoqS,SNF00000360_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M3,False,nan,,male,42.06,,False
+AneuX,Wppj7Ij8hALO+a2nAxcGjsj0LsDJI3pVLyH1OAAxhrzYXcX81inHOb/QpEmixwr4,SNF00000364_01,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,40.7,,False
+AneuX,Wppj7Ij8hALO+a2nAxcGjsj0LsDJI3pVLyH1OAAxhrzYXcX81inHOb/QpEmixwr4,SNF00000364_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,male,40.7,,False
+AneuX,or+NntknNkRQVPP1I2wG7Mfjgu4TTTCnUha7Rh/U+Zx3WDYDRgBre2ww0N1uBn9x,SNF00000365_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,55.06,,False
+AneuX,or+NntknNkRQVPP1I2wG7Mfjgu4TTTCnUha7Rh/U+Zx3WDYDRgBre2ww0N1uBn9x,SNF00000365_02,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA bif,False,unruptured,0.0,female,55.06,,False
+AneuX,/211SEQhbxcOtCDu8xCOAweVmpGIOHXGiJrO3TbtuUl6Fp9Lu0yV95ZkPqR4OpqG,SNF00000373,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,44.27,,False
+AneuX,bfnJ336OCnHjfQm0VNNNMRjlprWdkd4aNC4entmEB/RksMkxdVy7nmznLRfxEau9,SNF00000388,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,male,62.53,,False
+AneuX,FttYyjqC3Mcob8+clhkb8uVfg7idqiGAb6+w3IQy/HQ62LSrz/hdcdS68zLPcPYx,SNF00000391,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,ruptured,1.0,male,37.05,,False
+AneuX,bjogScHLFsmuJnFlcP4wJtdLmpTzPcKWIPYLMBnfWC9rHkOcpoONkgub1JgRvghk,SNF00000398,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,female,62.19,,False
+AneuX,PoIHrdM/xPNqsbKXvDEC85yawjXdVngMY+ifSnPgx+yLOldwkABdal8OlcKRpRlt,SNF00000411,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,46.84,,False
+AneuX,XG6fmFzIxrZV63Tqq276yRPTIbq+NfYLbFCGEYDP+WzvD5j7TLxZBXsIn6XuBnE3,SNF00000415,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA M1,True,unruptured,0.0,female,,,False
+AneuX,MmHH8zs7do9l/MLSo4UA9K54e2QmtKfTNn6+1sXrkcXD8GMHMv8l/0tThy9PwNIC,SNF00000419,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,nan,,female,,,False
+AneuX,N/opoqDm89DoVtxvcuj21YPAx7u+qHa8PcJaLgtCr+Q+KOvQSURxZq6d9q8fpEoK,SNF00000425,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,61.21,,False
+AneuX,6pRx1sP7/3rJ8/cHatWTFl/kMvtIMSknsBa8QC0jKF9RN+ZA7HHFly2Y53bQMOPt,SNF00000426_01,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,ruptured,1.0,male,46.76,,False
+AneuX,6pRx1sP7/3rJ8/cHatWTFl/kMvtIMSknsBa8QC0jKF9RN+ZA7HHFly2Y53bQMOPt,SNF00000426_02,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,unruptured,0.0,male,46.76,,False
+AneuX,6pRx1sP7/3rJ8/cHatWTFl/kMvtIMSknsBa8QC0jKF9RN+ZA7HHFly2Y53bQMOPt,SNF00000426_03,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,male,46.76,,False
+AneuX,Y6SqIKX83bM/BBoxxBDJxFwEdYqEE59RiZJPAizVgYYDuPHLcfdh4urq52qKgWpC,SNF00000439,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,nan,,male,,,False
+AneuX,vrt7zybV0zcCPEOZOcSHOwHbaDrkfEnYEQ5qI9XgxAoMgCwQufcQ9EKZt/CZ9+Iw,SNF00000440,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,female,57.5,,False
+AneuX,43dL30L2fmRpqrus/C82NfHftbMEoFofaCxsSWYU1Qplq5etwXRvr8+P1A4O0KXN,SNF00000442,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,32.55,,False
+AneuX,L83B4ZasrgX6UcI5ANVgwu5IBUZpml0PeFHn7FfKfn32xea/RyW9kcKD2mlHkPIg,SNF00000449,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,ruptured,1.0,female,45.76,,False
+AneuX,7UgTs9cJQW7y56O6FzaAoipmyp4Z/zIfpZEzx9zmH6QAkcjrIoeRqsfeerm3oR76,SNF00000452,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,,,False
+AneuX,bGkceGd3XyZIuYUzCnu7Z4360mAkx39osrMas/oQuTOsm2/S5XCAuwF1oYovsKh2,SNF00000457,hug2016snf,Geneva,HUG2,dev_sensitivity,BA tip,False,ruptured,1.0,female,41.36,,False
+AneuX,EUDbGz6humyYbAoWWzrnTdkCEz5RmGa7n48ZkCeGg3Dr2xF/GmIMgXedwPRhu6fA,SNF00000466,hug2016snf,Geneva,HUG2,dev_sensitivity,ACA dist,False,ruptured,1.0,male,27.44,,False
+AneuX,vR9eUw7fAWp4ywW4y8tgt9bNXevBOJNYtAtvIeCCQCLr/sktJKGgPuZTC3QYUdMM,SNF00000472_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,47.52,,False
+AneuX,vR9eUw7fAWp4ywW4y8tgt9bNXevBOJNYtAtvIeCCQCLr/sktJKGgPuZTC3QYUdMM,SNF00000472_02,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,ruptured,1.0,female,47.52,,False
+AneuX,y2Nfdsc8iR018PUXAVhWbM7oOvvVRzDgCRqA4B7Xg2zJJHsJp60Hm60P2ZWZOK/m,SNF00000481,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,ruptured,1.0,female,54.62,,False
+AneuX,iYs98d8rcp/kDD/vhiO6qu1JkkiXk6E5YyidzwqHHtGD6dfSRmGIEN7OuSVOXq77,SNF00000482,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,48.77,,False
+AneuX,u60r+gp/CeE4bqbxWPiQ//ODZ3Ye+WQs+1tyoNiFe1jpysKLj9Tc1A9s33h9eoEd,SNF00000497_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,ruptured,1.0,female,,,False
+AneuX,u60r+gp/CeE4bqbxWPiQ//ODZ3Ye+WQs+1tyoNiFe1jpysKLj9Tc1A9s33h9eoEd,SNF00000497_02,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,,,False
+AneuX,ZqofXFjHcnajKn/XEUuN4Iq1jQp7t12BfhIq1pfORYbCJgXGuSWai+SlQ4CZNrAJ,SNF00000527,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,64.09,,False
+AneuX,UPtHYBOJuwgwSe61EXBZ05lbeIZLkuVAXRGHw9XiwKFVbwB2FNu/wgNrpwM0/n6c,SNF00000529,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,56.12,,False
+AneuX,iMpRBM/QFEB0Y6YYbaWUAfFjcqeqsPUJKwjZeioYcY0MQbh1jC8anT/Buxp9nHJg,SNF00000532,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,male,67.89,,False
+AneuX,HQuuvkapq2pHQwmyQPdDLA8+tygEIajmFkDjqEJoPjuiQs1FucGsB+mFKFaK8DD9,SNF00000535,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,male,62.07,,False
+AneuX,2nZ1OxVLd3zFipcpJ8FBCZp0xW/vRJMofbBcrAYsIaHeTv5HnoHJWIbxtYClNkiw,SNF00000538_01,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,unruptured,0.0,female,64.64,,False
+AneuX,2nZ1OxVLd3zFipcpJ8FBCZp0xW/vRJMofbBcrAYsIaHeTv5HnoHJWIbxtYClNkiw,SNF00000538_02,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA bif,False,unruptured,0.0,female,64.64,,False
+AneuX,Y5fgIdaDykj+y5KtK9diN4BfmwszeW1d9ICkSzya99lYUwFA14ybFFrMcOyCuY8R,SNF00000547,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,nan,,male,,,False
+AneuX,yggEnzH2eRuVDC3TfCBiT3M3rCVq5tB743aOFAh+L5w7ARk+FbmU6IR3OathLBqj,SNF00000553_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,50.92,,False
+AneuX,yggEnzH2eRuVDC3TfCBiT3M3rCVq5tB743aOFAh+L5w7ARk+FbmU6IR3OathLBqj,SNF00000553_02,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,50.92,,False
+AneuX,HzTHjl+QerNDnA7NWaft/uNEnWYifoQgnzwdjLMEZVUBibmx3GYUEsNA7X8pTL9h,SNF00000554_01,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,male,,,False
+AneuX,bCvykx34XaOtZbAjOV2D+AtJXLZ8Kwa8/DyUKEZA3vyNetSp6oKCboFsQ82gElbQ,SNF00000556,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,,,False
+AneuX,L2QakJp/p/fYaYF0/0QpTNc7ZF250jXviT5RkNlc/4Xl1uJhVfkM7tSUUx4oFfd1,SNF00000557,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,female,74.79,,False
+AneuX,rQtxSHutNEgmoEf60OUcfMGjME6/qsLvwM9lv7SUVzQQwM2GUNXoPE4/bRaSR5Ia,SNF00000570,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,unruptured,0.0,female,68.25,,False
+AneuX,rjJLgoYm0WZAf8pmkLdAgHPSstbc8QvTzYLZtaIufgFJZWZeyuayfVEKylhhqDne,SNF00000580,hug2016snf,Geneva,HUG2,dev_sensitivity,PeriA,False,unruptured,0.0,female,58.01,,False
+AneuX,WMyFoyJEEObDehr2zx3HwtG5UBVy5q8aWt1VAUhWnrg20PFgGu2RcbKL7pkIG3x1,SNF00000581,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,unruptured,0.0,female,76.43,,False
+AneuX,ib1rnKtT9isflSemAnjM/WHMY4SyZIkOkKbxbgk7gKBlz9KdPovsfOwSolzKarci,SNF00000591,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,43.12,,False
+AneuX,yU1hwmwORm+QaZEP4BVJ+BN0FGiypQ6EIiFq08aq9HdWVrt7y9WMO9KtetQ/5HwV,SNF00000592_01,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,49.94,,False
+AneuX,yU1hwmwORm+QaZEP4BVJ+BN0FGiypQ6EIiFq08aq9HdWVrt7y9WMO9KtetQ/5HwV,SNF00000592_03,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,49.94,,False
+AneuX,yU1hwmwORm+QaZEP4BVJ+BN0FGiypQ6EIiFq08aq9HdWVrt7y9WMO9KtetQ/5HwV,SNF00000592_03,hug2016snf,Geneva,HUG2,dev_sensitivity,MCA bif,True,unruptured,0.0,female,49.94,,False
+AneuX,nR3A4DJ9+VQ41xY8n9G1uufxaDRaEFkJ0ai1/tuY+heRHnyrwaYiW80pO0RAKbUP,SNF00000596,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,ruptured,1.0,female,,,False
+AneuX,riRRt3ndx9SkYFDTzMM3skww9lH10ExiCTZxVHGoUNrvuuZvfaXa3od+aPoycOHx,SNF00000605,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA pcom,False,nan,,female,52.8,,False
+AneuX,13jyBKGUCOqA5SuqIJSA2maLBvIeHEltnebc1t/cGJGVh2iU9a/4BT4nySTQWoA5,SNF00000606,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,42.95,,False
+AneuX,O+j3Vn/TqbqQS+iYRXvXcSZAZ2WGgvR0zj73CBvl6CMGBzJ7We3PMwaboQ26qWHO,SNF00000607_01,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,female,63.94,,False
+AneuX,O+j3Vn/TqbqQS+iYRXvXcSZAZ2WGgvR0zj73CBvl6CMGBzJ7We3PMwaboQ26qWHO,SNF00000607_01,hug2016snf,Geneva,HUG2,dev_sensitivity,ICA oph,False,unruptured,0.0,female,63.94,,False
+AneuX,SJHVxvg5VjV607Dwl4c+PoYpQmsG0bWKdto33iQIux8FLG7xeHN/B92bjYSX1WrB,SNF00000614,hug2016snf,Geneva,HUG2,dev_sensitivity,PICA,False,ruptured,1.0,female,41.78,,False
+AneuX,hCDamcDArApt0SBmC89zUHONOmi/a2DQS+dhf/hfjnu7ZMNWdvcU1BIcnXQw8xew,SNF00000617,hug2016snf,Geneva,HUG2,dev_sensitivity,AComA,False,ruptured,1.0,male,58.7,,False
+AneuX,74s/Ab29lu3hxEw2q/vRzlivi8VT0e7FvvRUYTkz+349banX5ZgLUcc0/cvM0Ndz,ANSYS_UNIGE_09,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,73.5,right,False
+AneuX,fq4CZMnPbaW+HkqwUo0zeFSRQgjENKAWZ0v0NvJVXbqqDrcsfg5mBdJlPMHbjFyA,ANSYS_UNIGE_16,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,female,50.8,midline,False
+AneuX,7YAa4mQo9uiAof9AVctoZ5PKJXRkLgl6f0ZismzAOdRnwAcjm6tZ9b0TZAqPGxOr,ANSYS_UNIGE_17_10,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA cav,False,unruptured,0.0,female,48.8,right,True
+AneuX,A/I4BDaPtCYSDZcbIIjCN/zxY/+0eoHix79raFYDbA3I+VmOOBoIn2QLNMIV1quV,ANSYS_UNIGE_27,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,ruptured,1.0,male,62.2,left,False
+AneuX,jm73wT0QR0+yqUpfw0Cbh9JImbcOr8M4F7xl+d/kbgyBvUrPufLXicF23B0rI6bS,ANSYS_UNIGE_28_269,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,male,38.0,right,False
+AneuX,2MG9/GmTB2DQB0M25iSUIRpdQQb20Meu33SwZRRBPoWM/ZdxS05DGiT8caLB73+1,ANSYS_UNIGE_30_612,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,54.2,right,False
+AneuX,2MG9/GmTB2DQB0M25iSUIRpdQQb20Meu33SwZRRBPoWM/ZdxS05DGiT8caLB73+1,ANSYS_UNIGE_30_614,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,unruptured,0.0,female,54.2,left,False
+AneuX,d/PKrggewjWWfHyADZ8kF3CDSGL6thsNBQYuWKkdvMGU0oeTNYNr53RKcTwv9TbG,ANSYS_UNIGE_33_628,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA chor,False,ruptured,1.0,female,53.8,right,False
+AneuX,d/PKrggewjWWfHyADZ8kF3CDSGL6thsNBQYuWKkdvMGU0oeTNYNr53RKcTwv9TbG,ANSYS_UNIGE_33_631,aneurist,@neurIST,aneuRIST,external_val_harmonized,PCA P1-P2,False,unruptured,0.0,female,53.8,right,False
+AneuX,ZyBoFVJX4oyGxK7jx2Si/4Dh+gRGtW4OVD8l/XlHgJMyI1uoXelc9Tl/WaEyxm2M,ANSYS_UNIGE_34,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,56.1,right,False
+AneuX,nUligehKlKDfdGFQaIaW4QIVIsrXQUJ5p2RltZ6Em7tTRo7pwBdeCv2rwkvMmEam,ANSYS_UNIGE_35,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA M1,True,unruptured,0.0,female,45.6,left,False
+AneuX,x1Qg1sTTdQkWm52sVXoCnGgJmcyPrsrsFNTAIHyiBABoFyrs5WzHn+hDTtb5eZE5,UPF_P0001.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,52.2,right,False
+AneuX,YGF+ikvO7BQknir4zcIyw1VDY4ILusxMcatA/Yz1ve8Zd6Zqe1im8gZqC5bRKph1,UPF_P0003.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,77.6,left,False
+AneuX,mlPmjUiqRc0vMGww5+2bWFXx+9+FOWZsB1agfojPBaN6lqU0oLZJsGjJwxXPF2g2,UPF_P0012.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,46.7,right,False
+AneuX,rcvoS3cKVLzNLo8YXS0Wxp0cBJgymJbiO6cTcrLZWy4Wt8KenAgDNxQ0etud2+lv,UPF_P0013.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,61.2,left,False
+AneuX,OiJ25PqNg8m2umNbyndHvE6rCREnNMKeaFPjb2qqAiV2kGe9SCJdp0nWQNg9mnk1,UPF_P0016.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,40.3,right,False
+AneuX,S1T+13/CP6NXBTvDQ1WpxDMgByFjJFDlhK8y5DQgje9uYZJpb/yNkyZpW8ENBAoK,UPF_P0019.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,47.7,right,False
+AneuX,DNH0EorMHCGEI1hStkW/5fhdXSvCAzFdOTvrLDCG1d0kL3sB2OIdaPKGFjDsRJKl,UPF_P0024.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,42.3,right,False
+AneuX,V1X5qI3yL+bJKGVVotYV3gCDnQvEIiaSRDtSTeNFk09cC1bG/uImUqSrrmR1ew1K,UPF_P0029.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,ruptured,1.0,male,51.5,right,False
+AneuX,aYjLElYMr6GnKy0qZnMtKSlDEM9lathmNSWvSimd+UWn77DkCnVIwJlMCeRYkfjI,UPF_P0031.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,51.1,left,False
+AneuX,WqROa5ypyeEcAXeWVcm4O8cIAEfGRpukd1OkdjZ7qEcfp6eSkGknN3m2txjN54DW,UPF_P0034.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,76.3,right,False
+AneuX,2oMp08FDHsy85S0ZXjxaAN+fVd8BGCzR3y4c/edBsxzIiPFknDS9JxAOvwptW3bl,UPF_P0035.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,51.1,right,False
+AneuX,BWhFg95VSfrQpDSDC9RAvlCzOXBM9VkLesXOk7HRXDDzkOKzgCCDPq57FGG0ES+L,UPF_P0038.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,male,48.5,left,False
+AneuX,WIX1D9WsRpBVsVMZVSGqsQ8gYRpOVXLbIcjbQOG1NLHnw96m2CV2g62N1TkxDA4L,UPF_P0042.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,68.3,left,False
+AneuX,WIX1D9WsRpBVsVMZVSGqsQ8gYRpOVXLbIcjbQOG1NLHnw96m2CV2g62N1TkxDA4L,UPF_P0042.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,68.3,right,False
+AneuX,hCzN3I77aHkalOuBKeOKLSJJ+dCGBzStzujF57JPSIwy8bTC9r8Zhz6Z3Kp9RVr6,UPF_P0043.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,SCA,False,ruptured,1.0,male,47.2,mid-left,False
+AneuX,vRRXVmpB9Dfhz3441BbnWTjoVaeU26+mpzwLMpMuwp3YaVTq9ZY+RghUBR2NiyK8,UPF_P0044.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,male,55.7,left,False
+AneuX,qNiAUGVfHI56IWOwxTaNj+2/hZTXBeIU2uZd51yV/SdwnYLo6LlssLRCyVZkUMIc,UPF_P0046.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,62.3,right,False
+AneuX,JvNUC53yPlxgUopyW/a/m7PRESp5K9G6IACgPXHYG4zLNCXFaA4L6Q0PKEUF52/n,UPF_P0048.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA chor,False,ruptured,1.0,male,48.9,right,False
+AneuX,lxuSvYHvAm9DoBZuBNFz3P2qy5XPfKu15DQt55iGPQY/R6OySgIuQ4N44cFu5eTl,UPF_P0053.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA chor,False,unruptured,0.0,female,53.8,right,False
+AneuX,X48ikRmWjheOJi0s4Cj03GkBjw6B0D3BEajkaNkhIcdy0BHcICN6a317O60nlqWX,UPF_P0056.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,47.6,left,False
+AneuX,CBIsGICuKW9/HPcBl6s1Wn3UsP/Ou87VEFRsbA5IVPeT4KoA58h8UD3VJDX0Np7N,UPF_P0057.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,-1.8,right,False
+AneuX,I2T3KQ7S5dihIWGu2Ax/+BAA9ukwkDT0wWwzXzlwbQ1pOHzR2tn3fFbKeKpGEg8g,UPF_P0058.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,72.0,left,False
+AneuX,1WjHrimmVs8xAJUgkhLhFCClEVaas3iLcfDhvvCAdza0IeNW0HQcuqBDuTXLKQy+,UPF_P0060.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,47.2,left,False
+AneuX,HV5bpXf2/rUPhOnH9J2g9LyaCyKY8fC7UV5Zk1cVeZeX9EKnXfTQqOCiiz9Thxlq,UPF_P0061.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,52.5,left,False
+AneuX,hHjO6DC3RlA8yGg83mMBQBeAp3/HSx/JIHJ2tdIxnzCVc7KIV84X7equHS8+2yjx,UPF_P0065.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,47.5,left,False
+AneuX,jOM7Ko4bBt40Z83ufcBE50MqDp8j96UJ/cf9dh/wfUyLJWR/FIwMdPD+V+wQMTR4,UPF_P0067.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,24.9,right,False
+AneuX,QHx8Mynko8/fEhz1yB9UnO7X3Gpy/4i5COm5/f54r21Lqo8Wko/cZgLAWu106cVs,UPF_P0070.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,50.7,right,False
+AneuX,pNwSBNmo6iKa6N4m8JBukj+9LL7tUF10CesV2AtyjoqC2WmBWNpjSQ2vpmYyB9CI,UPF_P0076.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,male,34.9,left,False
+AneuX,zGxr2NS7BU+tULv5WU9efwNoHj0yiO5QrWvoO8joLQyBubzMU83PkvIz4OJg4fNI,UPF_P0078.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,82.4,left,False
+AneuX,QNOUTHksfWkqsyNdOkPoOl4MXE7HqyUWHkT9PqBCAjUkNheEOwoq0nxvhEoKsVL/,UPF_P0082.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,60.5,left,False
+AneuX,yolrNowIhRVoDHzfTb4+KgKuflWck7MRZeb71RN6IS9OG5fTfpXMiJu0xKFEQeGG,UPF_P0084.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,ruptured,1.0,female,55.0,right,False
+AneuX,0+hZ6+nXL/pBinZF4tpW5q68CwLqcBlQSo24aT5eYVQFgJJ6Zc71SP6FNvn37vJg,UPF_P0089.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,48.6,left,False
+AneuX,ZPVysaFYL5DMJOtr93SKSy9k5fC89kG25Va59Dati8c+hfEbSBmG/gwiwCYeByEJ,UPF_P0090.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,48.6,left,False
+AneuX,rSGa/ni1sIwZ6zIOK9xuaKseMgF+tYEVaotwrZQE5ifvFBEJU+rDDBzRrcThe9KV,UPF_P0092.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,44.7,left,False
+AneuX,fHDKn7knfeP+G4RAA6E3U2Q78LWxxlj+RY+vwOH1n9iAvX8Gmmtto7tBsyfaAbAs,UPF_P0098.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,65.3,right,False
+AneuX,BZHgQ0A8PclvTXltsG0TfQDksegNvVy27T0FW4xM3mErTcjfJojCQb1IMZ7ZuKZ+,UPF_P0099.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,54.6,left,False
+AneuX,eI69orZP8BRPzbEJ2NRgqwHxOko+I8BQ7o1SLgbUDg2E3XUtW9+WznLZ4SWmrg9h,UPF_P0103.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,44.3,right,False
+AneuX,gmIkHfWQq246WazOF7ozNdNAOCzHozABnMQfdWpTKdDLbSRdis1EAzw2ijyvHEaC,UPF_P0106.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,50.3,left,False
+AneuX,saV/l37iSX0wkdIyDvviTJ5Du2/rWnnY8+aUwBLaKYYZDwyJ/pRVeiK+IgS9w03W,UPF_P0108.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,52.0,right,False
+AneuX,C8AdhJIc59j1JX4VjqK4IhnkyGVyiJI0Cgxne/8YSQ1In/RiE9AmRJpxCkt5fa9V,UPF_P0117.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,56.7,right,False
+AneuX,l5tbrEsG13pJGNtlOa8ocsG3uZAEvIzQLZboEaBZufEzdjbd1pBSTaqAGw1NauZo,UPF_P0120.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,male,41.0,right,False
+AneuX,+g59r0praS4Ynx/cevF/fHA5zz7XJ3rzA18v+qYI0kGmatZzFbW3rw4vPJQUUYpM,UPF_P0123.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,39.0,left,False
+AneuX,f7rV5TKhRxeXribZ5usXBH5XeZdjF0yScD+AjflPhgzySNa4tXPvyQJ7Rm+TsoOQ,UPF_P0129.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,21.7,left,False
+AneuX,nThrzxotgOCyoEZuCvpHtMydOvP7EAiPVUnQmHbJYS/jZP81OgplO/9GL+2xvcYy,UPF_P0134.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA chor,False,unruptured,0.0,male,45.6,left,False
+AneuX,WOM03AwNGIlSycCHGpqNj85rie0HzetF4kXiQVVEzdnviR6pu/D6uAZD7Gw9uUUb,UPF_P0135.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,female,22.1,right,False
+AneuX,u9p/Yy4jzzEZuYJABQFbB3T5zhXeOZYeXTlhlRPi70b1+O/XDk8I+TaR0EIY52w4,UPF_P0140.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,73.4,right,False
+AneuX,3XH4cq3MwTL4tAiRCfeVVt+KrPWzeDVPI4F4wvo4mFUGlHpvBjEhhP/Rh+NjCoUF,UPF_P0142.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,male,50.9,right,False
+AneuX,xavsUYeyMIH4waZjHBiyLl/UfP+nYVddzm4g5Xwygobc19ZScqXKUW7M+619Z/Lo,UPF_P0143.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,unruptured,0.0,female,43.6,left,False
+AneuX,2B/gUK9fR3o5CoadeqBMXdWgEcZft7NM/HFJLSFPWz6CvjSbnxU1EEsYVJAADWK6,UPF_P0148.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,female,30.1,midline,False
+AneuX,c+I/4KPkBnrwP8zlgPC0N90qY7J4fiEJr0Xsc2chc1GhhY85wJrgHLkuH+oCCK73,UPF_P0153.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,unruptured,0.0,male,63.4,left,False
+AneuX,eJvc2z4j+HbrleKYwaRDoC05hffSViO5IEecweUZ7OCY0Jo+/x+YWELnXKR10j4i,UPF_P0156.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,ruptured,1.0,female,39.4,left,False
+AneuX,clvejh7HSWMPX3omUs6ufnwGcuhCWlLE17653XIk7P2AXcyad69ONegg1fwRlYGS,UPF_P0157.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,57.3,right,False
+AneuX,tUlpVKxcqa2wzrCU/LzrZW7ns6F5K5xwfMuMubC74+CU4B6lH15k0H0CQNhDIvg6,UPF_P0161.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,52.8,left,False
+AneuX,SuCdz5rDgeCSnyLd5TPt8RYMF7dxG6DnZhMjFdk3HoBLNXM7GIUmhNopLMrQb/up,UPF_P0164.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,unruptured,0.0,male,56.7,left,False
+AneuX,bkwymRI0Cq+Iqmh83aMoCOTXJUtNttAI6aexFTYosvqH+B5hzHGTL2pTfr08TmaG,UPF_P0165.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,63.4,left,False
+AneuX,PHV76D42e/uOfhNnB89IygA6GzXAc4bVEFYKRtNi1JghpR8+mt1mLTEDSUnF664d,UPF_P0167.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,45.3,right,False
+AneuX,5kzrbyeW8qZepNipWGwYDpHVuJZbc+4ExbCYHH0tg+KhndBfaumWY0gc0hdpP8S9,UPF_P0169.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,58.5,left,False
+AneuX,3VGsSWGUurRIwZogvQ2o5ru6IloSncSqyYsGDavowyS4GleX3VLDaE5MC93Vub+0,UPF_P0171.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,58.3,left,False
+AneuX,3VGsSWGUurRIwZogvQ2o5ru6IloSncSqyYsGDavowyS4GleX3VLDaE5MC93Vub+0,UPF_P0171.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,58.3,left,False
+AneuX,Wd0GSmE6c4YOeCikIxglbfndIAjfP4JN7NKbFBmKEW9kPfb/+ZpOhl273cthaB3F,UPF_P0172.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,28.9,left,False
+AneuX,Hcedy+HFyFae/Mbfe9ecaklnU/23fY9XJlwGcsM+pokUEkZ20RpK6kdhwOLEjAlh,UPF_P0175.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,47.6,left,False
+AneuX,WtrkJrmTMfd4mSkI+YAjiVDJSgiszKmXGegdunrKKgYaB3CDtvfoTSBosOSKqZxv,UPF_P0176.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,49.4,right,False
+AneuX,C9JSnPLaQsr892PztntBFMDPU30VSS4KqnQl4lE1Mi+jq34I/ZEqYedRRWVtByP2,UPF_P0177.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,54.1,left,False
+AneuX,5fcXVmxruSRmauvrzxNZa+htswzZCodjHDLPTd/RZUmCZr6yFnl7Wfa+JxX/9Egf,UPF_P0178.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,38.2,left,False
+AneuX,5fcXVmxruSRmauvrzxNZa+htswzZCodjHDLPTd/RZUmCZr6yFnl7Wfa+JxX/9Egf,UPF_P0178.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA chor,False,unruptured,0.0,female,38.2,right,False
+AneuX,zHtIy40On8HqnX8mwVGwerEgJ6Tz3taaM3uEejCfhmyIoN8cwaJ/pWznhza8M+b7,UPF_P0179.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,AComA,False,ruptured,1.0,male,48.2,midline,False
+AneuX,k0jb2dqlQuUANsN/iqaYMzDLoFb49j6y5AHvRqfLwpJittyG8RyG3s48fPDs26cg,UPF_P0181.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,53.1,right,False
+AneuX,k0jb2dqlQuUANsN/iqaYMzDLoFb49j6y5AHvRqfLwpJittyG8RyG3s48fPDs26cg,UPF_P0181.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,53.1,left,False
+AneuX,K/QbJnFhtwQZfS2t/nt9RMHDEBzw41h/lUSNbOmXthQe/cHvxKy3aRx6reChVSYj,UPF_P0188.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,48.6,left,False
+AneuX,hfmdinROzFENnhivjqRPm+n9k1Wjcc1MGRFUrF7DE0eJ4XcxKTbESn/T07W62pNp,UPF_P0194.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,68.6,left,False
+AneuX,h5DF87VJMRmnarwmTb4tGfnc7bHTEGGtE3fPvGB9oEIhk7u/kfQZf3THwCimZNcz,UPF_P0195.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,54.8,left,False
+AneuX,l5n50U9fj78HAinEjEhdWrzvdmVCE1mTET9pbPzKH7TL3C0lSKs7cA2uWsCU599h,UPF_P0196.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,PCA P1-P2,False,ruptured,1.0,male,45.0,left,False
+AneuX,IVRcSD3xpVFmKGMnvUw35Gt9Q/pi4nd+6gPEuwuJoDpUR2L9sN5nd5V0TQd3+42l,UPF_P0204.01_ID3,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,male,48.4,right,False
+AneuX,vot44Q6EiQiYHH6/4PwBiPPapJncHdh1NkpxCgOTuCHCmDws9csOYRYY4z6CL+ir,UPF_P0206.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,64.2,right,False
+AneuX,kX+GHMkUepHCoHEa/jE+/BFvfMXrWadIVfnZ1nW3si1vyIGETDFqNkyDcUJDMpPv,UPF_P0207.01_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,70.3,left,False
+AneuX,Ip3lfWJ75yrDp5zf6AEu3IkbfYbYvQkILHbWIKMkm/9Qd4103fYqmDmGrL3D77KD,UPF_P0208.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,male,65.8,midline,False
+AneuX,AdLsKt41Njw6s3n4LYMjwBQufvAdNiasg6uF0ZzStaekHYLsWt0zY8bBw1trLkT3,UPF_P0211.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,47.3,left,False
+AneuX,965Yg7SyyGojI1PJguZKD97W6WL5BIRXIJRGDWqzrQlFoWcx36bWoSFtQpVjBPmU,UPF_P0215.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA cav,False,unruptured,0.0,female,77.9,,True
+AneuX,eNmS4bvk/T6XGF+J+493ZnmxRdNEd3kBJRZ4Nl6h5jOKUWUpO/Y3aYJeNc8SzhQN,UPF_P0221.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,male,64.1,left,False
+AneuX,mOP0Q6g1wwihEsjFJFKcC4AE08nFZnNjX+vq2nzQSfSlp9MOH/xnUJaOUZnNK7ko,UPF_P0222.00_ID3,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,52.3,right,False
+AneuX,YeeKwba/WlNX6Tqc2oRwZRKICKbFNMq9hLvXKNfwyv8IDnpYR63ZiyFEquWX+H/9,UPF_P0224.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,66.3,right,False
+AneuX,ddvjsCOdbuOh+QZpSAn6QDsfFIwpSqzQHcX9Vgbg5d3Nrmg0NgmRNuGMRSYieSnw,UPF_P0229.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,60.2,right,False
+AneuX,E3KdA2bLPMz9/+NTyddZopQlycSu+zQGRJ2dAED0PBhbi52ltsaXLhpINFIY/eTf,UPF_P0230.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,female,51.0,midline,False
+AneuX,JbRgbe1160NokyoijSZPibfyCh8XrPkIRymmQqK0Y7vZooZNNPZM3BNoOV3Dy4AP,UPF_P0232.01_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,56.0,left,False
+AneuX,CbepWTeu8iK0tTaJLlZSq/7kULoS+77vKpqIaig2Ta00EmHliMZLjvm6m0E4amM9,UPF_P0239.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,60.3,right,False
+AneuX,YEqe6jgSaURmjMFDfaPYvmqBcBAQaZoQ8B1F1l+3nY/NXT1ZkG/CbOURGCW6B4XL,UPF_P0258.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,SCA,False,unruptured,0.0,female,55.3,mid-right,False
+AneuX,9NBLOZ2GK27O8ZtDEXjZpcUaPHPRx84WgSC0A34zYvo45lPpE9L8LbPebpvWiKCO,UPF_P0261.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,68.9,left,False
+AneuX,BN+GjnZr5WJcwNRH3TUzDVljGdDj/Oypz90RATinw5yz1VOq1m1IGGDwOgz8g+Tw,UPF_P0266.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,65.4,right,False
+AneuX,UqEmQoZx//qCjrYZI5Y0PWh6mh/MKn9teTP0KWmQ/KejFty8fqhCzBIgZTYLvjKX,UPF_P0272.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,ruptured,1.0,female,47.8,left,False
+AneuX,HejodVM3dQmn+OVqOG5GotmE/eVIBShGQV39iCCzsRrpOEeeV4DoA4ceVKN6zdB9,UPF_P0277.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,77.6,left,False
+AneuX,dyshoFp3HgJ5fWtggmaZI/GxfJlqU9mtsyFrnpIJad0CR7MH3ImpkMi86O4zjC3c,UPF_P0280.00_ID2,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,male,35.0,right,False
+AneuX,BA2xCO0x5TDZiXL7BvLzD0Iqd1uyGu/finPzsuiSLup0oaJh5oeKM8QN7hShUPXD,UPF_P0284.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,60.3,right,False
+AneuX,Ci+tO8xn6Vdd8io+IfL1ekBdGPSmNNx08exX1Kv8vn+vznauiitpry2dWRlkNSPd,UPF_P0286.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,male,61.1,left,False
+AneuX,K5oGE7Lo6/5GgKy58P3e3moAsccr3bCqV4DHftCXBUS/TrgWrDDy1gPc3p9Gj3WU,UPF_P0290.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,75.3,right,False
+AneuX,nPQcTQbcUbn25tgfCeWcEwPMYos8vLUUQ0zOfMka6qoqkqqrO7oeS+M/Vyw6anLZ,UPF_P0311.00_ID1,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,54.7,left,False
+AneuX,MdA7nVv5GsQILkrNPwTERHyTkkss3/8Q+2EWLSuShOH9u4BHsfZBGNmb/gfKEGFe,USFD_0001,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,male,43.5,left,False
+AneuX,0YXjFCB32sCTQFtWXnS++2rw+WBZIbU3aJcYmutKftvZ7Um7QVZNvHZ3QbWgq63M,USFD_0002,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,57.8,right,False
+AneuX,xjn80WggGPndMPQiS2ij/FyoQjr0LIQ2ymNJUEE2PGzHllS0gxe5pr8eJk9hS3FQ,USFD_0004,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,51.8,left,False
+AneuX,1V31OfDW1jbAq9Did2eFpoqLVokqM8ar3er+912h9MX0qVuDdy6uSgIDonWQtKtu,USFD_0005,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,female,57.0,right,False
+AneuX,Lhc2Z91F9GiSk9PvhOl9ZPU3zp3Uij6zA2KQZYPPpySf8uykz2EvOoI87PoAYh8C,USFD_0006,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,52.4,left,False
+AneuX,Lhc2Z91F9GiSk9PvhOl9ZPU3zp3Uij6zA2KQZYPPpySf8uykz2EvOoI87PoAYh8C,USFD_0007,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,female,52.4,left,False
+AneuX,owphKg/Ou0wXgLbACTKaCgdSg79hmDXW90akz6Jnm70vJDmouRbrNQM2W5PMisDf,USFD_0008,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA hypo,False,unruptured,0.0,male,53.0,left,False
+AneuX,w7yVZKC3NRhvcRuRkIOwGtpqnjQhdllZAdPH8dVa3pXWfvR3xi7zGbiAt4LhPHWS,USFD_0009,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,43.6,right,False
+AneuX,hZ1gcdYPHhEvgHESB5kgEDYwl6zhKQ73++3vjzMajtNhr0CTV9cGzRDBQN7Ccx6y,USFD_0011,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,male,42.5,right,False
+AneuX,hZ1gcdYPHhEvgHESB5kgEDYwl6zhKQ73++3vjzMajtNhr0CTV9cGzRDBQN7Ccx6y,USFD_0012,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,42.5,left,False
+AneuX,dDvP5auMQCw/T7820R9vFYH9cwl9QAJO1JsKtKTYDyzGRcbdcZ+l3Hg1026IZYcE,USFD_0013,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,male,43.5,right,False
+AneuX,EpRBRsvqB6iaoQipm9fPOV5+eyx38NexuL69vY3ckKVn/1Kn4KjCm4P2L/tZd24j,USFD_0014,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,54.2,right,False
+AneuX,KZ3BiZUvOmA6uG8qfvgVfo3T5t5yoe+AHdQL93FAGjjo3FG6EqVm1Uw1oVQSWKUh,USFD_0016,aneurist,@neurIST,aneuRIST,external_val_harmonized,PeriA,False,ruptured,1.0,female,45.3,right,False
+AneuX,pKjnZ5h0O1bHX15GuQ5u5gzRw7YzVgIh9Y2xwgxBCE/jbokHp2TgXfO6/w/RV0YB,USFD_0018,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,45.4,right,False
+AneuX,54tokS9s7wzcWNJv4uXfR20ED9mrZc7hZzz/85/e62oFLpZdWuFO7KmBnKF5E8T9,USFD_0019,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,45.2,left,False
+AneuX,cUOBa6n6qleDoF2mw8DrfbtSg6KPWyG7cGrlKZXtBcr01rJd7PF/LIEI920hyW2U,USFD_0020,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,58.3,right,False
+AneuX,cUOBa6n6qleDoF2mw8DrfbtSg6KPWyG7cGrlKZXtBcr01rJd7PF/LIEI920hyW2U,USFD_0021,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,58.3,left,False
+AneuX,k9eqXt0I7Y5FmiSJ35So3a21VXVaQR1GQqxfzYPQbTPJ0qnR/L2J0wtau+yctRts,USFD_0022,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,female,57.0,right,False
+AneuX,cc8zhawXPz8v3+BC0H6MP4vqDrwiqf5apiwmtgtzQHwg1Ey/s18B9/LXrPCy1nKm,USFD_0023,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA hypo,False,unruptured,0.0,female,28.4,right,False
+AneuX,5h98PCB30l2d7fT1wKrS/Q0MAlF8udMXy033ij1BDrGlLDH8pmmBubnVICRdcsYJ,USFD_0024,aneurist,@neurIST,aneuRIST,external_val_harmonized,PeriA,False,ruptured,1.0,female,50.3,right,False
+AneuX,ZTKU7ENwi1oDKwDlbYcr7Zla1V4Ct/kSCb+mzLB/LzBqxmj5Z4wEZcA1y6H4REeL,USFD_0025,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,62.7,left,False
+AneuX,Yuur+aWXGT9gyseGfKbnH8mefi7iKy/1Eugatz3w0HGON9cP9DKY+gnCLIrhWyI5,USFD_0026,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,44.2,left,False
+AneuX,q7De60XJ4TYl9KmqcBy5pxfhQZkOKhvZgon8gPNUrQVs86J6D1yak3mAc7WqOMiL,USFD_0027,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,40.6,right,False
+AneuX,75JbmjTIHenPIE2ftgxHFG33Ka1SMQLXPi8nw3Su2fTO9ZpZMETKYvw2OXQcLh0H,USFD_0028,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,female,54.1,midline,False
+AneuX,JtBZREvaaBYf9hUXsT5VXYiuIlS3MBvh2E7v5IWDzCBUGmlxb116fbDVvS4voMAE,USFD_0029,aneurist,@neurIST,aneuRIST,external_val_harmonized,PeriA,False,ruptured,1.0,male,49.4,right,False
+AneuX,RsYRAmnZxdxgiOzauIafR5EajSZz782VrELFsxOsTXf4DfUYJuX7ZxIGFE2+w8k+,USFD_0030,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,58.1,left,False
+AneuX,jj4j44BND6dp9X5gy9+dQtFNBJd1vs5XqoFhxjIAxL3q3yx1kgBL2Az7Pk7jqq55,USFD_0031,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,male,55.4,left,False
+AneuX,2I+hnrTQxErUjL98Gvg5v3IsYtOgRzvFTNpeKv/++LLZe1dHgAdy1Ta/i3ZHlvVq,USFD_0032,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,male,58.4,left,False
+AneuX,JP+upEg7UoG5NU14k8FqaJ3ibSRk+Ql+MHr+8rBlraj1Y4sK/yCDcljamsK3Jdxe,USFD_0033,aneurist,@neurIST,aneuRIST,external_val_harmonized,PeriA,False,unruptured,0.0,female,49.6,left,False
+AneuX,RFzKFVH4KXc+Qz7995MQKHNsAWrVSA0K0Dhf0jYf2J9ZP5KhWxo+OJNrz0NzzcNt,USFD_0035,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,53.4,left,False
+AneuX,UtkWJCaHvTKU4F/iSmwjrQwKq0f+EyyrncBvOugFgdDIdYH8fXNqWi1IVFh/7yUx,USFD_0036,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,46.2,left,False
+AneuX,WSjWmw3cR8WTHJaCgp+DaSbkA4uHTZjlZsXun/tZyc1x36CV63T39eAQ2gOUlmbx,USFD_0038,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,female,48.6,right,False
+AneuX,2gA0dLgMD0IF7UkQXAUOjUvDgyBm7VlUi8BGH/LbvL1Qmgjoyd+1hWFCeET6u9ml,USFD_0040,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,female,58.0,midline,False
+AneuX,dxapiTaGDbpxItYU/ywU8hUwlMspAuM1/F2r6VwYPPWx4k62BCtgWdSTIMSnTRK+,USFD_0041,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,male,47.3,right,False
+AneuX,7fhcKckILObi1edx9KL9i5+SBi5r+m2vin8ST9IAv0eeKWCoxKbx52KGMSGXA0Ew,USFD_0042,aneurist,@neurIST,aneuRIST,external_val_harmonized,SCA,False,ruptured,1.0,female,45.6,mid-left,False
+AneuX,LBMPYoypAKAhY9TWYnqMFBusFUvbaEGbyyWPXqun6hUMupVemhZAkvK6XM/JZrLh,USFD_0047,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,unruptured,0.0,female,50.0,midline,False
+AneuX,PNW0IgBG66/jN4oi6ITUfwkqVKk7FG5qY740tBT7dL+NT4pxjmiR5duKTbJvj+C8,USFD_0049,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,59.1,right,False
+AneuX,PNW0IgBG66/jN4oi6ITUfwkqVKk7FG5qY740tBT7dL+NT4pxjmiR5duKTbJvj+C8,USFD_0051,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA oph,False,unruptured,0.0,female,59.1,left,False
+AneuX,PNW0IgBG66/jN4oi6ITUfwkqVKk7FG5qY740tBT7dL+NT4pxjmiR5duKTbJvj+C8,USFD_0052,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,59.1,left,False
+AneuX,QnLa96+XtjDHXBgf5j2Y6ZBpXX6OWdvX4YA4j45epEtotZNE4Q2N5VROCX+jcP86,USFD_0053,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,ruptured,1.0,female,46.8,midline,False
+AneuX,4hDFOdlLYfRk5eY0YzebTzWZUpaQ+TWO094Bh7wPuJEF9JBWd3zv4R8491FDbM2u,USFD_0054,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,55.1,left,False
+AneuX,4hDFOdlLYfRk5eY0YzebTzWZUpaQ+TWO094Bh7wPuJEF9JBWd3zv4R8491FDbM2u,USFD_0055,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA M2,False,unruptured,0.0,female,55.1,left,False
+AneuX,ju8QSjuxnYNv0r+vweAfUO2NV+8a9owGLpRLO0jMFIpUc9ueEvJ9ITqXimnV8atS,USFD_0056,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,47.8,left,False
+AneuX,32j7NBK7otUwNlDmcPnbAuCTbgSCOnxxMyk1Z70IFsm0CByhZVs2Wgd9szamSqFt,USFD_0057,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,57.1,left,False
+AneuX,unTBfC/esWX8Gsuow/6R1p7pzyFFDF/G5sM88i1umfyNKEkh/KHaUZQM8Dj/+j8z,USFD_0058,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,unruptured,0.0,female,39.2,right,False
+AneuX,KzmWzrwNfHfHFVDMHcnnJ3UBKawA8VlzoWYhprgRV2BV5jDvQXVDfMgzKWQmisdM,USFD_0059,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,72.6,right,False
+AneuX,P6azAE2oSsoOVoP/tcbb1l3L+UAhQ9B455g/gqcOnYB5a24rlZS5zJ7gkh9A98IM,USFD_0060,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,44.6,right,False
+AneuX,F3l95zCOiTKF4pQBPQd962P7ebYIdz98qK/1VTkNDVqyjVsd0EJo6WSEPwFuc7bY,USFD_UNIGE_0001,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,64.9,,False
+AneuX,+URPvWhps4N84HgsQxgyJ0ghII1v53AddYZFdELf+entauvg40H0fbgI9GIZvL/l,USFD_UNIGE_0007,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,56.9,left,False
+AneuX,7K8zyCIIfDPcfsy0EHGBnyOCkN1cBgi+jfVSKC8C3t3D5g4tFB6EugIly4V91OSQ,USFD_UNIGE_0017,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,44.0,left,False
+AneuX,LLclY4n3PgUQ8PFDb4Ozb8rqRfEynbV8C1z8RrXpXzcBK38rwYnGUB7nNKDWYZ9a,USFD_UNIGE_0023,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,ruptured,1.0,female,54.7,left,False
+AneuX,wVOL9uPCOUiuA7ZXJt6dqFJ1CEir+vbBqhqSiSQ+Z8+mmVE1MhZnAF5Vfw751bjj,USFD_UNIGE_0027,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA bif,False,unruptured,0.0,male,37.7,left,False
+AneuX,wVOL9uPCOUiuA7ZXJt6dqFJ1CEir+vbBqhqSiSQ+Z8+mmVE1MhZnAF5Vfw751bjj,USFD_UNIGE_0029,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,ruptured,1.0,male,37.7,right,False
+AneuX,4jKXMvmKNgPWDPptJWyM0rEfeiRuSzOqOK2q4laVCuj10CxmZNEUlYrPOaJRZOOJ,USFD_UNIGE_0033,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,45.8,left,False
+AneuX,FMCAfnqB/C2RPEjfrmiydouxnp2ZimDwZcPu3X/YZkzOL91LAY0dvThdhOcIa3b9,USFD_UNIGE_0034,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA M1,True,unruptured,0.0,female,68.4,right,False
+AneuX,bJNOGT1AGOWm4m28HQxJnY0OIlvAWfAexGx8UYW/toSic52FwCAJiVKrcz4Y+LWh,USFD_UNIGE_0037,aneurist,@neurIST,aneuRIST,external_val_harmonized,BA tip,False,unruptured,0.0,female,47.4,midline,False
+AneuX,cvhU7ThI6J0JKx62Lv5sJyFw8yAnGsu8jtUsH1NNQhOnupWrY93UxPCzCWTRdumf,USFD_UNIGE_0038,aneurist,@neurIST,aneuRIST,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,59.2,,False
+AneuX,mOTlx52/oNX8Mj1RUhynDaBjcAyAG5COoU6ts+JWWQ6A+Sqy+1KtqZWZv8umO6o5,USFD_UNIGE_0042,aneurist,@neurIST,aneuRIST,external_val_harmonized,MCA bif,True,unruptured,0.0,female,66.9,left,False
+AneuX,P0085,C0001,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,53.0,right,False
+AneuX,P0112,C0002,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,35.0,left,False
+AneuX,P0115,C0003,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,43.0,left,False
+AneuX,P0118,C0005,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,26.0,right,False
+AneuX,P0121,C0006,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,45.0,right,False
+AneuX,P0126,C0007,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,44.0,left,False
+AneuX,P0152,C0008,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,68.0,mid-left,False
+AneuX,P0172,C0009,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,39.0,mid-left,False
+AneuX,P0173,C0010,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,unruptured,0.0,female,63.0,mid-left,False
+AneuX,P0175,C0011,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,unruptured,0.0,male,48.0,mid-left,False
+AneuX,P0176,C0012,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,62.0,mid-left,False
+AneuX,P0197,C0013,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,85.0,right,False
+AneuX,P0199,C0014,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,68.0,left,False
+AneuX,P0202,C0015,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,56.0,right,False
+AneuX,P0203,C0016,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,42.0,left,False
+AneuX,P0208,C0017,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,54.0,right,False
+AneuX,P0231,C0018,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,36.0,right,False
+AneuX,P0232,C0019,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA M1,True,unruptured,0.0,male,48.0,right,False
+AneuX,P0238,C0020,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,51.0,left,False
+AneuX,P0246,C0021,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,36.0,mid-left,False
+AneuX,P0269,C0023,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,male,52.0,left,False
+AneuX,P0273,C0024,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,35.0,left,False
+AneuX,P0275,C0025,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,male,74.0,left,False
+AneuX,P0276,C0026,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,42.0,left,False
+AneuX,P0278,C0027,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,64.0,right,False
+AneuX,P0284,C0028a,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,female,77.0,right,False
+AneuX,P0284,C0028b,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA M1,True,unruptured,0.0,female,77.0,right,False
+AneuX,P0285,C0029,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,male,43.0,,False
+AneuX,P0287,C0030,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,59.0,left,False
+AneuX,P0087,C0031,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,74.0,right,False
+AneuX,P0088,C0032,aneurisk,Milan,Aneurisk,external_val_harmonized,BA tip,False,ruptured,1.0,male,74.0,midline,False
+AneuX,P0089,C0033,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,unruptured,0.0,male,69.0,mid-left,False
+AneuX,P0091,C0034,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,42.0,right,False
+AneuX,P0106,C0035,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,57.0,left,False
+AneuX,P0108,C0036,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,male,52.0,right,False
+AneuX,P0109,C0037,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,male,53.0,right,False
+AneuX,P0110,C0038,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,74.0,left,False
+AneuX,P0111,C0039,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,59.0,left,False
+AneuX,P0113,C0040,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,male,62.0,left,False
+AneuX,P0114,C0041,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,73.0,right,False
+AneuX,P0117,C0042,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,45.0,left,False
+AneuX,P0123,C0043,aneurisk,Milan,Aneurisk,external_val_harmonized,BA,False,ruptured,1.0,female,66.0,midline,False
+AneuX,P0124,C0044,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA M1,True,unruptured,0.0,male,61.0,,False
+AneuX,P0127,C0045,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,38.0,left,False
+AneuX,P0131,C0046,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA bif,False,unruptured,0.0,male,56.0,right,False
+AneuX,P0141,C0047,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,49.0,mid-left,False
+AneuX,P0142,C0048,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,43.0,mid-left,False
+AneuX,P0146,C0049,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,41.0,left,False
+AneuX,P0147,C0050,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,male,51.0,right,False
+AneuX,P0150,C0051,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,male,53.0,right,False
+AneuX,P0154,C0052,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,55.0,mid-left,False
+AneuX,P0155,C0053,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,45.0,mid-right,False
+AneuX,P0161,C0054,aneurisk,Milan,Aneurisk,external_val_harmonized,BA tip,False,unruptured,0.0,male,62.0,midline,False
+AneuX,P0164,C0055,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,unruptured,0.0,male,65.0,mid-left,False
+AneuX,P0168,C0056,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,51.0,mid-left,False
+AneuX,P0170,C0057a,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,71.0,mid-left,False
+AneuX,P0170,C0057b,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,71.0,left,False
+AneuX,P0171,C0058,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,74.0,mid-left,False
+AneuX,P0174,C0059,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,41.0,mid-left,False
+AneuX,P0177,C0060,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,unruptured,0.0,male,49.0,mid-left,False
+AneuX,P0189,C0061,aneurisk,Milan,Aneurisk,external_val_harmonized,PeriA,False,ruptured,1.0,female,24.0,,False
+AneuX,P0198,C0062,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,68.0,right,False
+AneuX,P0200,C0063,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,56.0,right,False
+AneuX,P0201,C0064,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,64.0,right,False
+AneuX,P0204,C0065,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,ruptured,1.0,male,47.0,left,False
+AneuX,P0205,C0066,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA bif,False,unruptured,0.0,female,58.0,right,False
+AneuX,P0206,C0067,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,42.0,left,False
+AneuX,P0211,C0068,aneurisk,Milan,Aneurisk,external_val_harmonized,BA tip,False,ruptured,1.0,female,33.0,,False
+AneuX,P0219,C0069,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,43.0,right,False
+AneuX,P0221,C0070,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,63.0,right,False
+AneuX,P0222,C0071,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,51.0,left,False
+AneuX,P0223,C0072,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,72.0,right,False
+AneuX,P0225,C0073,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,female,49.0,right,False
+AneuX,P0234,C0074a,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA chor,False,unruptured,0.0,female,32.0,right,False
+AneuX,P0234,C0074b,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA M1,True,unruptured,0.0,female,32.0,right,False
+AneuX,P0235,C0075,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,74.0,right,False
+AneuX,P0236,C0076,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,78.0,left,False
+AneuX,P0237,C0077,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,63.0,left,False
+AneuX,P0239,C0078,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,28.0,right,False
+AneuX,P0240,C0079,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,unruptured,0.0,female,65.0,mid-right,False
+AneuX,P0241,C0080,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,38.0,mid-left,False
+AneuX,P0242,C0081,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,74.0,mid-left,False
+AneuX,P0244,C0082,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,35.0,mid-left,False
+AneuX,P0245,C0083,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,female,66.0,mid-right,False
+AneuX,P0247,C0084,aneurisk,Milan,Aneurisk,external_val_harmonized,AComA,False,ruptured,1.0,male,49.0,mid-left,False
+AneuX,P0253,C0085,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,ruptured,1.0,female,64.0,right,False
+AneuX,P0254,C0086,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA cav,False,unruptured,0.0,female,61.0,left,True
+AneuX,P0255,C0087,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,59.0,left,False
+AneuX,P0259,C0088a,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,59.0,right,False
+AneuX,P0259,C0088b,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,unruptured,0.0,female,59.0,right,False
+AneuX,P0260,C0089,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,48.0,left,False
+AneuX,P0262,C0090,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA oph,False,unruptured,0.0,female,42.0,right,False
+AneuX,P0265,C0091,aneurisk,Milan,Aneurisk,external_val_harmonized,BA tip,False,unruptured,0.0,male,49.0,midline,False
+AneuX,P0266,C0092,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,male,62.0,right,False
+AneuX,P0267,C0093,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,male,67.0,right,False
+AneuX,P0268,C0094,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,female,36.0,left,False
+AneuX,P0270,C0095,aneurisk,Milan,Aneurisk,external_val_harmonized,BA tip,False,unruptured,0.0,female,43.0,midline,False
+AneuX,P0271,C0096,aneurisk,Milan,Aneurisk,external_val_harmonized,BA tip,False,ruptured,1.0,male,67.0,midline,False
+AneuX,P0274,C0097,aneurisk,Milan,Aneurisk,external_val_harmonized,ICA pcom,False,ruptured,1.0,female,84.0,left,False
+AneuX,P0286,C0098,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,ruptured,1.0,female,59.0,right,False
+AneuX,P0288,C0099,aneurisk,Milan,Aneurisk,external_val_harmonized,MCA bif,True,unruptured,0.0,female,42.0,right,False
+CMHA,AHMU1218001,AHMU1218001,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,F,74.0,,False
+CMHA,AHMU1218002,AHMU1218002,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,55.0,,False
+CMHA,AHMU1218003,AHMU1218003,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,60.0,,False
+CMHA,AHMU1218004,AHMU1218004,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,70.0,,False
+CMHA,AHMU1218005,AHMU1218005,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,ruptured,1.0,F,64.0,,False
+CMHA,AHMU1218006,AHMU1218006,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,38.0,,False
+CMHA,AHMU1218007,AHMU1218007,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,58.0,,False
+CMHA,AHMU1218008,AHMU1218008,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,48.0,,False
+CMHA,AHMU1218009,AHMU1218009,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,50.0,,False
+CMHA,AHMU1218010,AHMU1218010,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,60.0,,False
+CMHA,AHMU1218011,AHMU1218011,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,58.0,,False
+CMHA,AHMU1218012,AHMU1218012,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,47.0,,False
+CMHA,AHMU1218013,AHMU1218013,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,ruptured,1.0,M,49.0,,False
+CMHA,AHMU1218014,AHMU1218014,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,48.0,,False
+CMHA,AHMU1218015,AHMU1218015,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,56.0,,False
+CMHA,AHMU1218016,AHMU1218016,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,66.0,,False
+CMHA,AHMU1218017,AHMU1218017,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,46.0,,False
+CMHA,AHMU1218018,AHMU1218018,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,46.0,,False
+CMHA,AHMU1218019,AHMU1218019,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,71.0,,False
+CMHA,AHMU1218020,AHMU1218020,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,62.0,,False
+CMHA,AHMU1218021,AHMU1218021,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,ruptured,1.0,F,64.0,,False
+CMHA,AHMU1218022,AHMU1218022,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,60.0,,False
+CMHA,AHMU1218023,AHMU1218023,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,61.0,,False
+CMHA,AHMU1218024,AHMU1218024,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,ruptured,1.0,F,61.0,,False
+CMHA,AHMU1218025,AHMU1218025,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,65.0,,False
+CMHA,AHMU1218026,AHMU1218026,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,F,71.0,,False
+CMHA,AHMU1218027,AHMU1218027,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,F,76.0,,False
+CMHA,AHMU1218028,AHMU1218028,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,47.0,,False
+CMHA,AHMU1218029,AHMU1218029,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,70.0,,False
+CMHA,AHMU1218030,AHMU1218030,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,F,73.0,,False
+CMHA,AHMU1218031,AHMU1218031,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,67.0,,False
+CMHA,AHMU1218032,AHMU1218032,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,unruptured,0.0,F,65.0,,False
+CMHA,AHMU1218033,AHMU1218033,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,64.0,,False
+CMHA,AHMU1218034,AHMU1218034,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M3,True,ruptured,1.0,F,80.0,,False
+CMHA,AHMU1218035,AHMU1218035,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,77.0,,False
+CMHA,AHMU1218036,AHMU1218036,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,56.0,,False
+CMHA,AHMU1218037,AHMU1218037,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,56.0,,False
+CMHA,AHMU1218038,AHMU1218038,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,48.0,,False
+CMHA,AHMU1218039,AHMU1218039,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,M,53.0,,False
+CMHA,AHMU1218040,AHMU1218040,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,F,48.0,,False
+CMHA,AHMU1218041,AHMU1218041,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,71.0,,False
+CMHA,AHMU1218042,AHMU1218042,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,48.0,,False
+CMHA,AHMU1218043,AHMU1218043,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,78.0,,False
+CMHA,AHMU1218044,AHMU1218044,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,76.0,,False
+CMHA,AHMU1218045,AHMU1218045,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,49.0,,False
+CMHA,AHMU1218046,AHMU1218046,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,40.0,,False
+CMHA,AHMU1218047,AHMU1218047,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,68.0,,False
+CMHA,AHMU1218048,AHMU1218048,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,M,47.0,,False
+CMHA,AHMU1218049,AHMU1218049,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,53.0,,False
+CMHA,AHMU1218050,AHMU1218050_a1,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,55.0,,False
+CMHA,AHMU1218050,AHMU1218050_a2,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,55.0,,False
+CMHA,AHMU1218051,AHMU1218051,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,59.0,,False
+CMHA,AHMU1218052,AHMU1218052,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,69.0,,False
+CMHA,AHMU1218053,AHMU1218053,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,57.0,,False
+CMHA,AHMU1218054,AHMU1218054,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,53.0,,False
+CMHA,AHMU1218055,AHMU1218055,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,57.0,,False
+CMHA,AHMU1218056,AHMU1218056,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,60.0,,False
+CMHA,AHMU1218057,AHMU1218057_a1,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,70.0,,False
+CMHA,AHMU1218057,AHMU1218057_a2,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,70.0,,False
+CMHA,AHMU1218058,AHMU1218058,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,52.0,,False
+CMHA,AHMU1218059,AHMU1218059,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,56.0,,False
+CMHA,AHMU1218060,AHMU1218060,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,73.0,,False
+CMHA,AHMU1218061,AHMU1218061,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,49.0,,False
+CMHA,AHMU1218062,AHMU1218062,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,73.0,,False
+CMHA,AHMU1218063,AHMU1218063,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,50.0,,False
+CMHA,AHMU1218064,AHMU1218064,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,59.0,,False
+CMHA,AHMU1218065,AHMU1218065,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,68.0,,False
+CMHA,AHMU1218066,AHMU1218066_a1,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,59.0,,False
+CMHA,AHMU1218066,AHMU1218066_a2,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,59.0,,False
+CMHA,AHMU1218067,AHMU1218067,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,70.0,,False
+CMHA,AHMU1218068,AHMU1218068,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,59.0,,False
+CMHA,AHMU1218069,AHMU1218069,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,80.0,,False
+CMHA,AHMU1218070,AHMU1218070,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,61.0,,False
+CMHA,AHMU1218071,AHMU1218071,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,61.0,,False
+CMHA,AHMU1218072,AHMU1218072,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,M,47.0,,False
+CMHA,AHMU1218073,AHMU1218073,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,54.0,,False
+CMHA,AHMU1218074,AHMU1218074,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,59.0,,False
+CMHA,AHMU1218075,AHMU1218075,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,75.0,,False
+CMHA,AHMU1218076,AHMU1218076,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,unruptured,0.0,F,49.0,,False
+CMHA,AHMU1218077,AHMU1218077_a1,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,51.0,,False
+CMHA,AHMU1218077,AHMU1218077_a2,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,51.0,,False
+CMHA,AHMU1218078,AHMU1218078,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,M,56.0,,False
+CMHA,AHMU1218079,AHMU1218079,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,60.0,,False
+CMHA,AHMU1218080,AHMU1218080,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,29.0,,False
+CMHA,AHMU1218081,AHMU1218081,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,59.0,,False
+CMHA,AHMU1218082,AHMU1218082,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,82.0,,False
+CMHA,AHMU1218083,AHMU1218083,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,47.0,,False
+CMHA,AHMU1218084,AHMU1218084,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1-M2 junction,True,ruptured,1.0,F,60.0,,False
+CMHA,AHMU1218085,AHMU1218085_a1,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,70.0,,False
+CMHA,AHMU1218085,AHMU1218085_a2,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,70.0,,False
+CMHA,AHMU1218086,AHMU1218086_a1,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,53.0,,False
+CMHA,AHMU1218086,AHMU1218086_a2,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,unruptured,0.0,F,53.0,,False
+CMHA,AHMU1218087,AHMU1218087,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,61.0,,False
+CMHA,AHMU1218088,AHMU1218088,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,67.0,,False
+CMHA,AHMU1218089,AHMU1218089,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,F,58.0,,False
+CMHA,AHMU1218090,AHMU1218090,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,78.0,,False
+CMHA,AHMU1218091,AHMU1218091,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,66.0,,False
+CMHA,AHMU1218092,AHMU1218092,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,61.0,,False
+CMHA,AHMU1218093,AHMU1218093,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,63.0,,False
+CMHA,AHMU1218094,AHMU1218094,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,57.0,,False
+CMHA,AHMU1218095,AHMU1218095,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,49.0,,False
+CMHA,AHMU1218096,AHMU1218096,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,56.0,,False
+CMHA,AHMU1218097,AHMU1218097,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,ruptured,1.0,M,75.0,,False
+CMHA,AHMU1218098,AHMU1218098,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M1,True,ruptured,1.0,F,60.0,,False
+CMHA,AHMU1218099,AHMU1218099,CMHA,Hefei,AHMU2nd,stress_test_out_of_domain,M2,True,unruptured,0.0,F,50.0,,False
