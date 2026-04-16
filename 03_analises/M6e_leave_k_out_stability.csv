@@ -1,0 +1,2 @@
+test,k_out,n_draws,interaction_full,interaction_mean,interaction_sd,ci_lo,ci_hi,frac_positive,stable_90pct
+leave_k_out_stability,5,500,0.24175824175824168,0.2546428571428571,0.021853710890949722,0.2067708333333335,0.29542410714285705,1.0,True

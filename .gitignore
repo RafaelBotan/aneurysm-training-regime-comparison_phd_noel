@@ -3,6 +3,11 @@
 
 # ── Patient-level data ──
 03_analises/*.csv
+!03_analises/M6a_*.csv
+!03_analises/M6b_*.csv
+!03_analises/M6c_*.csv
+!03_analises/M6d_*.csv
+!03_analises/M6e_*.csv
 03_analises/caracterizacao_ideas/
 03_analises/M3_*.png
 03_analises/M3_summary.md

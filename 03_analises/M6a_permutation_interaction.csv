@@ -1,0 +1,2 @@
+test,gap_hug_obs,gap_pex_obs,diff_obs,null_mean,null_sd,p_two_sided,n_perm,significant_005
+permutation_interaction,0.2321428571428571,-0.009615384615384581,0.24175824175824168,0.0017890109890109915,0.13368145244637689,0.0704,5000,False
