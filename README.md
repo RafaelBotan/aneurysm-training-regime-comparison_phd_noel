@@ -61,7 +61,7 @@ The study shows that high internal discrimination can coexist with severe extern
 
 ## Data availability
 
-Raw morphological measurements are not included in this repository. AneuX data is available from <https://aneux.ch>. CMHA data is available from figshare at <https://doi.org/10.6084/m9.figshare.26965450>. The reproducibility package for the manuscript is archived on OSF at <https://doi.org/10.17605/OSF.IO/S4YVB>.
+Raw morphological measurements are not included in this repository. AneuX data is available from <https://doi.org/10.5281/zenodo.6678442> and <https://aneux.ch>. CMHA data is available from figshare at <https://doi.org/10.6084/m9.figshare.26965450>. The reproducibility package for the manuscript is archived on OSF at <https://doi.org/10.17605/OSF.IO/S4YVB>.
 
 ## Requirements
 
