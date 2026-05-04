@@ -16,20 +16,19 @@ A versao forte da tese ("spectrum bias confirmado") esta morta. A versao publica
 e: **evidencia convergente consistente com spectrum bias, ancorada em colapso de
 calibracao confirmado e interacao estavel mas formalmente nao significativa.**
 
-## TITULO OPERACIONAL v7
-**"Internal Optimism and External Calibration Collapse in Morphology-Based Aneurysm
-Rupture Models: Evidence Consistent with Positive-Class Spectrum Bias"**
+## TITULO FINAL (pos-GPT double-check 2026-04-16)
+**"Severe External Miscalibration Despite High Internal Discrimination in Aneurysm
+Rupture Models"**
 
-Alternativa mais longa (backup):
-**"Training Regime Composition and External Calibration in Morphology-Based
-Rupture Prediction: A Factorial Comparison Across Harmonized and Out-of-Domain Cohorts"**
+Decisao final para submissao: foco no achado robusto (calibracao); mecanismo e
+papel da composicao da coorte de treino ficam no abstract/discussion.
+"Calibration collapse" reservado para texto, nao titulo. "Spectrum bias" removido
+do titulo porque M6a p=0.07 nao sustenta foreground causal.
 
-(Calibracao no titulo. "Consistent with" mantido. Tom neutro — discutir com GPT na proxima rodada.)
-
-## TESE CENTRAL v7 (pos-GPT r5)
-> "Training on a cohort with a small, morphologically extreme positive class inflated
-> internal discrimination (AUC 0.88) and produced substantially worse external
-> calibration on deployment (Brier 0.56 vs 0.27). The overall pattern was consistent
+## TESE CENTRAL v7 (pos-GPT r5+r6)
+> "Training on a cohort with a small, morphologically extreme positive class was
+> associated with high internal discrimination (AUC 0.88) but substantially worse
+> external calibration (Brier 0.56 vs 0.27). The overall pattern is consistent
 > with positive-class spectrum bias, while the pre-specified interaction by case
 > extremity was positive and stable but did not meet the confirmatory permutation
 > threshold (p=0.07)."
