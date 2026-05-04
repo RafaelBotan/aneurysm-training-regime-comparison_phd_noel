@@ -59,3 +59,8 @@ Thumbs.db
 *.log
 # Local credentials and browser/API session state
 .secrets/
+.claude/
+
+# Temporary submission-research scratch files
+eurrad_*.html
+tmp_zenodo.*
