@@ -57,3 +57,5 @@ Thumbs.db
 
 # ── Logs ──
 *.log
+# Local credentials and browser/API session state
+.secrets/
